@@ -828,3 +828,7 @@ Normalized confidence: 0.7169
 INFO:     127.0.0.1:49174 - "POST /api/query HTTP/1.1" 200 OK
 INFO:     127.0.0.1:49182 - "GET /api/analytics/metrics HTTP/1.1" 200 OK
 INFO:     127.0.0.1:49184 - "GET /api/query/history?limit=5 HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [4336]
