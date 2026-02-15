@@ -1,0 +1,483 @@
+INFO:     Will watch for changes in these directories: ['D:\\myproject\\intelliknow_kms']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [28624] using StatReload
+Loading embedding model from local path: ./models/cache/models--sentence-transformers--all-MiniLM-L6-v2/snapshots/c9745ed1d9f207416be6d2e6f8de32d1f16199bf
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights:   1%|          | 1/103 [00:00<00:00, 10837.99it/s, Materializing param=embeddings.LayerNorm.bias]Loading weights:   1%|          | 1/103 [00:00<00:00, 2212.19it/s, Materializing param=embeddings.LayerNorm.bias] Loading weights:   2%|¨‡         | 2/103 [00:00<00:00, 2417.47it/s, Materializing param=embeddings.LayerNorm.weight]Loading weights:   2%|¨‡         | 2/103 [00:00<00:00, 1697.07it/s, Materializing param=embeddings.LayerNorm.weight]Loading weights:   3%|¨†         | 3/103 [00:00<00:00, 1654.34it/s, Materializing param=embeddings.position_embeddings.weight]Loading weights:   3%|¨†         | 3/103 [00:00<00:00, 1389.61it/s, Materializing param=embeddings.position_embeddings.weight]Loading weights:   4%|¨…         | 4/103 [00:00<00:00, 1364.45it/s, Materializing param=embeddings.token_type_embeddings.weight]Loading weights:   4%|¨…         | 4/103 [00:00<00:00, 1218.83it/s, Materializing param=embeddings.token_type_embeddings.weight]Loading weights:   5%|¨…         | 5/103 [00:00<00:00, 1343.81it/s, Materializing param=embeddings.word_embeddings.weight]      Loading weights:   5%|¨…         | 5/103 [00:00<00:00, 1275.10it/s, Materializing param=embeddings.word_embeddings.weight]Loading weights:   6%|¨„         | 6/103 [00:00<00:00, 1390.15it/s, Materializing param=encoder.layer.0.attention.output.LayerNorm.bias]Loading weights:   6%|¨„         | 6/103 [00:00<00:00, 1344.62it/s, Materializing param=encoder.layer.0.attention.output.LayerNorm.bias]Loading weights:   7%|¨ƒ         | 7/103 [00:00<00:00, 1272.21it/s, Materializing param=encoder.layer.0.attention.output.LayerNorm.weight]Loading weights:   7%|¨ƒ         | 7/103 [00:00<00:00, 1242.81it/s, Materializing param=encoder.layer.0.attention.output.LayerNorm.weight]Loading weights:   8%|¨‚         | 8/103 [00:00<00:00, 1337.52it/s, Materializing param=encoder.layer.0.attention.output.dense.bias]      Loading weights:   8%|¨‚         | 8/103 [00:00<00:00, 1287.09it/s, Materializing param=encoder.layer.0.attention.output.dense.bias]Loading weights:   9%|¨‚         | 9/103 [00:00<00:00, 1327.50it/s, Materializing param=encoder.layer.0.attention.output.dense.weight]Loading weights:   9%|¨‚         | 9/103 [00:00<00:00, 1246.61it/s, Materializing param=encoder.layer.0.attention.output.dense.weight]Loading weights:  10%|¨         | 10/103 [00:00<00:00, 1297.58it/s, Materializing param=encoder.layer.0.attention.self.key.bias]     Loading weights:  10%|¨         | 10/103 [00:00<00:00, 1201.53it/s, Materializing param=encoder.layer.0.attention.self.key.bias]Loading weights:  11%|¨€         | 11/103 [00:00<00:00, 1255.75it/s, Materializing param=encoder.layer.0.attention.self.key.weight]Loading weights:  11%|¨€         | 11/103 [00:00<00:00, 1205.48it/s, Materializing param=encoder.layer.0.attention.self.key.weight]Loading weights:  12%|¨€¨‡        | 12/103 [00:00<00:00, 1263.25it/s, Materializing param=encoder.layer.0.attention.self.query.bias]Loading weights:  12%|¨€¨‡        | 12/103 [00:00<00:00, 1193.09it/s, Materializing param=encoder.layer.0.attention.self.query.bias]Loading weights:  13%|¨€¨†        | 13/103 [00:00<00:00, 1213.93it/s, Materializing param=encoder.layer.0.attention.self.query.weight]Loading weights:  13%|¨€¨†        | 13/103 [00:00<00:00, 1195.74it/s, Materializing param=encoder.layer.0.attention.self.query.weight]Loading weights:  14%|¨€¨†        | 14/103 [00:00<00:00, 1206.82it/s, Materializing param=encoder.layer.0.attention.self.value.bias]  Loading weights:  14%|¨€¨†        | 14/103 [00:00<00:00, 1164.58it/s, Materializing param=encoder.layer.0.attention.self.value.bias]Loading weights:  15%|¨€¨…        | 15/103 [00:00<00:00, 1170.87it/s, Materializing param=encoder.layer.0.attention.self.value.weight]Loading weights:  15%|¨€¨…        | 15/103 [00:00<00:00, 1126.81it/s, Materializing param=encoder.layer.0.attention.self.value.weight]Loading weights:  16%|¨€¨„        | 16/103 [00:00<00:00, 1160.67it/s, Materializing param=encoder.layer.0.intermediate.dense.bias]    Loading weights:  16%|¨€¨„        | 16/103 [00:00<00:00, 1136.28it/s, Materializing param=encoder.layer.0.intermediate.dense.bias]Loading weights:  17%|¨€¨ƒ        | 17/103 [00:00<00:00, 1171.73it/s, Materializing param=encoder.layer.0.intermediate.dense.weight]Loading weights:  17%|¨€¨ƒ        | 17/103 [00:00<00:00, 1151.31it/s, Materializing param=encoder.layer.0.intermediate.dense.weight]Loading weights:  17%|¨€¨ƒ        | 18/103 [00:00<00:00, 1187.09it/s, Materializing param=encoder.layer.0.output.LayerNorm.bias]    Loading weights:  17%|¨€¨ƒ        | 18/103 [00:00<00:00, 1149.11it/s, Materializing param=encoder.layer.0.output.LayerNorm.bias]Loading weights:  18%|¨€¨‚        | 19/103 [00:00<00:00, 1153.40it/s, Materializing param=encoder.layer.0.output.LayerNorm.weight]Loading weights:  18%|¨€¨‚        | 19/103 [00:00<00:00, 1129.13it/s, Materializing param=encoder.layer.0.output.LayerNorm.weight]Loading weights:  19%|¨€¨        | 20/103 [00:00<00:00, 1149.58it/s, Materializing param=encoder.layer.0.output.dense.bias]      Loading weights:  19%|¨€¨        | 20/103 [00:00<00:00, 1139.35it/s, Materializing param=encoder.layer.0.output.dense.bias]Loading weights:  20%|¨€¨€        | 21/103 [00:00<00:00, 1165.44it/s, Materializing param=encoder.layer.0.output.dense.weight]Loading weights:  20%|¨€¨€        | 21/103 [00:00<00:00, 1151.56it/s, Materializing param=encoder.layer.0.output.dense.weight]Loading weights:  21%|¨€¨€¨‡       | 22/103 [00:00<00:00, 1177.86it/s, Materializing param=encoder.layer.1.attention.output.LayerNorm.bias]Loading weights:  21%|¨€¨€¨‡       | 22/103 [00:00<00:00, 1162.33it/s, Materializing param=encoder.layer.1.attention.output.LayerNorm.bias]Loading weights:  22%|¨€¨€¨‡       | 23/103 [00:00<00:00, 1176.04it/s, Materializing param=encoder.layer.1.attention.output.LayerNorm.weight]Loading weights:  22%|¨€¨€¨‡       | 23/103 [00:00<00:00, 1157.06it/s, Materializing param=encoder.layer.1.attention.output.LayerNorm.weight]Loading weights:  23%|¨€¨€¨†       | 24/103 [00:00<00:00, 1186.02it/s, Materializing param=encoder.layer.1.attention.output.dense.bias]      Loading weights:  23%|¨€¨€¨†       | 24/103 [00:00<00:00, 1177.90it/s, Materializing param=encoder.layer.1.attention.output.dense.bias]Loading weights:  24%|¨€¨€¨…       | 25/103 [00:00<00:00, 1209.33it/s, Materializing param=encoder.layer.1.attention.output.dense.weight]Loading weights:  24%|¨€¨€¨…       | 25/103 [00:00<00:00, 1204.48it/s, Materializing param=encoder.layer.1.attention.output.dense.weight]Loading weights:  25%|¨€¨€¨„       | 26/103 [00:00<00:00, 1245.81it/s, Materializing param=encoder.layer.1.attention.self.key.bias]      Loading weights:  25%|¨€¨€¨„       | 26/103 [00:00<00:00, 1242.06it/s, Materializing param=encoder.layer.1.attention.self.key.bias]Loading weights:  26%|¨€¨€¨„       | 27/103 [00:00<00:00, 1283.34it/s, Materializing param=encoder.layer.1.attention.self.key.weight]Loading weights:  26%|¨€¨€¨„       | 27/103 [00:00<00:00, 1279.57it/s, Materializing param=encoder.layer.1.attention.self.key.weight]Loading weights:  27%|¨€¨€¨ƒ       | 28/103 [00:00<00:00, 1320.59it/s, Materializing param=encoder.layer.1.attention.self.query.bias]Loading weights:  27%|¨€¨€¨ƒ       | 28/103 [00:00<00:00, 1316.75it/s, Materializing param=encoder.layer.1.attention.self.query.bias]Loading weights:  28%|¨€¨€¨‚       | 29/103 [00:00<00:00, 1357.44it/s, Materializing param=encoder.layer.1.attention.self.query.weight]Loading weights:  28%|¨€¨€¨‚       | 29/103 [00:00<00:00, 1353.42it/s, Materializing param=encoder.layer.1.attention.self.query.weight]Loading weights:  29%|¨€¨€¨       | 30/103 [00:00<00:00, 1393.38it/s, Materializing param=encoder.layer.1.attention.self.value.bias]  Loading weights:  29%|¨€¨€¨       | 30/103 [00:00<00:00, 1385.72it/s, Materializing param=encoder.layer.1.attention.self.value.bias]Loading weights:  30%|¨€¨€¨€       | 31/103 [00:00<00:00, 1424.23it/s, Materializing param=encoder.layer.1.attention.self.value.weight]Loading weights:  30%|¨€¨€¨€       | 31/103 [00:00<00:00, 1420.18it/s, Materializing param=encoder.layer.1.attention.self.value.weight]Loading weights:  31%|¨€¨€¨€       | 32/103 [00:00<00:00, 1459.17it/s, Materializing param=encoder.layer.1.intermediate.dense.bias]    Loading weights:  31%|¨€¨€¨€       | 32/103 [00:00<00:00, 1455.12it/s, Materializing param=encoder.layer.1.intermediate.dense.bias]Loading weights:  32%|¨€¨€¨€¨‡      | 33/103 [00:00<00:00, 1493.89it/s, Materializing param=encoder.layer.1.intermediate.dense.weight]Loading weights:  32%|¨€¨€¨€¨‡      | 33/103 [00:00<00:00, 1489.81it/s, Materializing param=encoder.layer.1.intermediate.dense.weight]Loading weights:  33%|¨€¨€¨€¨†      | 34/103 [00:00<00:00, 1526.51it/s, Materializing param=encoder.layer.1.output.LayerNorm.bias]    Loading weights:  33%|¨€¨€¨€¨†      | 34/103 [00:00<00:00, 1520.39it/s, Materializing param=encoder.layer.1.output.LayerNorm.bias]Loading weights:  34%|¨€¨€¨€¨…      | 35/103 [00:00<00:00, 1557.00it/s, Materializing param=encoder.layer.1.output.LayerNorm.weight]Loading weights:  34%|¨€¨€¨€¨…      | 35/103 [00:00<00:00, 1552.43it/s, Materializing param=encoder.layer.1.output.LayerNorm.weight]Loading weights:  35%|¨€¨€¨€¨…      | 36/103 [00:00<00:00, 1589.19it/s, Materializing param=encoder.layer.1.output.dense.bias]      Loading weights:  35%|¨€¨€¨€¨…      | 36/103 [00:00<00:00, 1584.92it/s, Materializing param=encoder.layer.1.output.dense.bias]Loading weights:  36%|¨€¨€¨€¨„      | 37/103 [00:00<00:00, 1621.89it/s, Materializing param=encoder.layer.1.output.dense.weight]Loading weights:  36%|¨€¨€¨€¨„      | 37/103 [00:00<00:00, 1617.60it/s, Materializing param=encoder.layer.1.output.dense.weight]Loading weights:  37%|¨€¨€¨€¨ƒ      | 38/103 [00:00<00:00, 1654.33it/s, Materializing param=encoder.layer.2.attention.output.LayerNorm.bias]Loading weights:  37%|¨€¨€¨€¨ƒ      | 38/103 [00:00<00:00, 1649.86it/s, Materializing param=encoder.layer.2.attention.output.LayerNorm.bias]Loading weights:  38%|¨€¨€¨€¨‚      | 39/103 [00:00<00:00, 1684.32it/s, Materializing param=encoder.layer.2.attention.output.LayerNorm.weight]Loading weights:  38%|¨€¨€¨€¨‚      | 39/103 [00:00<00:00, 1679.41it/s, Materializing param=encoder.layer.2.attention.output.LayerNorm.weight]Loading weights:  39%|¨€¨€¨€¨      | 40/103 [00:00<00:00, 1714.88it/s, Materializing param=encoder.layer.2.attention.output.dense.bias]      Loading weights:  39%|¨€¨€¨€¨      | 40/103 [00:00<00:00, 1710.42it/s, Materializing param=encoder.layer.2.attention.output.dense.bias]Loading weights:  40%|¨€¨€¨€¨      | 41/103 [00:00<00:00, 1745.82it/s, Materializing param=encoder.layer.2.attention.output.dense.weight]Loading weights:  40%|¨€¨€¨€¨      | 41/103 [00:00<00:00, 1741.20it/s, Materializing param=encoder.layer.2.attention.output.dense.weight]Loading weights:  41%|¨€¨€¨€¨€      | 42/103 [00:00<00:00, 1775.81it/s, Materializing param=encoder.layer.2.attention.self.key.bias]      Loading weights:  41%|¨€¨€¨€¨€      | 42/103 [00:00<00:00, 1771.26it/s, Materializing param=encoder.layer.2.attention.self.key.bias]Loading weights:  42%|¨€¨€¨€¨€¨‡     | 43/103 [00:00<00:00, 1805.70it/s, Materializing param=encoder.layer.2.attention.self.key.weight]Loading weights:  42%|¨€¨€¨€¨€¨‡     | 43/103 [00:00<00:00, 1801.16it/s, Materializing param=encoder.layer.2.attention.self.key.weight]Loading weights:  43%|¨€¨€¨€¨€¨†     | 44/103 [00:00<00:00, 1835.40it/s, Materializing param=encoder.layer.2.attention.self.query.bias]Loading weights:  43%|¨€¨€¨€¨€¨†     | 44/103 [00:00<00:00, 1830.74it/s, Materializing param=encoder.layer.2.attention.self.query.bias]Loading weights:  44%|¨€¨€¨€¨€¨†     | 45/103 [00:00<00:00, 1864.65it/s, Materializing param=encoder.layer.2.attention.self.query.weight]Loading weights:  44%|¨€¨€¨€¨€¨†     | 45/103 [00:00<00:00, 1859.16it/s, Materializing param=encoder.layer.2.attention.self.query.weight]Loading weights:  45%|¨€¨€¨€¨€¨…     | 46/103 [00:00<00:00, 1891.92it/s, Materializing param=encoder.layer.2.attention.self.value.bias]  Loading weights:  45%|¨€¨€¨€¨€¨…     | 46/103 [00:00<00:00, 1876.01it/s, Materializing param=encoder.layer.2.attention.self.value.bias]Loading weights:  46%|¨€¨€¨€¨€¨„     | 47/103 [00:00<00:00, 1895.59it/s, Materializing param=encoder.layer.2.attention.self.value.weight]Loading weights:  46%|¨€¨€¨€¨€¨„     | 47/103 [00:00<00:00, 1887.05it/s, Materializing param=encoder.layer.2.attention.self.value.weight]Loading weights:  47%|¨€¨€¨€¨€¨ƒ     | 48/103 [00:00<00:00, 1912.48it/s, Materializing param=encoder.layer.2.intermediate.dense.bias]    Loading weights:  47%|¨€¨€¨€¨€¨ƒ     | 48/103 [00:00<00:00, 1905.31it/s, Materializing param=encoder.layer.2.intermediate.dense.bias]Loading weights:  48%|¨€¨€¨€¨€¨‚     | 49/103 [00:00<00:00, 1934.24it/s, Materializing param=encoder.layer.2.intermediate.dense.weight]Loading weights:  48%|¨€¨€¨€¨€¨‚     | 49/103 [00:00<00:00, 1928.96it/s, Materializing param=encoder.layer.2.intermediate.dense.weight]Loading weights:  49%|¨€¨€¨€¨€¨‚     | 50/103 [00:00<00:00, 1959.19it/s, Materializing param=encoder.layer.2.output.LayerNorm.bias]    Loading weights:  49%|¨€¨€¨€¨€¨‚     | 50/103 [00:00<00:00, 1953.93it/s, Materializing param=encoder.layer.2.output.LayerNorm.bias]Loading weights:  50%|¨€¨€¨€¨€¨     | 51/103 [00:00<00:00, 1983.64it/s, Materializing param=encoder.layer.2.output.LayerNorm.weight]Loading weights:  50%|¨€¨€¨€¨€¨     | 51/103 [00:00<00:00, 1978.43it/s, Materializing param=encoder.layer.2.output.LayerNorm.weight]Loading weights:  50%|¨€¨€¨€¨€¨€     | 52/103 [00:00<00:00, 2008.58it/s, Materializing param=encoder.layer.2.output.dense.bias]      Loading weights:  50%|¨€¨€¨€¨€¨€     | 52/103 [00:00<00:00, 2003.62it/s, Materializing param=encoder.layer.2.output.dense.bias]Loading weights:  51%|¨€¨€¨€¨€¨€¨‡    | 53/103 [00:00<00:00, 2033.43it/s, Materializing param=encoder.layer.2.output.dense.weight]Loading weights:  51%|¨€¨€¨€¨€¨€¨‡    | 53/103 [00:00<00:00, 2027.79it/s, Materializing param=encoder.layer.2.output.dense.weight]Loading weights:  52%|¨€¨€¨€¨€¨€¨‡    | 54/103 [00:00<00:00, 2050.58it/s, Materializing param=encoder.layer.3.attention.output.LayerNorm.bias]Loading weights:  52%|¨€¨€¨€¨€¨€¨‡    | 54/103 [00:00<00:00, 2042.57it/s, Materializing param=encoder.layer.3.attention.output.LayerNorm.bias]Loading weights:  53%|¨€¨€¨€¨€¨€¨†    | 55/103 [00:00<00:00, 2067.88it/s, Materializing param=encoder.layer.3.attention.output.LayerNorm.weight]Loading weights:  53%|¨€¨€¨€¨€¨€¨†    | 55/103 [00:00<00:00, 2062.10it/s, Materializing param=encoder.layer.3.attention.output.LayerNorm.weight]Loading weights:  54%|¨€¨€¨€¨€¨€¨…    | 56/103 [00:00<00:00, 2089.67it/s, Materializing param=encoder.layer.3.attention.output.dense.bias]      Loading weights:  54%|¨€¨€¨€¨€¨€¨…    | 56/103 [00:00<00:00, 2084.50it/s, Materializing param=encoder.layer.3.attention.output.dense.bias]Loading weights:  55%|¨€¨€¨€¨€¨€¨„    | 57/103 [00:00<00:00, 2112.25it/s, Materializing param=encoder.layer.3.attention.output.dense.weight]Loading weights:  55%|¨€¨€¨€¨€¨€¨„    | 57/103 [00:00<00:00, 2107.10it/s, Materializing param=encoder.layer.3.attention.output.dense.weight]Loading weights:  56%|¨€¨€¨€¨€¨€¨ƒ    | 58/103 [00:00<00:00, 2132.04it/s, Materializing param=encoder.layer.3.attention.self.key.bias]      Loading weights:  56%|¨€¨€¨€¨€¨€¨ƒ    | 58/103 [00:00<00:00, 2125.96it/s, Materializing param=encoder.layer.3.attention.self.key.bias]Loading weights:  57%|¨€¨€¨€¨€¨€¨ƒ    | 59/103 [00:00<00:00, 2151.97it/s, Materializing param=encoder.layer.3.attention.self.key.weight]Loading weights:  57%|¨€¨€¨€¨€¨€¨ƒ    | 59/103 [00:00<00:00, 2146.67it/s, Materializing param=encoder.layer.3.attention.self.key.weight]Loading weights:  58%|¨€¨€¨€¨€¨€¨‚    | 60/103 [00:00<00:00, 2173.51it/s, Materializing param=encoder.layer.3.attention.self.query.bias]Loading weights:  58%|¨€¨€¨€¨€¨€¨‚    | 60/103 [00:00<00:00, 2162.33it/s, Materializing param=encoder.layer.3.attention.self.query.bias]Loading weights:  59%|¨€¨€¨€¨€¨€¨    | 61/103 [00:00<00:00, 2184.81it/s, Materializing param=encoder.layer.3.attention.self.query.weight]Loading weights:  59%|¨€¨€¨€¨€¨€¨    | 61/103 [00:00<00:00, 2175.69it/s, Materializing param=encoder.layer.3.attention.self.query.weight]Loading weights:  60%|¨€¨€¨€¨€¨€¨€    | 62/103 [00:00<00:00, 2191.46it/s, Materializing param=encoder.layer.3.attention.self.value.bias]  Loading weights:  60%|¨€¨€¨€¨€¨€¨€    | 62/103 [00:00<00:00, 2181.64it/s, Materializing param=encoder.layer.3.attention.self.value.bias]Loading weights:  61%|¨€¨€¨€¨€¨€¨€    | 63/103 [00:00<00:00, 2198.51it/s, Materializing param=encoder.layer.3.attention.self.value.weight]Loading weights:  61%|¨€¨€¨€¨€¨€¨€    | 63/103 [00:00<00:00, 2189.77it/s, Materializing param=encoder.layer.3.attention.self.value.weight]Loading weights:  62%|¨€¨€¨€¨€¨€¨€¨‡   | 64/103 [00:00<00:00, 2207.20it/s, Materializing param=encoder.layer.3.intermediate.dense.bias]    Loading weights:  62%|¨€¨€¨€¨€¨€¨€¨‡   | 64/103 [00:00<00:00, 2197.75it/s, Materializing param=encoder.layer.3.intermediate.dense.bias]Loading weights:  63%|¨€¨€¨€¨€¨€¨€¨†   | 65/103 [00:00<00:00, 2216.00it/s, Materializing param=encoder.layer.3.intermediate.dense.weight]Loading weights:  63%|¨€¨€¨€¨€¨€¨€¨†   | 65/103 [00:00<00:00, 2207.33it/s, Materializing param=encoder.layer.3.intermediate.dense.weight]Loading weights:  64%|¨€¨€¨€¨€¨€¨€¨…   | 66/103 [00:00<00:00, 2226.33it/s, Materializing param=encoder.layer.3.output.LayerNorm.bias]    Loading weights:  64%|¨€¨€¨€¨€¨€¨€¨…   | 66/103 [00:00<00:00, 2218.92it/s, Materializing param=encoder.layer.3.output.LayerNorm.bias]Loading weights:  65%|¨€¨€¨€¨€¨€¨€¨„   | 67/103 [00:00<00:00, 2237.32it/s, Materializing param=encoder.layer.3.output.LayerNorm.weight]Loading weights:  65%|¨€¨€¨€¨€¨€¨€¨„   | 67/103 [00:00<00:00, 2229.31it/s, Materializing param=encoder.layer.3.output.LayerNorm.weight]Loading weights:  66%|¨€¨€¨€¨€¨€¨€¨„   | 68/103 [00:00<00:00, 2248.55it/s, Materializing param=encoder.layer.3.output.dense.bias]      Loading weights:  66%|¨€¨€¨€¨€¨€¨€¨„   | 68/103 [00:00<00:00, 2242.63it/s, Materializing param=encoder.layer.3.output.dense.bias]Loading weights:  67%|¨€¨€¨€¨€¨€¨€¨ƒ   | 69/103 [00:00<00:00, 2267.07it/s, Materializing param=encoder.layer.3.output.dense.weight]Loading weights:  67%|¨€¨€¨€¨€¨€¨€¨ƒ   | 69/103 [00:00<00:00, 2262.39it/s, Materializing param=encoder.layer.3.output.dense.weight]Loading weights:  68%|¨€¨€¨€¨€¨€¨€¨‚   | 70/103 [00:00<00:00, 2287.18it/s, Materializing param=encoder.layer.4.attention.output.LayerNorm.bias]Loading weights:  68%|¨€¨€¨€¨€¨€¨€¨‚   | 70/103 [00:00<00:00, 2282.40it/s, Materializing param=encoder.layer.4.attention.output.LayerNorm.bias]Loading weights:  69%|¨€¨€¨€¨€¨€¨€¨   | 71/103 [00:00<00:00, 2306.74it/s, Materializing param=encoder.layer.4.attention.output.LayerNorm.weight]Loading weights:  69%|¨€¨€¨€¨€¨€¨€¨   | 71/103 [00:00<00:00, 2301.50it/s, Materializing param=encoder.layer.4.attention.output.LayerNorm.weight]Loading weights:  70%|¨€¨€¨€¨€¨€¨€¨   | 72/103 [00:00<00:00, 2320.80it/s, Materializing param=encoder.layer.4.attention.output.dense.bias]      Loading weights:  70%|¨€¨€¨€¨€¨€¨€¨   | 72/103 [00:00<00:00, 2315.36it/s, Materializing param=encoder.layer.4.attention.output.dense.bias]Loading weights:  71%|¨€¨€¨€¨€¨€¨€¨€   | 73/103 [00:00<00:00, 2339.16it/s, Materializing param=encoder.layer.4.attention.output.dense.weight]Loading weights:  71%|¨€¨€¨€¨€¨€¨€¨€   | 73/103 [00:00<00:00, 2334.06it/s, Materializing param=encoder.layer.4.attention.output.dense.weight]Loading weights:  72%|¨€¨€¨€¨€¨€¨€¨€¨‡  | 74/103 [00:00<00:00, 2357.39it/s, Materializing param=encoder.layer.4.attention.self.key.bias]      Loading weights:  72%|¨€¨€¨€¨€¨€¨€¨€¨‡  | 74/103 [00:00<00:00, 2352.17it/s, Materializing param=encoder.layer.4.attention.self.key.bias]Loading weights:  73%|¨€¨€¨€¨€¨€¨€¨€¨†  | 75/103 [00:00<00:00, 2374.69it/s, Materializing param=encoder.layer.4.attention.self.key.weight]Loading weights:  73%|¨€¨€¨€¨€¨€¨€¨€¨†  | 75/103 [00:00<00:00, 2369.52it/s, Materializing param=encoder.layer.4.attention.self.key.weight]Loading weights:  74%|¨€¨€¨€¨€¨€¨€¨€¨…  | 76/103 [00:00<00:00, 2392.86it/s, Materializing param=encoder.layer.4.attention.self.query.bias]Loading weights:  74%|¨€¨€¨€¨€¨€¨€¨€¨…  | 76/103 [00:00<00:00, 2388.07it/s, Materializing param=encoder.layer.4.attention.self.query.bias]Loading weights:  75%|¨€¨€¨€¨€¨€¨€¨€¨…  | 77/103 [00:00<00:00, 2411.01it/s, Materializing param=encoder.layer.4.attention.self.query.weight]Loading weights:  75%|¨€¨€¨€¨€¨€¨€¨€¨…  | 77/103 [00:00<00:00, 2406.01it/s, Materializing param=encoder.layer.4.attention.self.query.weight]Loading weights:  76%|¨€¨€¨€¨€¨€¨€¨€¨„  | 78/103 [00:00<00:00, 2428.21it/s, Materializing param=encoder.layer.4.attention.self.value.bias]  Loading weights:  76%|¨€¨€¨€¨€¨€¨€¨€¨„  | 78/103 [00:00<00:00, 2423.32it/s, Materializing param=encoder.layer.4.attention.self.value.bias]Loading weights:  77%|¨€¨€¨€¨€¨€¨€¨€¨ƒ  | 79/103 [00:00<00:00, 2445.69it/s, Materializing param=encoder.layer.4.attention.self.value.weight]Loading weights:  77%|¨€¨€¨€¨€¨€¨€¨€¨ƒ  | 79/103 [00:00<00:00, 2440.42it/s, Materializing param=encoder.layer.4.attention.self.value.weight]Loading weights:  78%|¨€¨€¨€¨€¨€¨€¨€¨‚  | 80/103 [00:00<00:00, 2462.80it/s, Materializing param=encoder.layer.4.intermediate.dense.bias]    Loading weights:  78%|¨€¨€¨€¨€¨€¨€¨€¨‚  | 80/103 [00:00<00:00, 2457.86it/s, Materializing param=encoder.layer.4.intermediate.dense.bias]Loading weights:  79%|¨€¨€¨€¨€¨€¨€¨€¨‚  | 81/103 [00:00<00:00, 2480.33it/s, Materializing param=encoder.layer.4.intermediate.dense.weight]Loading weights:  79%|¨€¨€¨€¨€¨€¨€¨€¨‚  | 81/103 [00:00<00:00, 2475.60it/s, Materializing param=encoder.layer.4.intermediate.dense.weight]Loading weights:  80%|¨€¨€¨€¨€¨€¨€¨€¨  | 82/103 [00:00<00:00, 2498.15it/s, Materializing param=encoder.layer.4.output.LayerNorm.bias]    Loading weights:  80%|¨€¨€¨€¨€¨€¨€¨€¨  | 82/103 [00:00<00:00, 2493.42it/s, Materializing param=encoder.layer.4.output.LayerNorm.bias]Loading weights:  81%|¨€¨€¨€¨€¨€¨€¨€¨€  | 83/103 [00:00<00:00, 2514.48it/s, Materializing param=encoder.layer.4.output.LayerNorm.weight]Loading weights:  81%|¨€¨€¨€¨€¨€¨€¨€¨€  | 83/103 [00:00<00:00, 2507.63it/s, Materializing param=encoder.layer.4.output.LayerNorm.weight]Loading weights:  82%|¨€¨€¨€¨€¨€¨€¨€¨€¨‡ | 84/103 [00:00<00:00, 2528.88it/s, Materializing param=encoder.layer.4.output.dense.bias]      Loading weights:  82%|¨€¨€¨€¨€¨€¨€¨€¨€¨‡ | 84/103 [00:00<00:00, 2519.71it/s, Materializing param=encoder.layer.4.output.dense.bias]Loading weights:  83%|¨€¨€¨€¨€¨€¨€¨€¨€¨† | 85/103 [00:00<00:00, 2535.19it/s, Materializing param=encoder.layer.4.output.dense.weight]Loading weights:  83%|¨€¨€¨€¨€¨€¨€¨€¨€¨† | 85/103 [00:00<00:00, 2527.51it/s, Materializing param=encoder.layer.4.output.dense.weight]Loading weights:  83%|¨€¨€¨€¨€¨€¨€¨€¨€¨† | 86/103 [00:00<00:00, 2543.88it/s, Materializing param=encoder.layer.5.attention.output.LayerNorm.bias]Loading weights:  83%|¨€¨€¨€¨€¨€¨€¨€¨€¨† | 86/103 [00:00<00:00, 2536.66it/s, Materializing param=encoder.layer.5.attention.output.LayerNorm.bias]Loading weights:  84%|¨€¨€¨€¨€¨€¨€¨€¨€¨… | 87/103 [00:00<00:00, 2551.82it/s, Materializing param=encoder.layer.5.attention.output.LayerNorm.weight]Loading weights:  84%|¨€¨€¨€¨€¨€¨€¨€¨€¨… | 87/103 [00:00<00:00, 2542.23it/s, Materializing param=encoder.layer.5.attention.output.LayerNorm.weight]Loading weights:  85%|¨€¨€¨€¨€¨€¨€¨€¨€¨„ | 88/103 [00:00<00:00, 2556.42it/s, Materializing param=encoder.layer.5.attention.output.dense.bias]      Loading weights:  85%|¨€¨€¨€¨€¨€¨€¨€¨€¨„ | 88/103 [00:00<00:00, 2548.85it/s, Materializing param=encoder.layer.5.attention.output.dense.bias]Loading weights:  86%|¨€¨€¨€¨€¨€¨€¨€¨€¨ƒ | 89/103 [00:00<00:00, 2563.70it/s, Materializing param=encoder.layer.5.attention.output.dense.weight]Loading weights:  86%|¨€¨€¨€¨€¨€¨€¨€¨€¨ƒ | 89/103 [00:00<00:00, 2556.12it/s, Materializing param=encoder.layer.5.attention.output.dense.weight]Loading weights:  87%|¨€¨€¨€¨€¨€¨€¨€¨€¨ƒ | 90/103 [00:00<00:00, 2570.42it/s, Materializing param=encoder.layer.5.attention.self.key.bias]      Loading weights:  87%|¨€¨€¨€¨€¨€¨€¨€¨€¨ƒ | 90/103 [00:00<00:00, 2562.61it/s, Materializing param=encoder.layer.5.attention.self.key.bias]Loading weights:  88%|¨€¨€¨€¨€¨€¨€¨€¨€¨‚ | 91/103 [00:00<00:00, 2577.76it/s, Materializing param=encoder.layer.5.attention.self.key.weight]Loading weights:  88%|¨€¨€¨€¨€¨€¨€¨€¨€¨‚ | 91/103 [00:00<00:00, 2570.35it/s, Materializing param=encoder.layer.5.attention.self.key.weight]Loading weights:  89%|¨€¨€¨€¨€¨€¨€¨€¨€¨ | 92/103 [00:00<00:00, 2585.00it/s, Materializing param=encoder.layer.5.attention.self.query.bias]Loading weights:  89%|¨€¨€¨€¨€¨€¨€¨€¨€¨ | 92/103 [00:00<00:00, 2577.58it/s, Materializing param=encoder.layer.5.attention.self.query.bias]Loading weights:  90%|¨€¨€¨€¨€¨€¨€¨€¨€¨€ | 93/103 [00:00<00:00, 2592.52it/s, Materializing param=encoder.layer.5.attention.self.query.weight]Loading weights:  90%|¨€¨€¨€¨€¨€¨€¨€¨€¨€ | 93/103 [00:00<00:00, 2585.18it/s, Materializing param=encoder.layer.5.attention.self.query.weight]Loading weights:  91%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‡| 94/103 [00:00<00:00, 2598.96it/s, Materializing param=encoder.layer.5.attention.self.value.bias]  Loading weights:  91%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‡| 94/103 [00:00<00:00, 2591.73it/s, Materializing param=encoder.layer.5.attention.self.value.bias]Loading weights:  92%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‡| 95/103 [00:00<00:00, 2606.25it/s, Materializing param=encoder.layer.5.attention.self.value.weight]Loading weights:  92%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‡| 95/103 [00:00<00:00, 2598.92it/s, Materializing param=encoder.layer.5.attention.self.value.weight]Loading weights:  93%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨†| 96/103 [00:00<00:00, 2613.26it/s, Materializing param=encoder.layer.5.intermediate.dense.bias]    Loading weights:  93%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨†| 96/103 [00:00<00:00, 2606.34it/s, Materializing param=encoder.layer.5.intermediate.dense.bias]Loading weights:  94%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨…| 97/103 [00:00<00:00, 2620.73it/s, Materializing param=encoder.layer.5.intermediate.dense.weight]Loading weights:  94%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨…| 97/103 [00:00<00:00, 2613.68it/s, Materializing param=encoder.layer.5.intermediate.dense.weight]Loading weights:  95%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨„| 98/103 [00:00<00:00, 2627.96it/s, Materializing param=encoder.layer.5.output.LayerNorm.bias]    Loading weights:  95%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨„| 98/103 [00:00<00:00, 2620.69it/s, Materializing param=encoder.layer.5.output.LayerNorm.bias]Loading weights:  96%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨„| 99/103 [00:00<00:00, 2634.36it/s, Materializing param=encoder.layer.5.output.LayerNorm.weight]Loading weights:  96%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨„| 99/103 [00:00<00:00, 2627.48it/s, Materializing param=encoder.layer.5.output.LayerNorm.weight]Loading weights:  97%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨ƒ| 100/103 [00:00<00:00, 2641.43it/s, Materializing param=encoder.layer.5.output.dense.bias]     Loading weights:  97%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨ƒ| 100/103 [00:00<00:00, 2634.66it/s, Materializing param=encoder.layer.5.output.dense.bias]Loading weights:  98%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‚| 101/103 [00:00<00:00, 2647.19it/s, Materializing param=encoder.layer.5.output.dense.weight]Loading weights:  98%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‚| 101/103 [00:00<00:00, 2639.98it/s, Materializing param=encoder.layer.5.output.dense.weight]Loading weights:  99%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨| 102/103 [00:00<00:00, 2652.91it/s, Materializing param=pooler.dense.bias]                  Loading weights:  99%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨| 102/103 [00:00<00:00, 2646.23it/s, Materializing param=pooler.dense.bias]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 103/103 [00:00<00:00, 2660.49it/s, Materializing param=pooler.dense.weight]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 103/103 [00:00<00:00, 2654.05it/s, Materializing param=pooler.dense.weight]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 103/103 [00:00<00:00, 2641.10it/s, Materializing param=pooler.dense.weight]
+[1mBertModel LOAD REPORT[0m from: models\cache\models--sentence-transformers--all-MiniLM-L6-v2\snapshots\c9745ed1d9f207416be6d2e6f8de32d1f16199bf
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+Embedding model loaded successfully from local path
+Loading embedding model from local path: ./models/cache/models--sentence-transformers--all-MiniLM-L6-v2/snapshots/c9745ed1d9f207416be6d2e6f8de32d1f16199bf
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights:   1%|          | 1/103 [00:00<00:00, 37786.52it/s, Materializing param=embeddings.LayerNorm.bias]Loading weights:   1%|          | 1/103 [00:00<00:00, 5949.37it/s, Materializing param=embeddings.LayerNorm.bias] Loading weights:   2%|¨‡         | 2/103 [00:00<00:00, 5890.88it/s, Materializing param=embeddings.LayerNorm.weight]Loading weights:   2%|¨‡         | 2/103 [00:00<00:00, 4815.50it/s, Materializing param=embeddings.LayerNorm.weight]Loading weights:   3%|¨†         | 3/103 [00:00<00:00, 3363.52it/s, Materializing param=embeddings.position_embeddings.weight]Loading weights:   3%|¨†         | 3/103 [00:00<00:00, 2510.06it/s, Materializing param=embeddings.position_embeddings.weight]Loading weights:   4%|¨…         | 4/103 [00:00<00:00, 2170.40it/s, Materializing param=embeddings.token_type_embeddings.weight]Loading weights:   4%|¨…         | 4/103 [00:00<00:00, 1860.83it/s, Materializing param=embeddings.token_type_embeddings.weight]Loading weights:   5%|¨…         | 5/103 [00:00<00:00, 1885.42it/s, Materializing param=embeddings.word_embeddings.weight]      Loading weights:   5%|¨…         | 5/103 [00:00<00:00, 1746.03it/s, Materializing param=embeddings.word_embeddings.weight]Loading weights:   6%|¨„         | 6/103 [00:00<00:00, 1654.12it/s, Materializing param=encoder.layer.0.attention.output.LayerNorm.bias]Loading weights:   6%|¨„         | 6/103 [00:00<00:00, 1520.32it/s, Materializing param=encoder.layer.0.attention.output.LayerNorm.bias]Loading weights:   7%|¨ƒ         | 7/103 [00:00<00:00, 1666.48it/s, Materializing param=encoder.layer.0.attention.output.LayerNorm.weight]Loading weights:   7%|¨ƒ         | 7/103 [00:00<00:00, 1600.09it/s, Materializing param=encoder.layer.0.attention.output.LayerNorm.weight]Loading weights:   8%|¨‚         | 8/103 [00:00<00:00, 1650.98it/s, Materializing param=encoder.layer.0.attention.output.dense.bias]      Loading weights:   8%|¨‚         | 8/103 [00:00<00:00, 1593.66it/s, Materializing param=encoder.layer.0.attention.output.dense.bias]Loading weights:   9%|¨‚         | 9/103 [00:00<00:00, 1680.56it/s, Materializing param=encoder.layer.0.attention.output.dense.weight]Loading weights:   9%|¨‚         | 9/103 [00:00<00:00, 1628.01it/s, Materializing param=encoder.layer.0.attention.output.dense.weight]Loading weights:  10%|¨         | 10/103 [00:00<00:00, 1686.56it/s, Materializing param=encoder.layer.0.attention.self.key.bias]     Loading weights:  10%|¨         | 10/103 [00:00<00:00, 1630.82it/s, Materializing param=encoder.layer.0.attention.self.key.bias]Loading weights:  11%|¨€         | 11/103 [00:00<00:00, 1666.69it/s, Materializing param=encoder.layer.0.attention.self.key.weight]Loading weights:  11%|¨€         | 11/103 [00:00<00:00, 1644.47it/s, Materializing param=encoder.layer.0.attention.self.key.weight]Loading weights:  12%|¨€¨‡        | 12/103 [00:00<00:00, 1726.52it/s, Materializing param=encoder.layer.0.attention.self.query.bias]Loading weights:  12%|¨€¨‡        | 12/103 [00:00<00:00, 1707.66it/s, Materializing param=encoder.layer.0.attention.self.query.bias]Loading weights:  13%|¨€¨†        | 13/103 [00:00<00:00, 1787.15it/s, Materializing param=encoder.layer.0.attention.self.query.weight]Loading weights:  13%|¨€¨†        | 13/103 [00:00<00:00, 1734.56it/s, Materializing param=encoder.layer.0.attention.self.query.weight]Loading weights:  14%|¨€¨†        | 14/103 [00:00<00:00, 1792.00it/s, Materializing param=encoder.layer.0.attention.self.value.bias]  Loading weights:  14%|¨€¨†        | 14/103 [00:00<00:00, 1723.52it/s, Materializing param=encoder.layer.0.attention.self.value.bias]Loading weights:  15%|¨€¨…        | 15/103 [00:00<00:00, 1806.44it/s, Materializing param=encoder.layer.0.attention.self.value.weight]Loading weights:  15%|¨€¨…        | 15/103 [00:00<00:00, 1790.55it/s, Materializing param=encoder.layer.0.attention.self.value.weight]Loading weights:  16%|¨€¨„        | 16/103 [00:00<00:00, 1879.33it/s, Materializing param=encoder.layer.0.intermediate.dense.bias]    Loading weights:  16%|¨€¨„        | 16/103 [00:00<00:00, 1863.57it/s, Materializing param=encoder.layer.0.intermediate.dense.bias]Loading weights:  17%|¨€¨ƒ        | 17/103 [00:00<00:00, 1918.66it/s, Materializing param=encoder.layer.0.intermediate.dense.weight]Loading weights:  17%|¨€¨ƒ        | 17/103 [00:00<00:00, 1854.44it/s, Materializing param=encoder.layer.0.intermediate.dense.weight]Loading weights:  17%|¨€¨ƒ        | 18/103 [00:00<00:00, 1899.45it/s, Materializing param=encoder.layer.0.output.LayerNorm.bias]    Loading weights:  17%|¨€¨ƒ        | 18/103 [00:00<00:00, 1808.41it/s, Materializing param=encoder.layer.0.output.LayerNorm.bias]Loading weights:  18%|¨€¨‚        | 19/103 [00:00<00:00, 1873.87it/s, Materializing param=encoder.layer.0.output.LayerNorm.weight]Loading weights:  18%|¨€¨‚        | 19/103 [00:00<00:00, 1837.53it/s, Materializing param=encoder.layer.0.output.LayerNorm.weight]Loading weights:  19%|¨€¨        | 20/103 [00:00<00:00, 1849.01it/s, Materializing param=encoder.layer.0.output.dense.bias]      Loading weights:  19%|¨€¨        | 20/103 [00:00<00:00, 1834.02it/s, Materializing param=encoder.layer.0.output.dense.bias]Loading weights:  20%|¨€¨€        | 21/103 [00:00<00:00, 1881.01it/s, Materializing param=encoder.layer.0.output.dense.weight]Loading weights:  20%|¨€¨€        | 21/103 [00:00<00:00, 1839.88it/s, Materializing param=encoder.layer.0.output.dense.weight]Loading weights:  21%|¨€¨€¨‡       | 22/103 [00:00<00:00, 1832.99it/s, Materializing param=encoder.layer.1.attention.output.LayerNorm.bias]Loading weights:  21%|¨€¨€¨‡       | 22/103 [00:00<00:00, 1816.47it/s, Materializing param=encoder.layer.1.attention.output.LayerNorm.bias]Loading weights:  22%|¨€¨€¨‡       | 23/103 [00:00<00:00, 1864.50it/s, Materializing param=encoder.layer.1.attention.output.LayerNorm.weight]Loading weights:  22%|¨€¨€¨‡       | 23/103 [00:00<00:00, 1827.76it/s, Materializing param=encoder.layer.1.attention.output.LayerNorm.weight]Loading weights:  23%|¨€¨€¨†       | 24/103 [00:00<00:00, 1861.89it/s, Materializing param=encoder.layer.1.attention.output.dense.bias]      Loading weights:  23%|¨€¨€¨†       | 24/103 [00:00<00:00, 1842.20it/s, Materializing param=encoder.layer.1.attention.output.dense.bias]Loading weights:  24%|¨€¨€¨…       | 25/103 [00:00<00:00, 1880.04it/s, Materializing param=encoder.layer.1.attention.output.dense.weight]Loading weights:  24%|¨€¨€¨…       | 25/103 [00:00<00:00, 1856.35it/s, Materializing param=encoder.layer.1.attention.output.dense.weight]Loading weights:  25%|¨€¨€¨„       | 26/103 [00:00<00:00, 1897.15it/s, Materializing param=encoder.layer.1.attention.self.key.bias]      Loading weights:  25%|¨€¨€¨„       | 26/103 [00:00<00:00, 1886.19it/s, Materializing param=encoder.layer.1.attention.self.key.bias]Loading weights:  26%|¨€¨€¨„       | 27/103 [00:00<00:00, 1941.31it/s, Materializing param=encoder.layer.1.attention.self.key.weight]Loading weights:  26%|¨€¨€¨„       | 27/103 [00:00<00:00, 1932.23it/s, Materializing param=encoder.layer.1.attention.self.key.weight]Loading weights:  27%|¨€¨€¨ƒ       | 28/103 [00:00<00:00, 1989.71it/s, Materializing param=encoder.layer.1.attention.self.query.bias]Loading weights:  27%|¨€¨€¨ƒ       | 28/103 [00:00<00:00, 1981.18it/s, Materializing param=encoder.layer.1.attention.self.query.bias]Loading weights:  28%|¨€¨€¨‚       | 29/103 [00:00<00:00, 2038.12it/s, Materializing param=encoder.layer.1.attention.self.query.weight]Loading weights:  28%|¨€¨€¨‚       | 29/103 [00:00<00:00, 2028.57it/s, Materializing param=encoder.layer.1.attention.self.query.weight]Loading weights:  29%|¨€¨€¨       | 30/103 [00:00<00:00, 2083.78it/s, Materializing param=encoder.layer.1.attention.self.value.bias]  Loading weights:  29%|¨€¨€¨       | 30/103 [00:00<00:00, 2075.09it/s, Materializing param=encoder.layer.1.attention.self.value.bias]Loading weights:  30%|¨€¨€¨€       | 31/103 [00:00<00:00, 2130.27it/s, Materializing param=encoder.layer.1.attention.self.value.weight]Loading weights:  30%|¨€¨€¨€       | 31/103 [00:00<00:00, 2121.62it/s, Materializing param=encoder.layer.1.attention.self.value.weight]Loading weights:  31%|¨€¨€¨€       | 32/103 [00:00<00:00, 2176.00it/s, Materializing param=encoder.layer.1.intermediate.dense.bias]    Loading weights:  31%|¨€¨€¨€       | 32/103 [00:00<00:00, 2167.25it/s, Materializing param=encoder.layer.1.intermediate.dense.bias]Loading weights:  32%|¨€¨€¨€¨‡      | 33/103 [00:00<00:00, 2220.60it/s, Materializing param=encoder.layer.1.intermediate.dense.weight]Loading weights:  32%|¨€¨€¨€¨‡      | 33/103 [00:00<00:00, 2211.62it/s, Materializing param=encoder.layer.1.intermediate.dense.weight]Loading weights:  33%|¨€¨€¨€¨†      | 34/103 [00:00<00:00, 2264.67it/s, Materializing param=encoder.layer.1.output.LayerNorm.bias]    Loading weights:  33%|¨€¨€¨€¨†      | 34/103 [00:00<00:00, 2255.68it/s, Materializing param=encoder.layer.1.output.LayerNorm.bias]Loading weights:  34%|¨€¨€¨€¨…      | 35/103 [00:00<00:00, 2307.39it/s, Materializing param=encoder.layer.1.output.LayerNorm.weight]Loading weights:  34%|¨€¨€¨€¨…      | 35/103 [00:00<00:00, 2298.43it/s, Materializing param=encoder.layer.1.output.LayerNorm.weight]Loading weights:  35%|¨€¨€¨€¨…      | 36/103 [00:00<00:00, 2349.31it/s, Materializing param=encoder.layer.1.output.dense.bias]      Loading weights:  35%|¨€¨€¨€¨…      | 36/103 [00:00<00:00, 2338.72it/s, Materializing param=encoder.layer.1.output.dense.bias]Loading weights:  36%|¨€¨€¨€¨„      | 37/103 [00:00<00:00, 2388.48it/s, Materializing param=encoder.layer.1.output.dense.weight]Loading weights:  36%|¨€¨€¨€¨„      | 37/103 [00:00<00:00, 2379.40it/s, Materializing param=encoder.layer.1.output.dense.weight]Loading weights:  37%|¨€¨€¨€¨ƒ      | 38/103 [00:00<00:00, 2429.15it/s, Materializing param=encoder.layer.2.attention.output.LayerNorm.bias]Loading weights:  37%|¨€¨€¨€¨ƒ      | 38/103 [00:00<00:00, 2419.85it/s, Materializing param=encoder.layer.2.attention.output.LayerNorm.bias]Loading weights:  38%|¨€¨€¨€¨‚      | 39/103 [00:00<00:00, 2467.94it/s, Materializing param=encoder.layer.2.attention.output.LayerNorm.weight]Loading weights:  38%|¨€¨€¨€¨‚      | 39/103 [00:00<00:00, 2458.56it/s, Materializing param=encoder.layer.2.attention.output.LayerNorm.weight]Loading weights:  39%|¨€¨€¨€¨      | 40/103 [00:00<00:00, 2506.49it/s, Materializing param=encoder.layer.2.attention.output.dense.bias]      Loading weights:  39%|¨€¨€¨€¨      | 40/103 [00:00<00:00, 2497.09it/s, Materializing param=encoder.layer.2.attention.output.dense.bias]Loading weights:  40%|¨€¨€¨€¨      | 41/103 [00:00<00:00, 2544.48it/s, Materializing param=encoder.layer.2.attention.output.dense.weight]Loading weights:  40%|¨€¨€¨€¨      | 41/103 [00:00<00:00, 2535.03it/s, Materializing param=encoder.layer.2.attention.output.dense.weight]Loading weights:  41%|¨€¨€¨€¨€      | 42/103 [00:00<00:00, 2581.75it/s, Materializing param=encoder.layer.2.attention.self.key.bias]      Loading weights:  41%|¨€¨€¨€¨€      | 42/103 [00:00<00:00, 2572.40it/s, Materializing param=encoder.layer.2.attention.self.key.bias]Loading weights:  42%|¨€¨€¨€¨€¨‡     | 43/103 [00:00<00:00, 2617.75it/s, Materializing param=encoder.layer.2.attention.self.key.weight]Loading weights:  42%|¨€¨€¨€¨€¨‡     | 43/103 [00:00<00:00, 2608.21it/s, Materializing param=encoder.layer.2.attention.self.key.weight]Loading weights:  43%|¨€¨€¨€¨€¨†     | 44/103 [00:00<00:00, 2653.74it/s, Materializing param=encoder.layer.2.attention.self.query.bias]Loading weights:  43%|¨€¨€¨€¨€¨†     | 44/103 [00:00<00:00, 2643.60it/s, Materializing param=encoder.layer.2.attention.self.query.bias]Loading weights:  44%|¨€¨€¨€¨€¨†     | 45/103 [00:00<00:00, 2687.93it/s, Materializing param=encoder.layer.2.attention.self.query.weight]Loading weights:  44%|¨€¨€¨€¨€¨†     | 45/103 [00:00<00:00, 2678.32it/s, Materializing param=encoder.layer.2.attention.self.query.weight]Loading weights:  45%|¨€¨€¨€¨€¨…     | 46/103 [00:00<00:00, 2722.50it/s, Materializing param=encoder.layer.2.attention.self.value.bias]  Loading weights:  45%|¨€¨€¨€¨€¨…     | 46/103 [00:00<00:00, 2713.00it/s, Materializing param=encoder.layer.2.attention.self.value.bias]Loading weights:  46%|¨€¨€¨€¨€¨„     | 47/103 [00:00<00:00, 2756.63it/s, Materializing param=encoder.layer.2.attention.self.value.weight]Loading weights:  46%|¨€¨€¨€¨€¨„     | 47/103 [00:00<00:00, 2746.99it/s, Materializing param=encoder.layer.2.attention.self.value.weight]Loading weights:  47%|¨€¨€¨€¨€¨ƒ     | 48/103 [00:00<00:00, 2790.00it/s, Materializing param=encoder.layer.2.intermediate.dense.bias]    Loading weights:  47%|¨€¨€¨€¨€¨ƒ     | 48/103 [00:00<00:00, 2780.49it/s, Materializing param=encoder.layer.2.intermediate.dense.bias]Loading weights:  48%|¨€¨€¨€¨€¨‚     | 49/103 [00:00<00:00, 2823.09it/s, Materializing param=encoder.layer.2.intermediate.dense.weight]Loading weights:  48%|¨€¨€¨€¨€¨‚     | 49/103 [00:00<00:00, 2812.20it/s, Materializing param=encoder.layer.2.intermediate.dense.weight]Loading weights:  49%|¨€¨€¨€¨€¨‚     | 50/103 [00:00<00:00, 2853.93it/s, Materializing param=encoder.layer.2.output.LayerNorm.bias]    Loading weights:  49%|¨€¨€¨€¨€¨‚     | 50/103 [00:00<00:00, 2844.41it/s, Materializing param=encoder.layer.2.output.LayerNorm.bias]Loading weights:  50%|¨€¨€¨€¨€¨     | 51/103 [00:00<00:00, 2883.97it/s, Materializing param=encoder.layer.2.output.LayerNorm.weight]Loading weights:  50%|¨€¨€¨€¨€¨     | 51/103 [00:00<00:00, 2868.30it/s, Materializing param=encoder.layer.2.output.LayerNorm.weight]Loading weights:  50%|¨€¨€¨€¨€¨€     | 52/103 [00:00<00:00, 2900.82it/s, Materializing param=encoder.layer.2.output.dense.bias]      Loading weights:  50%|¨€¨€¨€¨€¨€     | 52/103 [00:00<00:00, 2889.33it/s, Materializing param=encoder.layer.2.output.dense.bias]Loading weights:  51%|¨€¨€¨€¨€¨€¨‡    | 53/103 [00:00<00:00, 2928.71it/s, Materializing param=encoder.layer.2.output.dense.weight]Loading weights:  51%|¨€¨€¨€¨€¨€¨‡    | 53/103 [00:00<00:00, 2919.06it/s, Materializing param=encoder.layer.2.output.dense.weight]Loading weights:  52%|¨€¨€¨€¨€¨€¨‡    | 54/103 [00:00<00:00, 2958.71it/s, Materializing param=encoder.layer.3.attention.output.LayerNorm.bias]Loading weights:  52%|¨€¨€¨€¨€¨€¨‡    | 54/103 [00:00<00:00, 2948.85it/s, Materializing param=encoder.layer.3.attention.output.LayerNorm.bias]Loading weights:  53%|¨€¨€¨€¨€¨€¨†    | 55/103 [00:00<00:00, 2986.85it/s, Materializing param=encoder.layer.3.attention.output.LayerNorm.weight]Loading weights:  53%|¨€¨€¨€¨€¨€¨†    | 55/103 [00:00<00:00, 2976.53it/s, Materializing param=encoder.layer.3.attention.output.LayerNorm.weight]Loading weights:  54%|¨€¨€¨€¨€¨€¨…    | 56/103 [00:00<00:00, 3014.89it/s, Materializing param=encoder.layer.3.attention.output.dense.bias]      Loading weights:  54%|¨€¨€¨€¨€¨€¨…    | 56/103 [00:00<00:00, 3005.17it/s, Materializing param=encoder.layer.3.attention.output.dense.bias]Loading weights:  55%|¨€¨€¨€¨€¨€¨„    | 57/103 [00:00<00:00, 3042.95it/s, Materializing param=encoder.layer.3.attention.output.dense.weight]Loading weights:  55%|¨€¨€¨€¨€¨€¨„    | 57/103 [00:00<00:00, 3033.26it/s, Materializing param=encoder.layer.3.attention.output.dense.weight]Loading weights:  56%|¨€¨€¨€¨€¨€¨ƒ    | 58/103 [00:00<00:00, 3070.97it/s, Materializing param=encoder.layer.3.attention.self.key.bias]      Loading weights:  56%|¨€¨€¨€¨€¨€¨ƒ    | 58/103 [00:00<00:00, 3061.38it/s, Materializing param=encoder.layer.3.attention.self.key.bias]Loading weights:  57%|¨€¨€¨€¨€¨€¨ƒ    | 59/103 [00:00<00:00, 3098.49it/s, Materializing param=encoder.layer.3.attention.self.key.weight]Loading weights:  57%|¨€¨€¨€¨€¨€¨ƒ    | 59/103 [00:00<00:00, 3087.74it/s, Materializing param=encoder.layer.3.attention.self.key.weight]Loading weights:  58%|¨€¨€¨€¨€¨€¨‚    | 60/103 [00:00<00:00, 3123.94it/s, Materializing param=encoder.layer.3.attention.self.query.bias]Loading weights:  58%|¨€¨€¨€¨€¨€¨‚    | 60/103 [00:00<00:00, 3114.31it/s, Materializing param=encoder.layer.3.attention.self.query.bias]Loading weights:  59%|¨€¨€¨€¨€¨€¨    | 61/103 [00:00<00:00, 3150.70it/s, Materializing param=encoder.layer.3.attention.self.query.weight]Loading weights:  59%|¨€¨€¨€¨€¨€¨    | 61/103 [00:00<00:00, 3139.33it/s, Materializing param=encoder.layer.3.attention.self.query.weight]Loading weights:  60%|¨€¨€¨€¨€¨€¨€    | 62/103 [00:00<00:00, 3175.14it/s, Materializing param=encoder.layer.3.attention.self.value.bias]  Loading weights:  60%|¨€¨€¨€¨€¨€¨€    | 62/103 [00:00<00:00, 3165.44it/s, Materializing param=encoder.layer.3.attention.self.value.bias]Loading weights:  61%|¨€¨€¨€¨€¨€¨€    | 63/103 [00:00<00:00, 3201.06it/s, Materializing param=encoder.layer.3.attention.self.value.weight]Loading weights:  61%|¨€¨€¨€¨€¨€¨€    | 63/103 [00:00<00:00, 3191.43it/s, Materializing param=encoder.layer.3.attention.self.value.weight]Loading weights:  62%|¨€¨€¨€¨€¨€¨€¨‡   | 64/103 [00:00<00:00, 3226.50it/s, Materializing param=encoder.layer.3.intermediate.dense.bias]    Loading weights:  62%|¨€¨€¨€¨€¨€¨€¨‡   | 64/103 [00:00<00:00, 3216.88it/s, Materializing param=encoder.layer.3.intermediate.dense.bias]Loading weights:  63%|¨€¨€¨€¨€¨€¨€¨†   | 65/103 [00:00<00:00, 3251.94it/s, Materializing param=encoder.layer.3.intermediate.dense.weight]Loading weights:  63%|¨€¨€¨€¨€¨€¨€¨†   | 65/103 [00:00<00:00, 3242.35it/s, Materializing param=encoder.layer.3.intermediate.dense.weight]Loading weights:  64%|¨€¨€¨€¨€¨€¨€¨…   | 66/103 [00:00<00:00, 3277.15it/s, Materializing param=encoder.layer.3.output.LayerNorm.bias]    Loading weights:  64%|¨€¨€¨€¨€¨€¨€¨…   | 66/103 [00:00<00:00, 3267.63it/s, Materializing param=encoder.layer.3.output.LayerNorm.bias]Loading weights:  65%|¨€¨€¨€¨€¨€¨€¨„   | 67/103 [00:00<00:00, 3301.75it/s, Materializing param=encoder.layer.3.output.LayerNorm.weight]Loading weights:  65%|¨€¨€¨€¨€¨€¨€¨„   | 67/103 [00:00<00:00, 3292.16it/s, Materializing param=encoder.layer.3.output.LayerNorm.weight]Loading weights:  66%|¨€¨€¨€¨€¨€¨€¨„   | 68/103 [00:00<00:00, 3325.44it/s, Materializing param=encoder.layer.3.output.dense.bias]      Loading weights:  66%|¨€¨€¨€¨€¨€¨€¨„   | 68/103 [00:00<00:00, 3315.89it/s, Materializing param=encoder.layer.3.output.dense.bias]Loading weights:  67%|¨€¨€¨€¨€¨€¨€¨ƒ   | 69/103 [00:00<00:00, 3349.54it/s, Materializing param=encoder.layer.3.output.dense.weight]Loading weights:  67%|¨€¨€¨€¨€¨€¨€¨ƒ   | 69/103 [00:00<00:00, 3339.99it/s, Materializing param=encoder.layer.3.output.dense.weight]Loading weights:  68%|¨€¨€¨€¨€¨€¨€¨‚   | 70/103 [00:00<00:00, 3373.22it/s, Materializing param=encoder.layer.4.attention.output.LayerNorm.bias]Loading weights:  68%|¨€¨€¨€¨€¨€¨€¨‚   | 70/103 [00:00<00:00, 3363.44it/s, Materializing param=encoder.layer.4.attention.output.LayerNorm.bias]Loading weights:  69%|¨€¨€¨€¨€¨€¨€¨   | 71/103 [00:00<00:00, 3395.62it/s, Materializing param=encoder.layer.4.attention.output.LayerNorm.weight]Loading weights:  69%|¨€¨€¨€¨€¨€¨€¨   | 71/103 [00:00<00:00, 3385.85it/s, Materializing param=encoder.layer.4.attention.output.LayerNorm.weight]Loading weights:  70%|¨€¨€¨€¨€¨€¨€¨   | 72/103 [00:00<00:00, 3417.95it/s, Materializing param=encoder.layer.4.attention.output.dense.bias]      Loading weights:  70%|¨€¨€¨€¨€¨€¨€¨   | 72/103 [00:00<00:00, 3408.27it/s, Materializing param=encoder.layer.4.attention.output.dense.bias]Loading weights:  71%|¨€¨€¨€¨€¨€¨€¨€   | 73/103 [00:00<00:00, 3440.16it/s, Materializing param=encoder.layer.4.attention.output.dense.weight]Loading weights:  71%|¨€¨€¨€¨€¨€¨€¨€   | 73/103 [00:00<00:00, 3430.48it/s, Materializing param=encoder.layer.4.attention.output.dense.weight]Loading weights:  72%|¨€¨€¨€¨€¨€¨€¨€¨‡  | 74/103 [00:00<00:00, 3460.92it/s, Materializing param=encoder.layer.4.attention.self.key.bias]      Loading weights:  72%|¨€¨€¨€¨€¨€¨€¨€¨‡  | 74/103 [00:00<00:00, 3450.38it/s, Materializing param=encoder.layer.4.attention.self.key.bias]Loading weights:  73%|¨€¨€¨€¨€¨€¨€¨€¨†  | 75/103 [00:00<00:00, 3481.14it/s, Materializing param=encoder.layer.4.attention.self.key.weight]Loading weights:  73%|¨€¨€¨€¨€¨€¨€¨€¨†  | 75/103 [00:00<00:00, 3471.57it/s, Materializing param=encoder.layer.4.attention.self.key.weight]Loading weights:  74%|¨€¨€¨€¨€¨€¨€¨€¨…  | 76/103 [00:00<00:00, 3502.59it/s, Materializing param=encoder.layer.4.attention.self.query.bias]Loading weights:  74%|¨€¨€¨€¨€¨€¨€¨€¨…  | 76/103 [00:00<00:00, 3493.11it/s, Materializing param=encoder.layer.4.attention.self.query.bias]Loading weights:  75%|¨€¨€¨€¨€¨€¨€¨€¨…  | 77/103 [00:00<00:00, 3524.01it/s, Materializing param=encoder.layer.4.attention.self.query.weight]Loading weights:  75%|¨€¨€¨€¨€¨€¨€¨€¨…  | 77/103 [00:00<00:00, 3514.46it/s, Materializing param=encoder.layer.4.attention.self.query.weight]Loading weights:  76%|¨€¨€¨€¨€¨€¨€¨€¨„  | 78/103 [00:00<00:00, 3545.06it/s, Materializing param=encoder.layer.4.attention.self.value.bias]  Loading weights:  76%|¨€¨€¨€¨€¨€¨€¨€¨„  | 78/103 [00:00<00:00, 3535.44it/s, Materializing param=encoder.layer.4.attention.self.value.bias]Loading weights:  77%|¨€¨€¨€¨€¨€¨€¨€¨ƒ  | 79/103 [00:00<00:00, 3565.51it/s, Materializing param=encoder.layer.4.attention.self.value.weight]Loading weights:  77%|¨€¨€¨€¨€¨€¨€¨€¨ƒ  | 79/103 [00:00<00:00, 3555.83it/s, Materializing param=encoder.layer.4.attention.self.value.weight]Loading weights:  78%|¨€¨€¨€¨€¨€¨€¨€¨‚  | 80/103 [00:00<00:00, 3585.60it/s, Materializing param=encoder.layer.4.intermediate.dense.bias]    Loading weights:  78%|¨€¨€¨€¨€¨€¨€¨€¨‚  | 80/103 [00:00<00:00, 3576.01it/s, Materializing param=encoder.layer.4.intermediate.dense.bias]Loading weights:  79%|¨€¨€¨€¨€¨€¨€¨€¨‚  | 81/103 [00:00<00:00, 3605.11it/s, Materializing param=encoder.layer.4.intermediate.dense.weight]Loading weights:  79%|¨€¨€¨€¨€¨€¨€¨€¨‚  | 81/103 [00:00<00:00, 3595.61it/s, Materializing param=encoder.layer.4.intermediate.dense.weight]Loading weights:  80%|¨€¨€¨€¨€¨€¨€¨€¨  | 82/103 [00:00<00:00, 3624.20it/s, Materializing param=encoder.layer.4.output.LayerNorm.bias]    Loading weights:  80%|¨€¨€¨€¨€¨€¨€¨€¨  | 82/103 [00:00<00:00, 3613.61it/s, Materializing param=encoder.layer.4.output.LayerNorm.bias]Loading weights:  81%|¨€¨€¨€¨€¨€¨€¨€¨€  | 83/103 [00:00<00:00, 3642.41it/s, Materializing param=encoder.layer.4.output.LayerNorm.weight]Loading weights:  81%|¨€¨€¨€¨€¨€¨€¨€¨€  | 83/103 [00:00<00:00, 3632.99it/s, Materializing param=encoder.layer.4.output.LayerNorm.weight]Loading weights:  82%|¨€¨€¨€¨€¨€¨€¨€¨€¨‡ | 84/103 [00:00<00:00, 3661.89it/s, Materializing param=encoder.layer.4.output.dense.bias]      Loading weights:  82%|¨€¨€¨€¨€¨€¨€¨€¨€¨‡ | 84/103 [00:00<00:00, 3652.59it/s, Materializing param=encoder.layer.4.output.dense.bias]Loading weights:  83%|¨€¨€¨€¨€¨€¨€¨€¨€¨† | 85/103 [00:00<00:00, 3681.11it/s, Materializing param=encoder.layer.4.output.dense.weight]Loading weights:  83%|¨€¨€¨€¨€¨€¨€¨€¨€¨† | 85/103 [00:00<00:00, 3671.79it/s, Materializing param=encoder.layer.4.output.dense.weight]Loading weights:  83%|¨€¨€¨€¨€¨€¨€¨€¨€¨† | 86/103 [00:00<00:00, 3700.20it/s, Materializing param=encoder.layer.5.attention.output.LayerNorm.bias]Loading weights:  83%|¨€¨€¨€¨€¨€¨€¨€¨€¨† | 86/103 [00:00<00:00, 3690.70it/s, Materializing param=encoder.layer.5.attention.output.LayerNorm.bias]Loading weights:  84%|¨€¨€¨€¨€¨€¨€¨€¨€¨… | 87/103 [00:00<00:00, 3717.07it/s, Materializing param=encoder.layer.5.attention.output.LayerNorm.weight]Loading weights:  84%|¨€¨€¨€¨€¨€¨€¨€¨€¨… | 87/103 [00:00<00:00, 3706.83it/s, Materializing param=encoder.layer.5.attention.output.LayerNorm.weight]Loading weights:  85%|¨€¨€¨€¨€¨€¨€¨€¨€¨„ | 88/103 [00:00<00:00, 3734.27it/s, Materializing param=encoder.layer.5.attention.output.dense.bias]      Loading weights:  85%|¨€¨€¨€¨€¨€¨€¨€¨€¨„ | 88/103 [00:00<00:00, 3724.77it/s, Materializing param=encoder.layer.5.attention.output.dense.bias]Loading weights:  86%|¨€¨€¨€¨€¨€¨€¨€¨€¨ƒ | 89/103 [00:00<00:00, 3751.16it/s, Materializing param=encoder.layer.5.attention.output.dense.weight]Loading weights:  86%|¨€¨€¨€¨€¨€¨€¨€¨€¨ƒ | 89/103 [00:00<00:00, 3741.46it/s, Materializing param=encoder.layer.5.attention.output.dense.weight]Loading weights:  87%|¨€¨€¨€¨€¨€¨€¨€¨€¨ƒ | 90/103 [00:00<00:00, 3768.09it/s, Materializing param=encoder.layer.5.attention.self.key.bias]      Loading weights:  87%|¨€¨€¨€¨€¨€¨€¨€¨€¨ƒ | 90/103 [00:00<00:00, 3758.71it/s, Materializing param=encoder.layer.5.attention.self.key.bias]Loading weights:  88%|¨€¨€¨€¨€¨€¨€¨€¨€¨‚ | 91/103 [00:00<00:00, 3785.44it/s, Materializing param=encoder.layer.5.attention.self.key.weight]Loading weights:  88%|¨€¨€¨€¨€¨€¨€¨€¨€¨‚ | 91/103 [00:00<00:00, 3776.15it/s, Materializing param=encoder.layer.5.attention.self.key.weight]Loading weights:  89%|¨€¨€¨€¨€¨€¨€¨€¨€¨ | 92/103 [00:00<00:00, 3802.48it/s, Materializing param=encoder.layer.5.attention.self.query.bias]Loading weights:  89%|¨€¨€¨€¨€¨€¨€¨€¨€¨ | 92/103 [00:00<00:00, 3793.18it/s, Materializing param=encoder.layer.5.attention.self.query.bias]Loading weights:  90%|¨€¨€¨€¨€¨€¨€¨€¨€¨€ | 93/103 [00:00<00:00, 3819.35it/s, Materializing param=encoder.layer.5.attention.self.query.weight]Loading weights:  90%|¨€¨€¨€¨€¨€¨€¨€¨€¨€ | 93/103 [00:00<00:00, 3810.02it/s, Materializing param=encoder.layer.5.attention.self.query.weight]Loading weights:  91%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‡| 94/103 [00:00<00:00, 3835.78it/s, Materializing param=encoder.layer.5.attention.self.value.bias]  Loading weights:  91%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‡| 94/103 [00:00<00:00, 3826.47it/s, Materializing param=encoder.layer.5.attention.self.value.bias]Loading weights:  92%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‡| 95/103 [00:00<00:00, 3852.15it/s, Materializing param=encoder.layer.5.attention.self.value.weight]Loading weights:  92%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‡| 95/103 [00:00<00:00, 3842.83it/s, Materializing param=encoder.layer.5.attention.self.value.weight]Loading weights:  93%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨†| 96/103 [00:00<00:00, 3868.54it/s, Materializing param=encoder.layer.5.intermediate.dense.bias]    Loading weights:  93%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨†| 96/103 [00:00<00:00, 3859.31it/s, Materializing param=encoder.layer.5.intermediate.dense.bias]Loading weights:  94%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨…| 97/103 [00:00<00:00, 3884.84it/s, Materializing param=encoder.layer.5.intermediate.dense.weight]Loading weights:  94%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨…| 97/103 [00:00<00:00, 3875.66it/s, Materializing param=encoder.layer.5.intermediate.dense.weight]Loading weights:  95%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨„| 98/103 [00:00<00:00, 3901.12it/s, Materializing param=encoder.layer.5.output.LayerNorm.bias]    Loading weights:  95%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨„| 98/103 [00:00<00:00, 3891.96it/s, Materializing param=encoder.layer.5.output.LayerNorm.bias]Loading weights:  96%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨„| 99/103 [00:00<00:00, 3916.88it/s, Materializing param=encoder.layer.5.output.LayerNorm.weight]Loading weights:  96%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨„| 99/103 [00:00<00:00, 3907.74it/s, Materializing param=encoder.layer.5.output.LayerNorm.weight]Loading weights:  97%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨ƒ| 100/103 [00:00<00:00, 3931.34it/s, Materializing param=encoder.layer.5.output.dense.bias]     Loading weights:  97%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨ƒ| 100/103 [00:00<00:00, 3922.15it/s, Materializing param=encoder.layer.5.output.dense.bias]Loading weights:  98%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‚| 101/103 [00:00<00:00, 3946.86it/s, Materializing param=encoder.layer.5.output.dense.weight]Loading weights:  98%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‚| 101/103 [00:00<00:00, 3937.80it/s, Materializing param=encoder.layer.5.output.dense.weight]Loading weights:  99%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨| 102/103 [00:00<00:00, 3962.17it/s, Materializing param=pooler.dense.bias]                  Loading weights:  99%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨| 102/103 [00:00<00:00, 3953.27it/s, Materializing param=pooler.dense.bias]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 103/103 [00:00<00:00, 3978.39it/s, Materializing param=pooler.dense.weight]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 103/103 [00:00<00:00, 3969.69it/s, Materializing param=pooler.dense.weight]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 103/103 [00:00<00:00, 3953.34it/s, Materializing param=pooler.dense.weight]
+[1mBertModel LOAD REPORT[0m from: models\cache\models--sentence-transformers--all-MiniLM-L6-v2\snapshots\c9745ed1d9f207416be6d2e6f8de32d1f16199bf
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+INFO:     Started server process [22408]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Embedding model loaded successfully from local path
+INFO:     127.0.0.1:50294 - "GET /api/analytics/metrics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50296 - "GET /api/analytics/metrics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50297 - "GET /api/query/history?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62802 - "GET /api/analytics/metrics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62804 - "GET /api/query/history?limit=5 HTTP/1.1" 200 OK
+================================================================================
+DeepSeek Intent Classification API Call:
+================================================================================
+Model: deepseek-chat
+Query: How many days of sick leave do I have?
+Temperature: 0.3
+Response Format: json_object
+--------------------------------------------------------------------------------
+Available Intents:
+  - HR: Human Resources related queries
+  - Legal: Legal department related queries
+  - Finance: Finance department related queries
+  - General: General queries not specific to any department
+  - Test Intent: Test intent for document processing
+--------------------------------------------------------------------------------
+Prompt:
+
+You are an intent classifier for a knowledge management system. Your task is to classify user queries into one of the following intent spaces:
+
+- HR: Human Resources related queries
+- Legal: Legal department related queries
+- Finance: Finance department related queries
+- General: General queries not specific to any department
+- Test Intent: Test intent for document processing
+
+Analyze the following query and determine which intent space it belongs to. Respond with a JSON object containing:
+1. "intent": the name of the most appropriate intent space
+2. "confidence": your confidence level in this classification (0.0 to 1.0)
+
+Query: "How many days of sick leave do I have?"
+
+Your response (JSON only):
+
+================================================================================
+DeepSeek Intent Classification Response:
+================================================================================
+Response ID: 41cfe486-fd93-4420-b634-1f818eaba30a
+Model: deepseek-chat
+Usage: CompletionUsage(completion_tokens=23, prompt_tokens=186, total_tokens=209, completion_tokens_details=None, prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=128), prompt_cache_hit_tokens=128, prompt_cache_miss_tokens=58)
+--------------------------------------------------------------------------------
+Raw Response:
+{
+    "intent": "HR",
+    "confidence": 0.95
+}
+================================================================================
+Final Classification Result:
+================================================================================
+Intent: HR
+Confidence: 0.95
+Valid Intent: True
+================================================================================
+================================================================================
+Local Embedding Model - Generate Query Embedding:
+================================================================================
+Input Query: How many days of sick leave do I have?
+Query Length: 38 characters
+Model: SentenceTransformer
+Embedding Dimension: 384
+Embedding Type: ndarray
+First 5 Values: [ 0.09632157  0.02218899 -0.02024418  0.03241843  0.07840815]
+Last 5 Values: [-0.02288671 -0.05556136 -0.04844037 -0.09850636  0.00724894]
+================================================================================
+================================================================================
+Get Relevant Documents:
+================================================================================
+Intent ID: 1
+Limit: 5
+Query Embedding Dimension: 384
+Vector Store Results: 1 documents found
+  Result 1:
+    Document ID: 1
+    Distance: 1.7987
+    Similarity Score: -0.7987
+================================================================================
+Filtered Results (Intent ID=1): 1 documents
+  Document 1:
+    ID: 1
+    Title: HR_Policy.docx
+    Score: -0.7987
+================================================================================
+================================================================================
+DeepSeek API Call:
+================================================================================
+Model: deepseek-chat
+Temperature: 0.7
+Max Tokens: 500
+--------------------------------------------------------------------------------
+System Prompt:
+
+You are a helpful assistant for a knowledge management system. Your task is to answer user questions based on the provided context from the knowledge base.
+
+Guidelines:
+1. Provide concise, accurate answers based on the context
+2. Cite the sources using [1], [2], etc. notation
+3. If the context doesn't contain enough information, acknowledge this limitation
+4. Be professional and helpful in your responses
+
+--------------------------------------------------------------------------------
+User Prompt:
+
+Context from the knowledge base:
+[1] HR_Policy.docx: Human Resources Policy Document
+
+Employee Benefits
+Our company offers a comprehensive benefits package to all full-time employees including:
+Health insurance (medical, dental, vision)
+Life insurance
+Retirement savings plan with company match
+Paid time off (vacation, sick leave, holidays)
+Professional development opportunities
+
+Leave Policies
+Vacation Leave
+Full-time employees are entitled to 15 days of paid vacation leave per year, accrued monthly. Vacation leave requests must be submitted at le...
+
+User Query: How many days of sick leave do I have?
+
+
+Intent: HR
+================================================================================
+DeepSeek API Response:
+================================================================================
+Response ID: b50c02c5-7cb4-4d20-85de-b385d9257ed6
+Model: deepseek-chat
+Usage: CompletionUsage(completion_tokens=95, prompt_tokens=215, total_tokens=310, completion_tokens_details=None, prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=192), prompt_cache_hit_tokens=192, prompt_cache_miss_tokens=23)
+--------------------------------------------------------------------------------
+Response Content:
+Based on the provided context, the specific number of sick leave days is not mentioned. The policy only states that paid time off includes "sick leave" as part of the benefits package, but does not specify the exact number of days allocated [1].
+
+**Answer:** The knowledge base does not contain the specific number of sick leave days. For this detail, please consult your HR department or the full leave policy document.
+
+**Source:**
+[1] HR_Policy.docx
+================================================================================
+================================================================================
+Calculate Confidence:
+================================================================================
+Number of documents: 1
+Individual scores:
+  Document 1 (HR_Policy.docx): -0.7987
+Average score: -0.7987
+Normalized confidence: 0.0000
+================================================================================
+INFO:     127.0.0.1:62819 - "POST /api/query HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53547 - "GET /api/analytics/metrics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51743 - "GET /api/query/history?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64244 - "GET /api/intents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64245 - "GET /api/intents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64247 - "GET /api/intents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64251 - "GET /api/kb/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49176 - "GET /api/analytics/metrics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49181 - "GET /api/analytics/metrics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49185 - "GET /api/intents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49269 - "GET /api/intents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49272 - "GET /api/kb/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49274 - "GET /api/kb/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59279 - "GET /api/analytics/metrics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59282 - "GET /api/query/history?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64580 - "GET /api/analytics/metrics HTTP/1.1" 200 OK
+================================================================================
+DeepSeek Intent Classification API Call:
+================================================================================
+Model: deepseek-chat
+Query: How many days of annual leave can I have?
+Temperature: 0.3
+Response Format: json_object
+--------------------------------------------------------------------------------
+Available Intents:
+  - HR: Human Resources related queries
+  - Legal: Legal department related queries
+  - Finance: Finance department related queries
+  - General: General queries not specific to any department
+  - Test Intent: Test intent for document processing
+--------------------------------------------------------------------------------
+Prompt:
+
+You are an intent classifier for a knowledge management system. Your task is to classify user queries into one of the following intent spaces:
+
+- HR: Human Resources related queries
+- Legal: Legal department related queries
+- Finance: Finance department related queries
+- General: General queries not specific to any department
+- Test Intent: Test intent for document processing
+
+Analyze the following query and determine which intent space it belongs to. Respond with a JSON object containing:
+1. "intent": the name of the most appropriate intent space
+2. "confidence": your confidence level in this classification (0.0 to 1.0)
+
+Query: "How many days of annual leave can I have?"
+
+Your response (JSON only):
+
+================================================================================
+DeepSeek Intent Classification Response:
+================================================================================
+Response ID: df36143a-66fd-4a85-8ca3-a9ca32df7634
+Model: deepseek-chat
+Usage: CompletionUsage(completion_tokens=23, prompt_tokens=186, total_tokens=209, completion_tokens_details=None, prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=128), prompt_cache_hit_tokens=128, prompt_cache_miss_tokens=58)
+--------------------------------------------------------------------------------
+Raw Response:
+{
+    "intent": "HR",
+    "confidence": 0.95
+}
+================================================================================
+Final Classification Result:
+================================================================================
+Intent: HR
+Confidence: 0.95
+Valid Intent: True
+================================================================================
+================================================================================
+Local Embedding Model - Generate Query Embedding:
+================================================================================
+Input Query: How many days of annual leave can I have?
+Query Length: 41 characters
+Model: SentenceTransformer
+Embedding Dimension: 384
+Embedding Type: ndarray
+First 5 Values: [0.07735322 0.03708115 0.02700169 0.06689128 0.03612888]
+Last 5 Values: [-0.02804389 -0.08050452 -0.00572752 -0.04633838 -0.02010347]
+================================================================================
+================================================================================
+Get Relevant Documents:
+================================================================================
+Intent ID: 1
+Limit: 5
+Query Embedding Dimension: 384
+Vector Store Results: 1 documents found
+  Result 1:
+    Document ID: 1
+    Distance: 1.5507
+    Similarity Score: -0.5507
+================================================================================
+Filtered Results (Intent ID=1): 1 documents
+  Document 1:
+    ID: 1
+    Title: HR_Policy.docx
+    Score: -0.5507
+================================================================================
+================================================================================
+DeepSeek API Call:
+================================================================================
+Model: deepseek-chat
+Temperature: 0.7
+Max Tokens: 500
+--------------------------------------------------------------------------------
+System Prompt:
+
+You are a helpful assistant for a knowledge management system. Your task is to answer user questions based on the provided context from the knowledge base.
+
+Guidelines:
+1. Provide concise, accurate answers based on the context
+2. Cite the sources using [1], [2], etc. notation
+3. If the context doesn't contain enough information, acknowledge this limitation
+4. Be professional and helpful in your responses
+
+--------------------------------------------------------------------------------
+User Prompt:
+
+Context from the knowledge base:
+[1] HR_Policy.docx: Human Resources Policy Document
+
+Employee Benefits
+Our company offers a comprehensive benefits package to all full-time employees including:
+Health insurance (medical, dental, vision)
+Life insurance
+Retirement savings plan with company match
+Paid time off (vacation, sick leave, holidays)
+Professional development opportunities
+
+Leave Policies
+Vacation Leave
+Full-time employees are entitled to 15 days of paid vacation leave per year, accrued monthly. Vacation leave requests must be submitted at le...
+
+User Query: How many days of annual leave can I have?
+
+
+Intent: HR
+================================================================================
+DeepSeek API Response:
+================================================================================
+Response ID: cb1f65e8-d7ae-42b8-82c1-2c065855dbd1
+Model: deepseek-chat
+Usage: CompletionUsage(completion_tokens=25, prompt_tokens=215, total_tokens=240, completion_tokens_details=None, prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=192), prompt_cache_hit_tokens=192, prompt_cache_miss_tokens=23)
+--------------------------------------------------------------------------------
+Response Content:
+Based on the provided context, full-time employees are entitled to **15 days of paid vacation leave per year** [1].
+================================================================================
+================================================================================
+Calculate Confidence:
+================================================================================
+Number of documents: 1
+Individual scores:
+  Document 1 (HR_Policy.docx): -0.5507
+Average score: -0.5507
+Normalized confidence: 0.0000
+================================================================================
+INFO:     127.0.0.1:64581 - "POST /api/query HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64587 - "GET /api/analytics/metrics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64589 - "GET /api/query/history?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50973 - "GET /api/analytics/metrics HTTP/1.1" 200 OK
+================================================================================
+DeepSeek Intent Classification API Call:
+================================================================================
+Model: deepseek-chat
+Query: How many days of sick leave can I have?
+Temperature: 0.3
+Response Format: json_object
+--------------------------------------------------------------------------------
+Available Intents:
+  - HR: Human Resources related queries
+  - Legal: Legal department related queries
+  - Finance: Finance department related queries
+  - General: General queries not specific to any department
+  - Test Intent: Test intent for document processing
+--------------------------------------------------------------------------------
+Prompt:
+
+You are an intent classifier for a knowledge management system. Your task is to classify user queries into one of the following intent spaces:
+
+- HR: Human Resources related queries
+- Legal: Legal department related queries
+- Finance: Finance department related queries
+- General: General queries not specific to any department
+- Test Intent: Test intent for document processing
+
+Analyze the following query and determine which intent space it belongs to. Respond with a JSON object containing:
+1. "intent": the name of the most appropriate intent space
+2. "confidence": your confidence level in this classification (0.0 to 1.0)
+
+Query: "How many days of sick leave can I have?"
+
+Your response (JSON only):
+
+================================================================================
+DeepSeek Intent Classification Response:
+================================================================================
+Response ID: 02e01a0a-dca6-4ffd-bfc7-15e9b16b84b3
+Model: deepseek-chat
+Usage: CompletionUsage(completion_tokens=23, prompt_tokens=186, total_tokens=209, completion_tokens_details=None, prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=128), prompt_cache_hit_tokens=128, prompt_cache_miss_tokens=58)
+--------------------------------------------------------------------------------
+Raw Response:
+{
+    "intent": "HR",
+    "confidence": 0.95
+}
+================================================================================
+Final Classification Result:
+================================================================================
+Intent: HR
+Confidence: 0.95
+Valid Intent: True
+================================================================================
+================================================================================
+Local Embedding Model - Generate Query Embedding:
+================================================================================
+Input Query: How many days of sick leave can I have?
+Query Length: 39 characters
+Model: SentenceTransformer
+Embedding Dimension: 384
+Embedding Type: ndarray
+First 5 Values: [ 0.07619616  0.0262248  -0.02329204  0.02103261  0.06360818]
+Last 5 Values: [-0.02322769 -0.05678496 -0.0367356  -0.07760291  0.00559195]
+================================================================================
+================================================================================
+Get Relevant Documents:
+================================================================================
+Intent ID: 1
+Limit: 5
+Query Embedding Dimension: 384
+Vector Store Results: 1 documents found
+  Result 1:
+    Document ID: 1
+    Distance: 1.7981
+    Similarity Score: -0.7981
+================================================================================
+Filtered Results (Intent ID=1): 1 documents
+  Document 1:
+    ID: 1
+    Title: HR_Policy.docx
+    Score: -0.7981
+================================================================================
+================================================================================
+DeepSeek API Call:
+================================================================================
+Model: deepseek-chat
+Temperature: 0.7
+Max Tokens: 500
+--------------------------------------------------------------------------------
+System Prompt:
+
+You are a helpful assistant for a knowledge management system. Your task is to answer user questions based on the provided context from the knowledge base.
+
+Guidelines:
+1. Provide concise, accurate answers based on the context
+2. Cite the sources using [1], [2], etc. notation
+3. If the context doesn't contain enough information, acknowledge this limitation
+4. Be professional and helpful in your responses
+
+--------------------------------------------------------------------------------
+User Prompt:
+
+Context from the knowledge base:
+[1] HR_Policy.docx: Human Resources Policy Document
+
+Employee Benefits
+Our company offers a comprehensive benefits package to all full-time employees including:
+Health insurance (medical, dental, vision)
+Life insurance
+Retirement savings plan with company match
+Paid time off (vacation, sick leave, holidays)
+Professional development opportunities
+
+Leave Policies
+Vacation Leave
+Full-time employees are entitled to 15 days of paid vacation leave per year, accrued monthly. Vacation leave requests must be submitted at le...
+
+User Query: How many days of sick leave can I have?
+
+
+Intent: HR
+================================================================================
+DeepSeek API Response:
+================================================================================
+Response ID: 4d6f6504-2913-44be-8d9a-8d93c99944d4
+Model: deepseek-chat
+Usage: CompletionUsage(completion_tokens=75, prompt_tokens=215, total_tokens=290, completion_tokens_details=None, prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=192), prompt_cache_hit_tokens=192, prompt_cache_miss_tokens=23)
+--------------------------------------------------------------------------------
+Response Content:
+Based on the provided context, the specific number of sick leave days is not mentioned. The policy only states that paid time off includes "sick leave" as part of the benefits package, but does not specify the exact number of days allocated [1].
+
+For precise information on your sick leave entitlement, please consult the full HR policy document or contact your Human Resources department directly.
+================================================================================
+================================================================================
+Calculate Confidence:
+================================================================================
+Number of documents: 1
+Individual scores:
+  Document 1 (HR_Policy.docx): -0.7981
+Average score: -0.7981
+Normalized confidence: 0.0000
+================================================================================
+INFO:     127.0.0.1:50974 - "POST /api/query HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50979 - "GET /api/analytics/metrics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50982 - "GET /api/query/history?limit=5 HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'core\response_generator.py'. Reloading...
+ INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [22408]

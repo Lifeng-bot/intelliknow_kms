@@ -1,0 +1,1066 @@
+INFO:     Will watch for changes in these directories: ['D:\\myproject\\intelliknow_kms']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [28508] using StatReload
+Loading embedding model from local path: ./models/cache/models--sentence-transformers--all-MiniLM-L6-v2/snapshots/c9745ed1d9f207416be6d2e6f8de32d1f16199bf
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights:   1%|          | 1/103 [00:00<00:00, 15768.06it/s, Materializing param=embeddings.LayerNorm.bias]Loading weights:   1%|          | 1/103 [00:00<00:00, 3261.51it/s, Materializing param=embeddings.LayerNorm.bias] Loading weights:   2%|¨‡         | 2/103 [00:00<00:00, 2849.39it/s, Materializing param=embeddings.LayerNorm.weight]Loading weights:   2%|¨‡         | 2/103 [00:00<00:00, 1378.57it/s, Materializing param=embeddings.LayerNorm.weight]Loading weights:   3%|¨†         | 3/103 [00:00<00:00, 1639.89it/s, Materializing param=embeddings.position_embeddings.weight]Loading weights:   3%|¨†         | 3/103 [00:00<00:00, 1564.65it/s, Materializing param=embeddings.position_embeddings.weight]Loading weights:   4%|¨…         | 4/103 [00:00<00:00, 1787.66it/s, Materializing param=embeddings.token_type_embeddings.weight]Loading weights:   4%|¨…         | 4/103 [00:00<00:00, 1718.80it/s, Materializing param=embeddings.token_type_embeddings.weight]Loading weights:   5%|¨…         | 5/103 [00:00<00:00, 1978.26it/s, Materializing param=embeddings.word_embeddings.weight]      Loading weights:   5%|¨…         | 5/103 [00:00<00:00, 1870.45it/s, Materializing param=embeddings.word_embeddings.weight]Loading weights:   6%|¨„         | 6/103 [00:00<00:00, 2040.86it/s, Materializing param=encoder.layer.0.attention.output.LayerNorm.bias]Loading weights:   6%|¨„         | 6/103 [00:00<00:00, 1684.46it/s, Materializing param=encoder.layer.0.attention.output.LayerNorm.bias]Loading weights:   7%|¨ƒ         | 7/103 [00:00<00:00, 1725.44it/s, Materializing param=encoder.layer.0.attention.output.LayerNorm.weight]Loading weights:   7%|¨ƒ         | 7/103 [00:00<00:00, 1648.52it/s, Materializing param=encoder.layer.0.attention.output.LayerNorm.weight]Loading weights:   8%|¨‚         | 8/103 [00:00<00:00, 1815.13it/s, Materializing param=encoder.layer.0.attention.output.dense.bias]      Loading weights:   8%|¨‚         | 8/103 [00:00<00:00, 1784.43it/s, Materializing param=encoder.layer.0.attention.output.dense.bias]Loading weights:   9%|¨‚         | 9/103 [00:00<00:00, 1948.42it/s, Materializing param=encoder.layer.0.attention.output.dense.weight]Loading weights:   9%|¨‚         | 9/103 [00:00<00:00, 1916.86it/s, Materializing param=encoder.layer.0.attention.output.dense.weight]Loading weights:  10%|¨         | 10/103 [00:00<00:00, 2068.61it/s, Materializing param=encoder.layer.0.attention.self.key.bias]     Loading weights:  10%|¨         | 10/103 [00:00<00:00, 2005.12it/s, Materializing param=encoder.layer.0.attention.self.key.bias]Loading weights:  11%|¨€         | 11/103 [00:00<00:00, 2137.37it/s, Materializing param=encoder.layer.0.attention.self.key.weight]Loading weights:  11%|¨€         | 11/103 [00:00<00:00, 2048.27it/s, Materializing param=encoder.layer.0.attention.self.key.weight]Loading weights:  12%|¨€¨‡        | 12/103 [00:00<00:00, 1981.95it/s, Materializing param=encoder.layer.0.attention.self.query.bias]Loading weights:  12%|¨€¨‡        | 12/103 [00:00<00:00, 1851.99it/s, Materializing param=encoder.layer.0.attention.self.query.bias]Loading weights:  13%|¨€¨†        | 13/103 [00:00<00:00, 1900.85it/s, Materializing param=encoder.layer.0.attention.self.query.weight]Loading weights:  13%|¨€¨†        | 13/103 [00:00<00:00, 1848.46it/s, Materializing param=encoder.layer.0.attention.self.query.weight]Loading weights:  14%|¨€¨†        | 14/103 [00:00<00:00, 1920.41it/s, Materializing param=encoder.layer.0.attention.self.value.bias]  Loading weights:  14%|¨€¨†        | 14/103 [00:00<00:00, 1898.37it/s, Materializing param=encoder.layer.0.attention.self.value.bias]Loading weights:  15%|¨€¨…        | 15/103 [00:00<00:00, 1995.26it/s, Materializing param=encoder.layer.0.attention.self.value.weight]Loading weights:  15%|¨€¨…        | 15/103 [00:00<00:00, 1935.77it/s, Materializing param=encoder.layer.0.attention.self.value.weight]Loading weights:  16%|¨€¨„        | 16/103 [00:00<00:00, 2018.49it/s, Materializing param=encoder.layer.0.intermediate.dense.bias]    Loading weights:  16%|¨€¨„        | 16/103 [00:00<00:00, 1934.75it/s, Materializing param=encoder.layer.0.intermediate.dense.bias]Loading weights:  17%|¨€¨ƒ        | 17/103 [00:00<00:00, 1998.02it/s, Materializing param=encoder.layer.0.intermediate.dense.weight]Loading weights:  17%|¨€¨ƒ        | 17/103 [00:00<00:00, 1973.68it/s, Materializing param=encoder.layer.0.intermediate.dense.weight]Loading weights:  17%|¨€¨ƒ        | 18/103 [00:00<00:00, 2015.63it/s, Materializing param=encoder.layer.0.output.LayerNorm.bias]    Loading weights:  17%|¨€¨ƒ        | 18/103 [00:00<00:00, 1953.36it/s, Materializing param=encoder.layer.0.output.LayerNorm.bias]Loading weights:  18%|¨€¨‚        | 19/103 [00:00<00:00, 1994.44it/s, Materializing param=encoder.layer.0.output.LayerNorm.weight]Loading weights:  18%|¨€¨‚        | 19/103 [00:00<00:00, 1977.27it/s, Materializing param=encoder.layer.0.output.LayerNorm.weight]Loading weights:  19%|¨€¨        | 20/103 [00:00<00:00, 2034.24it/s, Materializing param=encoder.layer.0.output.dense.bias]      Loading weights:  19%|¨€¨        | 20/103 [00:00<00:00, 2017.75it/s, Materializing param=encoder.layer.0.output.dense.bias]Loading weights:  20%|¨€¨€        | 21/103 [00:00<00:00, 1956.17it/s, Materializing param=encoder.layer.0.output.dense.weight]Loading weights:  20%|¨€¨€        | 21/103 [00:00<00:00, 1925.68it/s, Materializing param=encoder.layer.0.output.dense.weight]Loading weights:  21%|¨€¨€¨‡       | 22/103 [00:00<00:00, 1965.30it/s, Materializing param=encoder.layer.1.attention.output.LayerNorm.bias]Loading weights:  21%|¨€¨€¨‡       | 22/103 [00:00<00:00, 1880.89it/s, Materializing param=encoder.layer.1.attention.output.LayerNorm.bias]Loading weights:  22%|¨€¨€¨‡       | 23/103 [00:00<00:00, 1936.00it/s, Materializing param=encoder.layer.1.attention.output.LayerNorm.weight]Loading weights:  22%|¨€¨€¨‡       | 23/103 [00:00<00:00, 1924.45it/s, Materializing param=encoder.layer.1.attention.output.LayerNorm.weight]Loading weights:  23%|¨€¨€¨†       | 24/103 [00:00<00:00, 1987.15it/s, Materializing param=encoder.layer.1.attention.output.dense.bias]      Loading weights:  23%|¨€¨€¨†       | 24/103 [00:00<00:00, 1951.82it/s, Materializing param=encoder.layer.1.attention.output.dense.bias]Loading weights:  24%|¨€¨€¨…       | 25/103 [00:00<00:00, 1954.73it/s, Materializing param=encoder.layer.1.attention.output.dense.weight]Loading weights:  24%|¨€¨€¨…       | 25/103 [00:00<00:00, 1939.51it/s, Materializing param=encoder.layer.1.attention.output.dense.weight]Loading weights:  25%|¨€¨€¨„       | 26/103 [00:00<00:00, 1960.38it/s, Materializing param=encoder.layer.1.attention.self.key.bias]      Loading weights:  25%|¨€¨€¨„       | 26/103 [00:00<00:00, 1947.08it/s, Materializing param=encoder.layer.1.attention.self.key.bias]Loading weights:  26%|¨€¨€¨„       | 27/103 [00:00<00:00, 1982.43it/s, Materializing param=encoder.layer.1.attention.self.key.weight]Loading weights:  26%|¨€¨€¨„       | 27/103 [00:00<00:00, 1957.01it/s, Materializing param=encoder.layer.1.attention.self.key.weight]Loading weights:  27%|¨€¨€¨ƒ       | 28/103 [00:00<00:00, 1964.51it/s, Materializing param=encoder.layer.1.attention.self.query.bias]Loading weights:  27%|¨€¨€¨ƒ       | 28/103 [00:00<00:00, 1952.17it/s, Materializing param=encoder.layer.1.attention.self.query.bias]Loading weights:  28%|¨€¨€¨‚       | 29/103 [00:00<00:00, 1947.22it/s, Materializing param=encoder.layer.1.attention.self.query.weight]Loading weights:  28%|¨€¨€¨‚       | 29/103 [00:00<00:00, 1924.81it/s, Materializing param=encoder.layer.1.attention.self.query.weight]Loading weights:  29%|¨€¨€¨       | 30/103 [00:00<00:00, 1944.72it/s, Materializing param=encoder.layer.1.attention.self.value.bias]  Loading weights:  29%|¨€¨€¨       | 30/103 [00:00<00:00, 1919.47it/s, Materializing param=encoder.layer.1.attention.self.value.bias]Loading weights:  30%|¨€¨€¨€       | 31/103 [00:00<00:00, 1956.18it/s, Materializing param=encoder.layer.1.attention.self.value.weight]Loading weights:  30%|¨€¨€¨€       | 31/103 [00:00<00:00, 1936.43it/s, Materializing param=encoder.layer.1.attention.self.value.weight]Loading weights:  31%|¨€¨€¨€       | 32/103 [00:00<00:00, 1932.64it/s, Materializing param=encoder.layer.1.intermediate.dense.bias]    Loading weights:  31%|¨€¨€¨€       | 32/103 [00:00<00:00, 1856.94it/s, Materializing param=encoder.layer.1.intermediate.dense.bias]Loading weights:  32%|¨€¨€¨€¨‡      | 33/103 [00:00<00:00, 1860.48it/s, Materializing param=encoder.layer.1.intermediate.dense.weight]Loading weights:  32%|¨€¨€¨€¨‡      | 33/103 [00:00<00:00, 1834.58it/s, Materializing param=encoder.layer.1.intermediate.dense.weight]Loading weights:  33%|¨€¨€¨€¨†      | 34/103 [00:00<00:00, 1845.39it/s, Materializing param=encoder.layer.1.output.LayerNorm.bias]    Loading weights:  33%|¨€¨€¨€¨†      | 34/103 [00:00<00:00, 1829.55it/s, Materializing param=encoder.layer.1.output.LayerNorm.bias]Loading weights:  34%|¨€¨€¨€¨…      | 35/103 [00:00<00:00, 1855.70it/s, Materializing param=encoder.layer.1.output.LayerNorm.weight]Loading weights:  34%|¨€¨€¨€¨…      | 35/103 [00:00<00:00, 1846.36it/s, Materializing param=encoder.layer.1.output.LayerNorm.weight]Loading weights:  35%|¨€¨€¨€¨…      | 36/103 [00:00<00:00, 1877.88it/s, Materializing param=encoder.layer.1.output.dense.bias]      Loading weights:  35%|¨€¨€¨€¨…      | 36/103 [00:00<00:00, 1867.36it/s, Materializing param=encoder.layer.1.output.dense.bias]Loading weights:  36%|¨€¨€¨€¨„      | 37/103 [00:00<00:00, 1904.16it/s, Materializing param=encoder.layer.1.output.dense.weight]Loading weights:  36%|¨€¨€¨€¨„      | 37/103 [00:00<00:00, 1895.44it/s, Materializing param=encoder.layer.1.output.dense.weight]Loading weights:  37%|¨€¨€¨€¨ƒ      | 38/103 [00:00<00:00, 1932.55it/s, Materializing param=encoder.layer.2.attention.output.LayerNorm.bias]Loading weights:  37%|¨€¨€¨€¨ƒ      | 38/103 [00:00<00:00, 1924.29it/s, Materializing param=encoder.layer.2.attention.output.LayerNorm.bias]Loading weights:  38%|¨€¨€¨€¨‚      | 39/103 [00:00<00:00, 1959.39it/s, Materializing param=encoder.layer.2.attention.output.LayerNorm.weight]Loading weights:  38%|¨€¨€¨€¨‚      | 39/103 [00:00<00:00, 1950.16it/s, Materializing param=encoder.layer.2.attention.output.LayerNorm.weight]Loading weights:  39%|¨€¨€¨€¨      | 40/103 [00:00<00:00, 1982.96it/s, Materializing param=encoder.layer.2.attention.output.dense.bias]      Loading weights:  39%|¨€¨€¨€¨      | 40/103 [00:00<00:00, 1974.91it/s, Materializing param=encoder.layer.2.attention.output.dense.bias]Loading weights:  40%|¨€¨€¨€¨      | 41/103 [00:00<00:00, 2012.79it/s, Materializing param=encoder.layer.2.attention.output.dense.weight]Loading weights:  40%|¨€¨€¨€¨      | 41/103 [00:00<00:00, 2006.68it/s, Materializing param=encoder.layer.2.attention.output.dense.weight]Loading weights:  41%|¨€¨€¨€¨€      | 42/103 [00:00<00:00, 2045.84it/s, Materializing param=encoder.layer.2.attention.self.key.bias]      Loading weights:  41%|¨€¨€¨€¨€      | 42/103 [00:00<00:00, 2039.84it/s, Materializing param=encoder.layer.2.attention.self.key.bias]Loading weights:  42%|¨€¨€¨€¨€¨‡     | 43/103 [00:00<00:00, 2078.45it/s, Materializing param=encoder.layer.2.attention.self.key.weight]Loading weights:  42%|¨€¨€¨€¨€¨‡     | 43/103 [00:00<00:00, 2072.36it/s, Materializing param=encoder.layer.2.attention.self.key.weight]Loading weights:  43%|¨€¨€¨€¨€¨†     | 44/103 [00:00<00:00, 2109.50it/s, Materializing param=encoder.layer.2.attention.self.query.bias]Loading weights:  43%|¨€¨€¨€¨€¨†     | 44/103 [00:00<00:00, 2103.44it/s, Materializing param=encoder.layer.2.attention.self.query.bias]Loading weights:  44%|¨€¨€¨€¨€¨†     | 45/103 [00:00<00:00, 2140.95it/s, Materializing param=encoder.layer.2.attention.self.query.weight]Loading weights:  44%|¨€¨€¨€¨€¨†     | 45/103 [00:00<00:00, 2127.43it/s, Materializing param=encoder.layer.2.attention.self.query.weight]Loading weights:  45%|¨€¨€¨€¨€¨…     | 46/103 [00:00<00:00, 2163.47it/s, Materializing param=encoder.layer.2.attention.self.value.bias]  Loading weights:  45%|¨€¨€¨€¨€¨…     | 46/103 [00:00<00:00, 2157.25it/s, Materializing param=encoder.layer.2.attention.self.value.bias]Loading weights:  46%|¨€¨€¨€¨€¨„     | 47/103 [00:00<00:00, 2194.24it/s, Materializing param=encoder.layer.2.attention.self.value.weight]Loading weights:  46%|¨€¨€¨€¨€¨„     | 47/103 [00:00<00:00, 2188.10it/s, Materializing param=encoder.layer.2.attention.self.value.weight]Loading weights:  47%|¨€¨€¨€¨€¨ƒ     | 48/103 [00:00<00:00, 2224.48it/s, Materializing param=encoder.layer.2.intermediate.dense.bias]    Loading weights:  47%|¨€¨€¨€¨€¨ƒ     | 48/103 [00:00<00:00, 2218.35it/s, Materializing param=encoder.layer.2.intermediate.dense.bias]Loading weights:  48%|¨€¨€¨€¨€¨‚     | 49/103 [00:00<00:00, 2254.61it/s, Materializing param=encoder.layer.2.intermediate.dense.weight]Loading weights:  48%|¨€¨€¨€¨€¨‚     | 49/103 [00:00<00:00, 2248.44it/s, Materializing param=encoder.layer.2.intermediate.dense.weight]Loading weights:  49%|¨€¨€¨€¨€¨‚     | 50/103 [00:00<00:00, 2284.35it/s, Materializing param=encoder.layer.2.output.LayerNorm.bias]    Loading weights:  49%|¨€¨€¨€¨€¨‚     | 50/103 [00:00<00:00, 2277.88it/s, Materializing param=encoder.layer.2.output.LayerNorm.bias]Loading weights:  50%|¨€¨€¨€¨€¨     | 51/103 [00:00<00:00, 2313.49it/s, Materializing param=encoder.layer.2.output.LayerNorm.weight]Loading weights:  50%|¨€¨€¨€¨€¨     | 51/103 [00:00<00:00, 2307.20it/s, Materializing param=encoder.layer.2.output.LayerNorm.weight]Loading weights:  50%|¨€¨€¨€¨€¨€     | 52/103 [00:00<00:00, 2342.46it/s, Materializing param=encoder.layer.2.output.dense.bias]      Loading weights:  50%|¨€¨€¨€¨€¨€     | 52/103 [00:00<00:00, 2336.13it/s, Materializing param=encoder.layer.2.output.dense.bias]Loading weights:  51%|¨€¨€¨€¨€¨€¨‡    | 53/103 [00:00<00:00, 2371.05it/s, Materializing param=encoder.layer.2.output.dense.weight]Loading weights:  51%|¨€¨€¨€¨€¨€¨‡    | 53/103 [00:00<00:00, 2364.70it/s, Materializing param=encoder.layer.2.output.dense.weight]Loading weights:  52%|¨€¨€¨€¨€¨€¨‡    | 54/103 [00:00<00:00, 2399.28it/s, Materializing param=encoder.layer.3.attention.output.LayerNorm.bias]Loading weights:  52%|¨€¨€¨€¨€¨€¨‡    | 54/103 [00:00<00:00, 2392.82it/s, Materializing param=encoder.layer.3.attention.output.LayerNorm.bias]Loading weights:  53%|¨€¨€¨€¨€¨€¨†    | 55/103 [00:00<00:00, 2426.47it/s, Materializing param=encoder.layer.3.attention.output.LayerNorm.weight]Loading weights:  53%|¨€¨€¨€¨€¨€¨†    | 55/103 [00:00<00:00, 2419.98it/s, Materializing param=encoder.layer.3.attention.output.LayerNorm.weight]Loading weights:  54%|¨€¨€¨€¨€¨€¨…    | 56/103 [00:00<00:00, 2452.60it/s, Materializing param=encoder.layer.3.attention.output.dense.bias]      Loading weights:  54%|¨€¨€¨€¨€¨€¨…    | 56/103 [00:00<00:00, 2446.09it/s, Materializing param=encoder.layer.3.attention.output.dense.bias]Loading weights:  55%|¨€¨€¨€¨€¨€¨„    | 57/103 [00:00<00:00, 2479.34it/s, Materializing param=encoder.layer.3.attention.output.dense.weight]Loading weights:  55%|¨€¨€¨€¨€¨€¨„    | 57/103 [00:00<00:00, 2472.93it/s, Materializing param=encoder.layer.3.attention.output.dense.weight]Loading weights:  56%|¨€¨€¨€¨€¨€¨ƒ    | 58/103 [00:00<00:00, 2506.00it/s, Materializing param=encoder.layer.3.attention.self.key.bias]      Loading weights:  56%|¨€¨€¨€¨€¨€¨ƒ    | 58/103 [00:00<00:00, 2499.53it/s, Materializing param=encoder.layer.3.attention.self.key.bias]Loading weights:  57%|¨€¨€¨€¨€¨€¨ƒ    | 59/103 [00:00<00:00, 2532.20it/s, Materializing param=encoder.layer.3.attention.self.key.weight]Loading weights:  57%|¨€¨€¨€¨€¨€¨ƒ    | 59/103 [00:00<00:00, 2525.68it/s, Materializing param=encoder.layer.3.attention.self.key.weight]Loading weights:  58%|¨€¨€¨€¨€¨€¨‚    | 60/103 [00:00<00:00, 2558.05it/s, Materializing param=encoder.layer.3.attention.self.query.bias]Loading weights:  58%|¨€¨€¨€¨€¨€¨‚    | 60/103 [00:00<00:00, 2551.00it/s, Materializing param=encoder.layer.3.attention.self.query.bias]Loading weights:  59%|¨€¨€¨€¨€¨€¨    | 61/103 [00:00<00:00, 2582.33it/s, Materializing param=encoder.layer.3.attention.self.query.weight]Loading weights:  59%|¨€¨€¨€¨€¨€¨    | 61/103 [00:00<00:00, 2575.71it/s, Materializing param=encoder.layer.3.attention.self.query.weight]Loading weights:  60%|¨€¨€¨€¨€¨€¨€    | 62/103 [00:00<00:00, 2607.30it/s, Materializing param=encoder.layer.3.attention.self.value.bias]  Loading weights:  60%|¨€¨€¨€¨€¨€¨€    | 62/103 [00:00<00:00, 2600.78it/s, Materializing param=encoder.layer.3.attention.self.value.bias]Loading weights:  61%|¨€¨€¨€¨€¨€¨€    | 63/103 [00:00<00:00, 2632.22it/s, Materializing param=encoder.layer.3.attention.self.value.weight]Loading weights:  61%|¨€¨€¨€¨€¨€¨€    | 63/103 [00:00<00:00, 2625.74it/s, Materializing param=encoder.layer.3.attention.self.value.weight]Loading weights:  62%|¨€¨€¨€¨€¨€¨€¨‡   | 64/103 [00:00<00:00, 2656.80it/s, Materializing param=encoder.layer.3.intermediate.dense.bias]    Loading weights:  62%|¨€¨€¨€¨€¨€¨€¨‡   | 64/103 [00:00<00:00, 2650.27it/s, Materializing param=encoder.layer.3.intermediate.dense.bias]Loading weights:  63%|¨€¨€¨€¨€¨€¨€¨†   | 65/103 [00:00<00:00, 2680.28it/s, Materializing param=encoder.layer.3.intermediate.dense.weight]Loading weights:  63%|¨€¨€¨€¨€¨€¨€¨†   | 65/103 [00:00<00:00, 2673.63it/s, Materializing param=encoder.layer.3.intermediate.dense.weight]Loading weights:  64%|¨€¨€¨€¨€¨€¨€¨…   | 66/103 [00:00<00:00, 2704.31it/s, Materializing param=encoder.layer.3.output.LayerNorm.bias]    Loading weights:  64%|¨€¨€¨€¨€¨€¨€¨…   | 66/103 [00:00<00:00, 2697.75it/s, Materializing param=encoder.layer.3.output.LayerNorm.bias]Loading weights:  65%|¨€¨€¨€¨€¨€¨€¨„   | 67/103 [00:00<00:00, 2726.69it/s, Materializing param=encoder.layer.3.output.LayerNorm.weight]Loading weights:  65%|¨€¨€¨€¨€¨€¨€¨„   | 67/103 [00:00<00:00, 2719.73it/s, Materializing param=encoder.layer.3.output.LayerNorm.weight]Loading weights:  66%|¨€¨€¨€¨€¨€¨€¨„   | 68/103 [00:00<00:00, 2749.83it/s, Materializing param=encoder.layer.3.output.dense.bias]      Loading weights:  66%|¨€¨€¨€¨€¨€¨€¨„   | 68/103 [00:00<00:00, 2742.69it/s, Materializing param=encoder.layer.3.output.dense.bias]Loading weights:  67%|¨€¨€¨€¨€¨€¨€¨ƒ   | 69/103 [00:00<00:00, 2772.36it/s, Materializing param=encoder.layer.3.output.dense.weight]Loading weights:  67%|¨€¨€¨€¨€¨€¨€¨ƒ   | 69/103 [00:00<00:00, 2765.82it/s, Materializing param=encoder.layer.3.output.dense.weight]Loading weights:  68%|¨€¨€¨€¨€¨€¨€¨‚   | 70/103 [00:00<00:00, 2795.54it/s, Materializing param=encoder.layer.4.attention.output.LayerNorm.bias]Loading weights:  68%|¨€¨€¨€¨€¨€¨€¨‚   | 70/103 [00:00<00:00, 2788.79it/s, Materializing param=encoder.layer.4.attention.output.LayerNorm.bias]Loading weights:  69%|¨€¨€¨€¨€¨€¨€¨   | 71/103 [00:00<00:00, 2817.69it/s, Materializing param=encoder.layer.4.attention.output.LayerNorm.weight]Loading weights:  69%|¨€¨€¨€¨€¨€¨€¨   | 71/103 [00:00<00:00, 2810.56it/s, Materializing param=encoder.layer.4.attention.output.LayerNorm.weight]Loading weights:  70%|¨€¨€¨€¨€¨€¨€¨   | 72/103 [00:00<00:00, 2839.34it/s, Materializing param=encoder.layer.4.attention.output.dense.bias]      Loading weights:  70%|¨€¨€¨€¨€¨€¨€¨   | 72/103 [00:00<00:00, 2832.61it/s, Materializing param=encoder.layer.4.attention.output.dense.bias]Loading weights:  71%|¨€¨€¨€¨€¨€¨€¨€   | 73/103 [00:00<00:00, 2861.13it/s, Materializing param=encoder.layer.4.attention.output.dense.weight]Loading weights:  71%|¨€¨€¨€¨€¨€¨€¨€   | 73/103 [00:00<00:00, 2854.44it/s, Materializing param=encoder.layer.4.attention.output.dense.weight]Loading weights:  72%|¨€¨€¨€¨€¨€¨€¨€¨‡  | 74/103 [00:00<00:00, 2882.79it/s, Materializing param=encoder.layer.4.attention.self.key.bias]      Loading weights:  72%|¨€¨€¨€¨€¨€¨€¨€¨‡  | 74/103 [00:00<00:00, 2876.09it/s, Materializing param=encoder.layer.4.attention.self.key.bias]Loading weights:  73%|¨€¨€¨€¨€¨€¨€¨€¨†  | 75/103 [00:00<00:00, 2903.60it/s, Materializing param=encoder.layer.4.attention.self.key.weight]Loading weights:  73%|¨€¨€¨€¨€¨€¨€¨€¨†  | 75/103 [00:00<00:00, 2896.67it/s, Materializing param=encoder.layer.4.attention.self.key.weight]Loading weights:  74%|¨€¨€¨€¨€¨€¨€¨€¨…  | 76/103 [00:00<00:00, 2924.42it/s, Materializing param=encoder.layer.4.attention.self.query.bias]Loading weights:  74%|¨€¨€¨€¨€¨€¨€¨€¨…  | 76/103 [00:00<00:00, 2917.83it/s, Materializing param=encoder.layer.4.attention.self.query.bias]Loading weights:  75%|¨€¨€¨€¨€¨€¨€¨€¨…  | 77/103 [00:00<00:00, 2945.49it/s, Materializing param=encoder.layer.4.attention.self.query.weight]Loading weights:  75%|¨€¨€¨€¨€¨€¨€¨€¨…  | 77/103 [00:00<00:00, 2938.79it/s, Materializing param=encoder.layer.4.attention.self.query.weight]Loading weights:  76%|¨€¨€¨€¨€¨€¨€¨€¨„  | 78/103 [00:00<00:00, 2966.24it/s, Materializing param=encoder.layer.4.attention.self.value.bias]  Loading weights:  76%|¨€¨€¨€¨€¨€¨€¨€¨„  | 78/103 [00:00<00:00, 2958.94it/s, Materializing param=encoder.layer.4.attention.self.value.bias]Loading weights:  77%|¨€¨€¨€¨€¨€¨€¨€¨ƒ  | 79/103 [00:00<00:00, 2985.89it/s, Materializing param=encoder.layer.4.attention.self.value.weight]Loading weights:  77%|¨€¨€¨€¨€¨€¨€¨€¨ƒ  | 79/103 [00:00<00:00, 2978.94it/s, Materializing param=encoder.layer.4.attention.self.value.weight]Loading weights:  78%|¨€¨€¨€¨€¨€¨€¨€¨‚  | 80/103 [00:00<00:00, 3005.70it/s, Materializing param=encoder.layer.4.intermediate.dense.bias]    Loading weights:  78%|¨€¨€¨€¨€¨€¨€¨€¨‚  | 80/103 [00:00<00:00, 2998.88it/s, Materializing param=encoder.layer.4.intermediate.dense.bias]Loading weights:  79%|¨€¨€¨€¨€¨€¨€¨€¨‚  | 81/103 [00:00<00:00, 3025.55it/s, Materializing param=encoder.layer.4.intermediate.dense.weight]Loading weights:  79%|¨€¨€¨€¨€¨€¨€¨€¨‚  | 81/103 [00:00<00:00, 3018.18it/s, Materializing param=encoder.layer.4.intermediate.dense.weight]Loading weights:  80%|¨€¨€¨€¨€¨€¨€¨€¨  | 82/103 [00:00<00:00, 3044.60it/s, Materializing param=encoder.layer.4.output.LayerNorm.bias]    Loading weights:  80%|¨€¨€¨€¨€¨€¨€¨€¨  | 82/103 [00:00<00:00, 3037.79it/s, Materializing param=encoder.layer.4.output.LayerNorm.bias]Loading weights:  81%|¨€¨€¨€¨€¨€¨€¨€¨€  | 83/103 [00:00<00:00, 3064.18it/s, Materializing param=encoder.layer.4.output.LayerNorm.weight]Loading weights:  81%|¨€¨€¨€¨€¨€¨€¨€¨€  | 83/103 [00:00<00:00, 3057.45it/s, Materializing param=encoder.layer.4.output.LayerNorm.weight]Loading weights:  82%|¨€¨€¨€¨€¨€¨€¨€¨€¨‡ | 84/103 [00:00<00:00, 3083.67it/s, Materializing param=encoder.layer.4.output.dense.bias]      Loading weights:  82%|¨€¨€¨€¨€¨€¨€¨€¨€¨‡ | 84/103 [00:00<00:00, 3076.91it/s, Materializing param=encoder.layer.4.output.dense.bias]Loading weights:  83%|¨€¨€¨€¨€¨€¨€¨€¨€¨† | 85/103 [00:00<00:00, 3102.94it/s, Materializing param=encoder.layer.4.output.dense.weight]Loading weights:  83%|¨€¨€¨€¨€¨€¨€¨€¨€¨† | 85/103 [00:00<00:00, 3096.15it/s, Materializing param=encoder.layer.4.output.dense.weight]Loading weights:  83%|¨€¨€¨€¨€¨€¨€¨€¨€¨† | 86/103 [00:00<00:00, 3121.95it/s, Materializing param=encoder.layer.5.attention.output.LayerNorm.bias]Loading weights:  83%|¨€¨€¨€¨€¨€¨€¨€¨€¨† | 86/103 [00:00<00:00, 3115.08it/s, Materializing param=encoder.layer.5.attention.output.LayerNorm.bias]Loading weights:  84%|¨€¨€¨€¨€¨€¨€¨€¨€¨… | 87/103 [00:00<00:00, 3140.02it/s, Materializing param=encoder.layer.5.attention.output.LayerNorm.weight]Loading weights:  84%|¨€¨€¨€¨€¨€¨€¨€¨€¨… | 87/103 [00:00<00:00, 3133.14it/s, Materializing param=encoder.layer.5.attention.output.LayerNorm.weight]Loading weights:  85%|¨€¨€¨€¨€¨€¨€¨€¨€¨„ | 88/103 [00:00<00:00, 3157.93it/s, Materializing param=encoder.layer.5.attention.output.dense.bias]      Loading weights:  85%|¨€¨€¨€¨€¨€¨€¨€¨€¨„ | 88/103 [00:00<00:00, 3151.16it/s, Materializing param=encoder.layer.5.attention.output.dense.bias]Loading weights:  86%|¨€¨€¨€¨€¨€¨€¨€¨€¨ƒ | 89/103 [00:00<00:00, 3176.21it/s, Materializing param=encoder.layer.5.attention.output.dense.weight]Loading weights:  86%|¨€¨€¨€¨€¨€¨€¨€¨€¨ƒ | 89/103 [00:00<00:00, 3169.41it/s, Materializing param=encoder.layer.5.attention.output.dense.weight]Loading weights:  87%|¨€¨€¨€¨€¨€¨€¨€¨€¨ƒ | 90/103 [00:00<00:00, 3193.69it/s, Materializing param=encoder.layer.5.attention.self.key.bias]      Loading weights:  87%|¨€¨€¨€¨€¨€¨€¨€¨€¨ƒ | 90/103 [00:00<00:00, 3186.73it/s, Materializing param=encoder.layer.5.attention.self.key.bias]Loading weights:  88%|¨€¨€¨€¨€¨€¨€¨€¨€¨‚ | 91/103 [00:00<00:00, 3211.00it/s, Materializing param=encoder.layer.5.attention.self.key.weight]Loading weights:  88%|¨€¨€¨€¨€¨€¨€¨€¨€¨‚ | 91/103 [00:00<00:00, 3204.20it/s, Materializing param=encoder.layer.5.attention.self.key.weight]Loading weights:  89%|¨€¨€¨€¨€¨€¨€¨€¨€¨ | 92/103 [00:00<00:00, 3228.55it/s, Materializing param=encoder.layer.5.attention.self.query.bias]Loading weights:  89%|¨€¨€¨€¨€¨€¨€¨€¨€¨ | 92/103 [00:00<00:00, 3221.81it/s, Materializing param=encoder.layer.5.attention.self.query.bias]Loading weights:  90%|¨€¨€¨€¨€¨€¨€¨€¨€¨€ | 93/103 [00:00<00:00, 3246.07it/s, Materializing param=encoder.layer.5.attention.self.query.weight]Loading weights:  90%|¨€¨€¨€¨€¨€¨€¨€¨€¨€ | 93/103 [00:00<00:00, 3239.30it/s, Materializing param=encoder.layer.5.attention.self.query.weight]Loading weights:  91%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‡| 94/103 [00:00<00:00, 3262.70it/s, Materializing param=encoder.layer.5.attention.self.value.bias]  Loading weights:  91%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‡| 94/103 [00:00<00:00, 3255.94it/s, Materializing param=encoder.layer.5.attention.self.value.bias]Loading weights:  92%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‡| 95/103 [00:00<00:00, 3279.71it/s, Materializing param=encoder.layer.5.attention.self.value.weight]Loading weights:  92%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‡| 95/103 [00:00<00:00, 3273.00it/s, Materializing param=encoder.layer.5.attention.self.value.weight]Loading weights:  93%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨†| 96/103 [00:00<00:00, 3296.71it/s, Materializing param=encoder.layer.5.intermediate.dense.bias]    Loading weights:  93%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨†| 96/103 [00:00<00:00, 3290.05it/s, Materializing param=encoder.layer.5.intermediate.dense.bias]Loading weights:  94%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨…| 97/103 [00:00<00:00, 3313.58it/s, Materializing param=encoder.layer.5.intermediate.dense.weight]Loading weights:  94%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨…| 97/103 [00:00<00:00, 3306.95it/s, Materializing param=encoder.layer.5.intermediate.dense.weight]Loading weights:  95%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨„| 98/103 [00:00<00:00, 3330.48it/s, Materializing param=encoder.layer.5.output.LayerNorm.bias]    Loading weights:  95%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨„| 98/103 [00:00<00:00, 3323.83it/s, Materializing param=encoder.layer.5.output.LayerNorm.bias]Loading weights:  96%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨„| 99/103 [00:00<00:00, 3346.87it/s, Materializing param=encoder.layer.5.output.LayerNorm.weight]Loading weights:  96%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨„| 99/103 [00:00<00:00, 3340.11it/s, Materializing param=encoder.layer.5.output.LayerNorm.weight]Loading weights:  97%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨ƒ| 100/103 [00:00<00:00, 3363.19it/s, Materializing param=encoder.layer.5.output.dense.bias]     Loading weights:  97%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨ƒ| 100/103 [00:00<00:00, 3356.52it/s, Materializing param=encoder.layer.5.output.dense.bias]Loading weights:  98%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‚| 101/103 [00:00<00:00, 3379.67it/s, Materializing param=encoder.layer.5.output.dense.weight]Loading weights:  98%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‚| 101/103 [00:00<00:00, 3373.05it/s, Materializing param=encoder.layer.5.output.dense.weight]Loading weights:  99%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨| 102/103 [00:00<00:00, 3395.93it/s, Materializing param=pooler.dense.bias]                  Loading weights:  99%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨| 102/103 [00:00<00:00, 3389.42it/s, Materializing param=pooler.dense.bias]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 103/103 [00:00<00:00, 3412.40it/s, Materializing param=pooler.dense.weight]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 103/103 [00:00<00:00, 3405.62it/s, Materializing param=pooler.dense.weight]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 103/103 [00:00<00:00, 3393.69it/s, Materializing param=pooler.dense.weight]
+[1mBertModel LOAD REPORT[0m from: models\cache\models--sentence-transformers--all-MiniLM-L6-v2\snapshots\c9745ed1d9f207416be6d2e6f8de32d1f16199bf
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+Embedding model loaded successfully from local path
+Loading embedding model from local path: ./models/cache/models--sentence-transformers--all-MiniLM-L6-v2/snapshots/c9745ed1d9f207416be6d2e6f8de32d1f16199bf
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights:   1%|          | 1/103 [00:00<00:00, 35848.75it/s, Materializing param=embeddings.LayerNorm.bias]Loading weights:   1%|          | 1/103 [00:00<00:00, 3477.86it/s, Materializing param=embeddings.LayerNorm.bias] Loading weights:   2%|¨‡         | 2/103 [00:00<00:00, 4156.89it/s, Materializing param=embeddings.LayerNorm.weight]Loading weights:   2%|¨‡         | 2/103 [00:00<00:00, 3552.99it/s, Materializing param=embeddings.LayerNorm.weight]Loading weights:   3%|¨†         | 3/103 [00:00<00:00, 3865.72it/s, Materializing param=embeddings.position_embeddings.weight]Loading weights:   3%|¨†         | 3/103 [00:00<00:00, 1702.00it/s, Materializing param=embeddings.position_embeddings.weight]Loading weights:   4%|¨…         | 4/103 [00:00<00:00, 2001.58it/s, Materializing param=embeddings.token_type_embeddings.weight]Loading weights:   4%|¨…         | 4/103 [00:00<00:00, 1857.32it/s, Materializing param=embeddings.token_type_embeddings.weight]Loading weights:   5%|¨…         | 5/103 [00:00<00:00, 1897.70it/s, Materializing param=embeddings.word_embeddings.weight]      Loading weights:   5%|¨…         | 5/103 [00:00<00:00, 1689.75it/s, Materializing param=embeddings.word_embeddings.weight]Loading weights:   6%|¨„         | 6/103 [00:00<00:00, 1742.54it/s, Materializing param=encoder.layer.0.attention.output.LayerNorm.bias]Loading weights:   6%|¨„         | 6/103 [00:00<00:00, 1537.60it/s, Materializing param=encoder.layer.0.attention.output.LayerNorm.bias]Loading weights:   7%|¨ƒ         | 7/103 [00:00<00:00, 1686.01it/s, Materializing param=encoder.layer.0.attention.output.LayerNorm.weight]Loading weights:   7%|¨ƒ         | 7/103 [00:00<00:00, 1630.85it/s, Materializing param=encoder.layer.0.attention.output.LayerNorm.weight]Loading weights:   8%|¨‚         | 8/103 [00:00<00:00, 1753.47it/s, Materializing param=encoder.layer.0.attention.output.dense.bias]      Loading weights:   8%|¨‚         | 8/103 [00:00<00:00, 1686.24it/s, Materializing param=encoder.layer.0.attention.output.dense.bias]Loading weights:   9%|¨‚         | 9/103 [00:00<00:00, 1816.50it/s, Materializing param=encoder.layer.0.attention.output.dense.weight]Loading weights:   9%|¨‚         | 9/103 [00:00<00:00, 1764.45it/s, Materializing param=encoder.layer.0.attention.output.dense.weight]Loading weights:  10%|¨         | 10/103 [00:00<00:00, 1790.30it/s, Materializing param=encoder.layer.0.attention.self.key.bias]     Loading weights:  10%|¨         | 10/103 [00:00<00:00, 1760.76it/s, Materializing param=encoder.layer.0.attention.self.key.bias]Loading weights:  11%|¨€         | 11/103 [00:00<00:00, 1865.04it/s, Materializing param=encoder.layer.0.attention.self.key.weight]Loading weights:  11%|¨€         | 11/103 [00:00<00:00, 1820.59it/s, Materializing param=encoder.layer.0.attention.self.key.weight]Loading weights:  12%|¨€¨‡        | 12/103 [00:00<00:00, 1837.79it/s, Materializing param=encoder.layer.0.attention.self.query.bias]Loading weights:  12%|¨€¨‡        | 12/103 [00:00<00:00, 1796.60it/s, Materializing param=encoder.layer.0.attention.self.query.bias]Loading weights:  13%|¨€¨†        | 13/103 [00:00<00:00, 1872.91it/s, Materializing param=encoder.layer.0.attention.self.query.weight]Loading weights:  13%|¨€¨†        | 13/103 [00:00<00:00, 1836.76it/s, Materializing param=encoder.layer.0.attention.self.query.weight]Loading weights:  14%|¨€¨†        | 14/103 [00:00<00:00, 1918.84it/s, Materializing param=encoder.layer.0.attention.self.value.bias]  Loading weights:  14%|¨€¨†        | 14/103 [00:00<00:00, 1843.94it/s, Materializing param=encoder.layer.0.attention.self.value.bias]Loading weights:  15%|¨€¨…        | 15/103 [00:00<00:00, 1931.61it/s, Materializing param=encoder.layer.0.attention.self.value.weight]Loading weights:  15%|¨€¨…        | 15/103 [00:00<00:00, 1897.70it/s, Materializing param=encoder.layer.0.attention.self.value.weight]Loading weights:  16%|¨€¨„        | 16/103 [00:00<00:00, 1929.52it/s, Materializing param=encoder.layer.0.intermediate.dense.bias]    Loading weights:  16%|¨€¨„        | 16/103 [00:00<00:00, 1897.28it/s, Materializing param=encoder.layer.0.intermediate.dense.bias]Loading weights:  17%|¨€¨ƒ        | 17/103 [00:00<00:00, 1965.90it/s, Materializing param=encoder.layer.0.intermediate.dense.weight]Loading weights:  17%|¨€¨ƒ        | 17/103 [00:00<00:00, 1947.80it/s, Materializing param=encoder.layer.0.intermediate.dense.weight]Loading weights:  17%|¨€¨ƒ        | 18/103 [00:00<00:00, 2030.92it/s, Materializing param=encoder.layer.0.output.LayerNorm.bias]    Loading weights:  17%|¨€¨ƒ        | 18/103 [00:00<00:00, 2000.09it/s, Materializing param=encoder.layer.0.output.LayerNorm.bias]Loading weights:  18%|¨€¨‚        | 19/103 [00:00<00:00, 2061.78it/s, Materializing param=encoder.layer.0.output.LayerNorm.weight]Loading weights:  18%|¨€¨‚        | 19/103 [00:00<00:00, 2039.25it/s, Materializing param=encoder.layer.0.output.LayerNorm.weight]Loading weights:  19%|¨€¨        | 20/103 [00:00<00:00, 2098.57it/s, Materializing param=encoder.layer.0.output.dense.bias]      Loading weights:  19%|¨€¨        | 20/103 [00:00<00:00, 2081.08it/s, Materializing param=encoder.layer.0.output.dense.bias]Loading weights:  20%|¨€¨€        | 21/103 [00:00<00:00, 2116.60it/s, Materializing param=encoder.layer.0.output.dense.weight]Loading weights:  20%|¨€¨€        | 21/103 [00:00<00:00, 2077.51it/s, Materializing param=encoder.layer.0.output.dense.weight]Loading weights:  21%|¨€¨€¨‡       | 22/103 [00:00<00:00, 2077.51it/s, Materializing param=encoder.layer.1.attention.output.LayerNorm.bias]Loading weights:  21%|¨€¨€¨‡       | 22/103 [00:00<00:00, 2019.71it/s, Materializing param=encoder.layer.1.attention.output.LayerNorm.bias]Loading weights:  22%|¨€¨€¨‡       | 23/103 [00:00<00:00, 2006.68it/s, Materializing param=encoder.layer.1.attention.output.LayerNorm.weight]Loading weights:  22%|¨€¨€¨‡       | 23/103 [00:00<00:00, 1992.09it/s, Materializing param=encoder.layer.1.attention.output.LayerNorm.weight]Loading weights:  23%|¨€¨€¨†       | 24/103 [00:00<00:00, 2023.26it/s, Materializing param=encoder.layer.1.attention.output.dense.bias]      Loading weights:  23%|¨€¨€¨†       | 24/103 [00:00<00:00, 1998.24it/s, Materializing param=encoder.layer.1.attention.output.dense.bias]Loading weights:  24%|¨€¨€¨…       | 25/103 [00:00<00:00, 2034.61it/s, Materializing param=encoder.layer.1.attention.output.dense.weight]Loading weights:  24%|¨€¨€¨…       | 25/103 [00:00<00:00, 2010.19it/s, Materializing param=encoder.layer.1.attention.output.dense.weight]Loading weights:  25%|¨€¨€¨„       | 26/103 [00:00<00:00, 2041.21it/s, Materializing param=encoder.layer.1.attention.self.key.bias]      Loading weights:  25%|¨€¨€¨„       | 26/103 [00:00<00:00, 2027.97it/s, Materializing param=encoder.layer.1.attention.self.key.bias]Loading weights:  26%|¨€¨€¨„       | 27/103 [00:00<00:00, 2031.25it/s, Materializing param=encoder.layer.1.attention.self.key.weight]Loading weights:  26%|¨€¨€¨„       | 27/103 [00:00<00:00, 2017.32it/s, Materializing param=encoder.layer.1.attention.self.key.weight]Loading weights:  27%|¨€¨€¨ƒ       | 28/103 [00:00<00:00, 2014.83it/s, Materializing param=encoder.layer.1.attention.self.query.bias]Loading weights:  27%|¨€¨€¨ƒ       | 28/103 [00:00<00:00, 1982.15it/s, Materializing param=encoder.layer.1.attention.self.query.bias]Loading weights:  28%|¨€¨€¨‚       | 29/103 [00:00<00:00, 2029.58it/s, Materializing param=encoder.layer.1.attention.self.query.weight]Loading weights:  28%|¨€¨€¨‚       | 29/103 [00:00<00:00, 2005.82it/s, Materializing param=encoder.layer.1.attention.self.query.weight]Loading weights:  29%|¨€¨€¨       | 30/103 [00:00<00:00, 2008.13it/s, Materializing param=encoder.layer.1.attention.self.value.bias]  Loading weights:  29%|¨€¨€¨       | 30/103 [00:00<00:00, 1992.95it/s, Materializing param=encoder.layer.1.attention.self.value.bias]Loading weights:  30%|¨€¨€¨€       | 31/103 [00:00<00:00, 2036.90it/s, Materializing param=encoder.layer.1.attention.self.value.weight]Loading weights:  30%|¨€¨€¨€       | 31/103 [00:00<00:00, 2026.08it/s, Materializing param=encoder.layer.1.attention.self.value.weight]Loading weights:  31%|¨€¨€¨€       | 32/103 [00:00<00:00, 2075.20it/s, Materializing param=encoder.layer.1.intermediate.dense.bias]    Loading weights:  31%|¨€¨€¨€       | 32/103 [00:00<00:00, 2066.64it/s, Materializing param=encoder.layer.1.intermediate.dense.bias]Loading weights:  32%|¨€¨€¨€¨‡      | 33/103 [00:00<00:00, 2117.88it/s, Materializing param=encoder.layer.1.intermediate.dense.weight]Loading weights:  32%|¨€¨€¨€¨‡      | 33/103 [00:00<00:00, 2109.75it/s, Materializing param=encoder.layer.1.intermediate.dense.weight]Loading weights:  33%|¨€¨€¨€¨†      | 34/103 [00:00<00:00, 2160.87it/s, Materializing param=encoder.layer.1.output.LayerNorm.bias]    Loading weights:  33%|¨€¨€¨€¨†      | 34/103 [00:00<00:00, 2152.78it/s, Materializing param=encoder.layer.1.output.LayerNorm.bias]Loading weights:  34%|¨€¨€¨€¨…      | 35/103 [00:00<00:00, 2202.82it/s, Materializing param=encoder.layer.1.output.LayerNorm.weight]Loading weights:  34%|¨€¨€¨€¨…      | 35/103 [00:00<00:00, 2194.62it/s, Materializing param=encoder.layer.1.output.LayerNorm.weight]Loading weights:  35%|¨€¨€¨€¨…      | 36/103 [00:00<00:00, 2244.24it/s, Materializing param=encoder.layer.1.output.dense.bias]      Loading weights:  35%|¨€¨€¨€¨…      | 36/103 [00:00<00:00, 2235.97it/s, Materializing param=encoder.layer.1.output.dense.bias]Loading weights:  36%|¨€¨€¨€¨„      | 37/103 [00:00<00:00, 2284.92it/s, Materializing param=encoder.layer.1.output.dense.weight]Loading weights:  36%|¨€¨€¨€¨„      | 37/103 [00:00<00:00, 2276.67it/s, Materializing param=encoder.layer.1.output.dense.weight]Loading weights:  37%|¨€¨€¨€¨ƒ      | 38/103 [00:00<00:00, 2317.03it/s, Materializing param=encoder.layer.2.attention.output.LayerNorm.bias]Loading weights:  37%|¨€¨€¨€¨ƒ      | 38/103 [00:00<00:00, 2304.73it/s, Materializing param=encoder.layer.2.attention.output.LayerNorm.bias]Loading weights:  38%|¨€¨€¨€¨‚      | 39/103 [00:00<00:00, 2349.35it/s, Materializing param=encoder.layer.2.attention.output.LayerNorm.weight]Loading weights:  38%|¨€¨€¨€¨‚      | 39/103 [00:00<00:00, 2340.64it/s, Materializing param=encoder.layer.2.attention.output.LayerNorm.weight]Loading weights:  39%|¨€¨€¨€¨      | 40/103 [00:00<00:00, 2386.72it/s, Materializing param=encoder.layer.2.attention.output.dense.bias]      Loading weights:  39%|¨€¨€¨€¨      | 40/103 [00:00<00:00, 2378.23it/s, Materializing param=encoder.layer.2.attention.output.dense.bias]Loading weights:  40%|¨€¨€¨€¨      | 41/103 [00:00<00:00, 2422.71it/s, Materializing param=encoder.layer.2.attention.output.dense.weight]Loading weights:  40%|¨€¨€¨€¨      | 41/103 [00:00<00:00, 2414.04it/s, Materializing param=encoder.layer.2.attention.output.dense.weight]Loading weights:  41%|¨€¨€¨€¨€      | 42/103 [00:00<00:00, 2459.28it/s, Materializing param=encoder.layer.2.attention.self.key.bias]      Loading weights:  41%|¨€¨€¨€¨€      | 42/103 [00:00<00:00, 2450.69it/s, Materializing param=encoder.layer.2.attention.self.key.bias]Loading weights:  42%|¨€¨€¨€¨€¨‡     | 43/103 [00:00<00:00, 2495.19it/s, Materializing param=encoder.layer.2.attention.self.key.weight]Loading weights:  42%|¨€¨€¨€¨€¨‡     | 43/103 [00:00<00:00, 2486.59it/s, Materializing param=encoder.layer.2.attention.self.key.weight]Loading weights:  43%|¨€¨€¨€¨€¨†     | 44/103 [00:00<00:00, 2530.64it/s, Materializing param=encoder.layer.2.attention.self.query.bias]Loading weights:  43%|¨€¨€¨€¨€¨†     | 44/103 [00:00<00:00, 2520.68it/s, Materializing param=encoder.layer.2.attention.self.query.bias]Loading weights:  44%|¨€¨€¨€¨€¨†     | 45/103 [00:00<00:00, 2563.41it/s, Materializing param=encoder.layer.2.attention.self.query.weight]Loading weights:  44%|¨€¨€¨€¨€¨†     | 45/103 [00:00<00:00, 2554.73it/s, Materializing param=encoder.layer.2.attention.self.query.weight]Loading weights:  45%|¨€¨€¨€¨€¨…     | 46/103 [00:00<00:00, 2597.48it/s, Materializing param=encoder.layer.2.attention.self.value.bias]  Loading weights:  45%|¨€¨€¨€¨€¨…     | 46/103 [00:00<00:00, 2587.65it/s, Materializing param=encoder.layer.2.attention.self.value.bias]Loading weights:  46%|¨€¨€¨€¨€¨„     | 47/103 [00:00<00:00, 2629.80it/s, Materializing param=encoder.layer.2.attention.self.value.weight]Loading weights:  46%|¨€¨€¨€¨€¨„     | 47/103 [00:00<00:00, 2621.02it/s, Materializing param=encoder.layer.2.attention.self.value.weight]Loading weights:  47%|¨€¨€¨€¨€¨ƒ     | 48/103 [00:00<00:00, 2662.59it/s, Materializing param=encoder.layer.2.intermediate.dense.bias]    Loading weights:  47%|¨€¨€¨€¨€¨ƒ     | 48/103 [00:00<00:00, 2653.78it/s, Materializing param=encoder.layer.2.intermediate.dense.bias]Loading weights:  48%|¨€¨€¨€¨€¨‚     | 49/103 [00:00<00:00, 2694.86it/s, Materializing param=encoder.layer.2.intermediate.dense.weight]Loading weights:  48%|¨€¨€¨€¨€¨‚     | 49/103 [00:00<00:00, 2685.99it/s, Materializing param=encoder.layer.2.intermediate.dense.weight]Loading weights:  49%|¨€¨€¨€¨€¨‚     | 50/103 [00:00<00:00, 2726.58it/s, Materializing param=encoder.layer.2.output.LayerNorm.bias]    Loading weights:  49%|¨€¨€¨€¨€¨‚     | 50/103 [00:00<00:00, 2717.72it/s, Materializing param=encoder.layer.2.output.LayerNorm.bias]Loading weights:  50%|¨€¨€¨€¨€¨     | 51/103 [00:00<00:00, 2757.95it/s, Materializing param=encoder.layer.2.output.LayerNorm.weight]Loading weights:  50%|¨€¨€¨€¨€¨     | 51/103 [00:00<00:00, 2749.02it/s, Materializing param=encoder.layer.2.output.LayerNorm.weight]Loading weights:  50%|¨€¨€¨€¨€¨€     | 52/103 [00:00<00:00, 2788.87it/s, Materializing param=encoder.layer.2.output.dense.bias]      Loading weights:  50%|¨€¨€¨€¨€¨€     | 52/103 [00:00<00:00, 2779.99it/s, Materializing param=encoder.layer.2.output.dense.bias]Loading weights:  51%|¨€¨€¨€¨€¨€¨‡    | 53/103 [00:00<00:00, 2819.00it/s, Materializing param=encoder.layer.2.output.dense.weight]Loading weights:  51%|¨€¨€¨€¨€¨€¨‡    | 53/103 [00:00<00:00, 2810.06it/s, Materializing param=encoder.layer.2.output.dense.weight]Loading weights:  52%|¨€¨€¨€¨€¨€¨‡    | 54/103 [00:00<00:00, 2847.99it/s, Materializing param=encoder.layer.3.attention.output.LayerNorm.bias]Loading weights:  52%|¨€¨€¨€¨€¨€¨‡    | 54/103 [00:00<00:00, 2838.78it/s, Materializing param=encoder.layer.3.attention.output.LayerNorm.bias]Loading weights:  53%|¨€¨€¨€¨€¨€¨†    | 55/103 [00:00<00:00, 2876.36it/s, Materializing param=encoder.layer.3.attention.output.LayerNorm.weight]Loading weights:  53%|¨€¨€¨€¨€¨€¨†    | 55/103 [00:00<00:00, 2867.17it/s, Materializing param=encoder.layer.3.attention.output.LayerNorm.weight]Loading weights:  54%|¨€¨€¨€¨€¨€¨…    | 56/103 [00:00<00:00, 2904.46it/s, Materializing param=encoder.layer.3.attention.output.dense.bias]      Loading weights:  54%|¨€¨€¨€¨€¨€¨…    | 56/103 [00:00<00:00, 2895.51it/s, Materializing param=encoder.layer.3.attention.output.dense.bias]Loading weights:  55%|¨€¨€¨€¨€¨€¨„    | 57/103 [00:00<00:00, 2932.43it/s, Materializing param=encoder.layer.3.attention.output.dense.weight]Loading weights:  55%|¨€¨€¨€¨€¨€¨„    | 57/103 [00:00<00:00, 2923.47it/s, Materializing param=encoder.layer.3.attention.output.dense.weight]Loading weights:  56%|¨€¨€¨€¨€¨€¨ƒ    | 58/103 [00:00<00:00, 2960.35it/s, Materializing param=encoder.layer.3.attention.self.key.bias]      Loading weights:  56%|¨€¨€¨€¨€¨€¨ƒ    | 58/103 [00:00<00:00, 2951.33it/s, Materializing param=encoder.layer.3.attention.self.key.bias]Loading weights:  57%|¨€¨€¨€¨€¨€¨ƒ    | 59/103 [00:00<00:00, 2987.76it/s, Materializing param=encoder.layer.3.attention.self.key.weight]Loading weights:  57%|¨€¨€¨€¨€¨€¨ƒ    | 59/103 [00:00<00:00, 2977.91it/s, Materializing param=encoder.layer.3.attention.self.key.weight]Loading weights:  58%|¨€¨€¨€¨€¨€¨‚    | 60/103 [00:00<00:00, 3013.26it/s, Materializing param=encoder.layer.3.attention.self.query.bias]Loading weights:  58%|¨€¨€¨€¨€¨€¨‚    | 60/103 [00:00<00:00, 3004.23it/s, Materializing param=encoder.layer.3.attention.self.query.bias]Loading weights:  59%|¨€¨€¨€¨€¨€¨    | 61/103 [00:00<00:00, 3039.93it/s, Materializing param=encoder.layer.3.attention.self.query.weight]Loading weights:  59%|¨€¨€¨€¨€¨€¨    | 61/103 [00:00<00:00, 3030.93it/s, Materializing param=encoder.layer.3.attention.self.query.weight]Loading weights:  60%|¨€¨€¨€¨€¨€¨€    | 62/103 [00:00<00:00, 3066.34it/s, Materializing param=encoder.layer.3.attention.self.value.bias]  Loading weights:  60%|¨€¨€¨€¨€¨€¨€    | 62/103 [00:00<00:00, 3057.18it/s, Materializing param=encoder.layer.3.attention.self.value.bias]Loading weights:  61%|¨€¨€¨€¨€¨€¨€    | 63/103 [00:00<00:00, 3092.02it/s, Materializing param=encoder.layer.3.attention.self.value.weight]Loading weights:  61%|¨€¨€¨€¨€¨€¨€    | 63/103 [00:00<00:00, 3082.97it/s, Materializing param=encoder.layer.3.attention.self.value.weight]Loading weights:  62%|¨€¨€¨€¨€¨€¨€¨‡   | 64/103 [00:00<00:00, 3117.68it/s, Materializing param=encoder.layer.3.intermediate.dense.bias]    Loading weights:  62%|¨€¨€¨€¨€¨€¨€¨‡   | 64/103 [00:00<00:00, 3108.73it/s, Materializing param=encoder.layer.3.intermediate.dense.bias]Loading weights:  63%|¨€¨€¨€¨€¨€¨€¨†   | 65/103 [00:00<00:00, 3143.25it/s, Materializing param=encoder.layer.3.intermediate.dense.weight]Loading weights:  63%|¨€¨€¨€¨€¨€¨€¨†   | 65/103 [00:00<00:00, 3134.32it/s, Materializing param=encoder.layer.3.intermediate.dense.weight]Loading weights:  64%|¨€¨€¨€¨€¨€¨€¨…   | 66/103 [00:00<00:00, 3168.27it/s, Materializing param=encoder.layer.3.output.LayerNorm.bias]    Loading weights:  64%|¨€¨€¨€¨€¨€¨€¨…   | 66/103 [00:00<00:00, 3158.51it/s, Materializing param=encoder.layer.3.output.LayerNorm.bias]Loading weights:  65%|¨€¨€¨€¨€¨€¨€¨„   | 67/103 [00:00<00:00, 3191.65it/s, Materializing param=encoder.layer.3.output.LayerNorm.weight]Loading weights:  65%|¨€¨€¨€¨€¨€¨€¨„   | 67/103 [00:00<00:00, 3182.61it/s, Materializing param=encoder.layer.3.output.LayerNorm.weight]Loading weights:  66%|¨€¨€¨€¨€¨€¨€¨„   | 68/103 [00:00<00:00, 3215.91it/s, Materializing param=encoder.layer.3.output.dense.bias]      Loading weights:  66%|¨€¨€¨€¨€¨€¨€¨„   | 68/103 [00:00<00:00, 3206.47it/s, Materializing param=encoder.layer.3.output.dense.bias]Loading weights:  67%|¨€¨€¨€¨€¨€¨€¨ƒ   | 69/103 [00:00<00:00, 3239.13it/s, Materializing param=encoder.layer.3.output.dense.weight]Loading weights:  67%|¨€¨€¨€¨€¨€¨€¨ƒ   | 69/103 [00:00<00:00, 3230.24it/s, Materializing param=encoder.layer.3.output.dense.weight]Loading weights:  68%|¨€¨€¨€¨€¨€¨€¨‚   | 70/103 [00:00<00:00, 3262.85it/s, Materializing param=encoder.layer.4.attention.output.LayerNorm.bias]Loading weights:  68%|¨€¨€¨€¨€¨€¨€¨‚   | 70/103 [00:00<00:00, 3253.67it/s, Materializing param=encoder.layer.4.attention.output.LayerNorm.bias]Loading weights:  69%|¨€¨€¨€¨€¨€¨€¨   | 71/103 [00:00<00:00, 3285.30it/s, Materializing param=encoder.layer.4.attention.output.LayerNorm.weight]Loading weights:  69%|¨€¨€¨€¨€¨€¨€¨   | 71/103 [00:00<00:00, 3276.04it/s, Materializing param=encoder.layer.4.attention.output.LayerNorm.weight]Loading weights:  70%|¨€¨€¨€¨€¨€¨€¨   | 72/103 [00:00<00:00, 3307.70it/s, Materializing param=encoder.layer.4.attention.output.dense.bias]      Loading weights:  70%|¨€¨€¨€¨€¨€¨€¨   | 72/103 [00:00<00:00, 3298.56it/s, Materializing param=encoder.layer.4.attention.output.dense.bias]Loading weights:  71%|¨€¨€¨€¨€¨€¨€¨€   | 73/103 [00:00<00:00, 3329.54it/s, Materializing param=encoder.layer.4.attention.output.dense.weight]Loading weights:  71%|¨€¨€¨€¨€¨€¨€¨€   | 73/103 [00:00<00:00, 3320.55it/s, Materializing param=encoder.layer.4.attention.output.dense.weight]Loading weights:  72%|¨€¨€¨€¨€¨€¨€¨€¨‡  | 74/103 [00:00<00:00, 3351.75it/s, Materializing param=encoder.layer.4.attention.self.key.bias]      Loading weights:  72%|¨€¨€¨€¨€¨€¨€¨€¨‡  | 74/103 [00:00<00:00, 3342.15it/s, Materializing param=encoder.layer.4.attention.self.key.bias]Loading weights:  73%|¨€¨€¨€¨€¨€¨€¨€¨†  | 75/103 [00:00<00:00, 3372.68it/s, Materializing param=encoder.layer.4.attention.self.key.weight]Loading weights:  73%|¨€¨€¨€¨€¨€¨€¨€¨†  | 75/103 [00:00<00:00, 3363.70it/s, Materializing param=encoder.layer.4.attention.self.key.weight]Loading weights:  74%|¨€¨€¨€¨€¨€¨€¨€¨…  | 76/103 [00:00<00:00, 3393.49it/s, Materializing param=encoder.layer.4.attention.self.query.bias]Loading weights:  74%|¨€¨€¨€¨€¨€¨€¨€¨…  | 76/103 [00:00<00:00, 3384.37it/s, Materializing param=encoder.layer.4.attention.self.query.bias]Loading weights:  75%|¨€¨€¨€¨€¨€¨€¨€¨…  | 77/103 [00:00<00:00, 3414.47it/s, Materializing param=encoder.layer.4.attention.self.query.weight]Loading weights:  75%|¨€¨€¨€¨€¨€¨€¨€¨…  | 77/103 [00:00<00:00, 3405.40it/s, Materializing param=encoder.layer.4.attention.self.query.weight]Loading weights:  76%|¨€¨€¨€¨€¨€¨€¨€¨„  | 78/103 [00:00<00:00, 3435.21it/s, Materializing param=encoder.layer.4.attention.self.value.bias]  Loading weights:  76%|¨€¨€¨€¨€¨€¨€¨€¨„  | 78/103 [00:00<00:00, 3426.14it/s, Materializing param=encoder.layer.4.attention.self.value.bias]Loading weights:  77%|¨€¨€¨€¨€¨€¨€¨€¨ƒ  | 79/103 [00:00<00:00, 3455.59it/s, Materializing param=encoder.layer.4.attention.self.value.weight]Loading weights:  77%|¨€¨€¨€¨€¨€¨€¨€¨ƒ  | 79/103 [00:00<00:00, 3445.75it/s, Materializing param=encoder.layer.4.attention.self.value.weight]Loading weights:  78%|¨€¨€¨€¨€¨€¨€¨€¨‚  | 80/103 [00:00<00:00, 3474.87it/s, Materializing param=encoder.layer.4.intermediate.dense.bias]    Loading weights:  78%|¨€¨€¨€¨€¨€¨€¨€¨‚  | 80/103 [00:00<00:00, 3465.76it/s, Materializing param=encoder.layer.4.intermediate.dense.bias]Loading weights:  79%|¨€¨€¨€¨€¨€¨€¨€¨‚  | 81/103 [00:00<00:00, 3494.97it/s, Materializing param=encoder.layer.4.intermediate.dense.weight]Loading weights:  79%|¨€¨€¨€¨€¨€¨€¨€¨‚  | 81/103 [00:00<00:00, 3486.00it/s, Materializing param=encoder.layer.4.intermediate.dense.weight]Loading weights:  80%|¨€¨€¨€¨€¨€¨€¨€¨  | 82/103 [00:00<00:00, 3514.83it/s, Materializing param=encoder.layer.4.output.LayerNorm.bias]    Loading weights:  80%|¨€¨€¨€¨€¨€¨€¨€¨  | 82/103 [00:00<00:00, 3505.41it/s, Materializing param=encoder.layer.4.output.LayerNorm.bias]Loading weights:  81%|¨€¨€¨€¨€¨€¨€¨€¨€  | 83/103 [00:00<00:00, 3534.04it/s, Materializing param=encoder.layer.4.output.LayerNorm.weight]Loading weights:  81%|¨€¨€¨€¨€¨€¨€¨€¨€  | 83/103 [00:00<00:00, 3525.12it/s, Materializing param=encoder.layer.4.output.LayerNorm.weight]Loading weights:  82%|¨€¨€¨€¨€¨€¨€¨€¨€¨‡ | 84/103 [00:00<00:00, 3553.20it/s, Materializing param=encoder.layer.4.output.dense.bias]      Loading weights:  82%|¨€¨€¨€¨€¨€¨€¨€¨€¨‡ | 84/103 [00:00<00:00, 3544.30it/s, Materializing param=encoder.layer.4.output.dense.bias]Loading weights:  83%|¨€¨€¨€¨€¨€¨€¨€¨€¨† | 85/103 [00:00<00:00, 3572.55it/s, Materializing param=encoder.layer.4.output.dense.weight]Loading weights:  83%|¨€¨€¨€¨€¨€¨€¨€¨€¨† | 85/103 [00:00<00:00, 3563.70it/s, Materializing param=encoder.layer.4.output.dense.weight]Loading weights:  83%|¨€¨€¨€¨€¨€¨€¨€¨€¨† | 86/103 [00:00<00:00, 3591.80it/s, Materializing param=encoder.layer.5.attention.output.LayerNorm.bias]Loading weights:  83%|¨€¨€¨€¨€¨€¨€¨€¨€¨† | 86/103 [00:00<00:00, 3582.77it/s, Materializing param=encoder.layer.5.attention.output.LayerNorm.bias]Loading weights:  84%|¨€¨€¨€¨€¨€¨€¨€¨€¨… | 87/103 [00:00<00:00, 3609.52it/s, Materializing param=encoder.layer.5.attention.output.LayerNorm.weight]Loading weights:  84%|¨€¨€¨€¨€¨€¨€¨€¨€¨… | 87/103 [00:00<00:00, 3600.40it/s, Materializing param=encoder.layer.5.attention.output.LayerNorm.weight]Loading weights:  85%|¨€¨€¨€¨€¨€¨€¨€¨€¨„ | 88/103 [00:00<00:00, 3627.43it/s, Materializing param=encoder.layer.5.attention.output.dense.bias]      Loading weights:  85%|¨€¨€¨€¨€¨€¨€¨€¨€¨„ | 88/103 [00:00<00:00, 3618.47it/s, Materializing param=encoder.layer.5.attention.output.dense.bias]Loading weights:  86%|¨€¨€¨€¨€¨€¨€¨€¨€¨ƒ | 89/103 [00:00<00:00, 3644.23it/s, Materializing param=encoder.layer.5.attention.output.dense.weight]Loading weights:  86%|¨€¨€¨€¨€¨€¨€¨€¨€¨ƒ | 89/103 [00:00<00:00, 3635.00it/s, Materializing param=encoder.layer.5.attention.output.dense.weight]Loading weights:  87%|¨€¨€¨€¨€¨€¨€¨€¨€¨ƒ | 90/103 [00:00<00:00, 3661.55it/s, Materializing param=encoder.layer.5.attention.self.key.bias]      Loading weights:  87%|¨€¨€¨€¨€¨€¨€¨€¨€¨ƒ | 90/103 [00:00<00:00, 3652.59it/s, Materializing param=encoder.layer.5.attention.self.key.bias]Loading weights:  88%|¨€¨€¨€¨€¨€¨€¨€¨€¨‚ | 91/103 [00:00<00:00, 3679.11it/s, Materializing param=encoder.layer.5.attention.self.key.weight]Loading weights:  88%|¨€¨€¨€¨€¨€¨€¨€¨€¨‚ | 91/103 [00:00<00:00, 3670.16it/s, Materializing param=encoder.layer.5.attention.self.key.weight]Loading weights:  89%|¨€¨€¨€¨€¨€¨€¨€¨€¨ | 92/103 [00:00<00:00, 3695.49it/s, Materializing param=encoder.layer.5.attention.self.query.bias]Loading weights:  89%|¨€¨€¨€¨€¨€¨€¨€¨€¨ | 92/103 [00:00<00:00, 3686.53it/s, Materializing param=encoder.layer.5.attention.self.query.bias]Loading weights:  90%|¨€¨€¨€¨€¨€¨€¨€¨€¨€ | 93/103 [00:00<00:00, 3712.66it/s, Materializing param=encoder.layer.5.attention.self.query.weight]Loading weights:  90%|¨€¨€¨€¨€¨€¨€¨€¨€¨€ | 93/103 [00:00<00:00, 3703.74it/s, Materializing param=encoder.layer.5.attention.self.query.weight]Loading weights:  91%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‡| 94/103 [00:00<00:00, 3729.54it/s, Materializing param=encoder.layer.5.attention.self.value.bias]  Loading weights:  91%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‡| 94/103 [00:00<00:00, 3720.71it/s, Materializing param=encoder.layer.5.attention.self.value.bias]Loading weights:  92%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‡| 95/103 [00:00<00:00, 3746.15it/s, Materializing param=encoder.layer.5.attention.self.value.weight]Loading weights:  92%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‡| 95/103 [00:00<00:00, 3737.22it/s, Materializing param=encoder.layer.5.attention.self.value.weight]Loading weights:  93%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨†| 96/103 [00:00<00:00, 3762.34it/s, Materializing param=encoder.layer.5.intermediate.dense.bias]    Loading weights:  93%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨†| 96/103 [00:00<00:00, 3753.54it/s, Materializing param=encoder.layer.5.intermediate.dense.bias]Loading weights:  94%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨…| 97/103 [00:00<00:00, 3778.37it/s, Materializing param=encoder.layer.5.intermediate.dense.weight]Loading weights:  94%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨…| 97/103 [00:00<00:00, 3769.55it/s, Materializing param=encoder.layer.5.intermediate.dense.weight]Loading weights:  95%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨„| 98/103 [00:00<00:00, 3794.56it/s, Materializing param=encoder.layer.5.output.LayerNorm.bias]    Loading weights:  95%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨„| 98/103 [00:00<00:00, 3785.68it/s, Materializing param=encoder.layer.5.output.LayerNorm.bias]Loading weights:  96%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨„| 99/103 [00:00<00:00, 3810.48it/s, Materializing param=encoder.layer.5.output.LayerNorm.weight]Loading weights:  96%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨„| 99/103 [00:00<00:00, 3801.69it/s, Materializing param=encoder.layer.5.output.LayerNorm.weight]Loading weights:  97%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨ƒ| 100/103 [00:00<00:00, 3826.36it/s, Materializing param=encoder.layer.5.output.dense.bias]     Loading weights:  97%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨ƒ| 100/103 [00:00<00:00, 3817.69it/s, Materializing param=encoder.layer.5.output.dense.bias]Loading weights:  98%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‚| 101/103 [00:00<00:00, 3842.16it/s, Materializing param=encoder.layer.5.output.dense.weight]Loading weights:  98%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‚| 101/103 [00:00<00:00, 3833.43it/s, Materializing param=encoder.layer.5.output.dense.weight]Loading weights:  99%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨| 102/103 [00:00<00:00, 3857.35it/s, Materializing param=pooler.dense.bias]                  Loading weights:  99%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨| 102/103 [00:00<00:00, 3848.95it/s, Materializing param=pooler.dense.bias]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 103/103 [00:00<00:00, 3873.79it/s, Materializing param=pooler.dense.weight]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 103/103 [00:00<00:00, 3865.55it/s, Materializing param=pooler.dense.weight]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 103/103 [00:00<00:00, 3850.25it/s, Materializing param=pooler.dense.weight]
+[1mBertModel LOAD REPORT[0m from: models\cache\models--sentence-transformers--all-MiniLM-L6-v2\snapshots\c9745ed1d9f207416be6d2e6f8de32d1f16199bf
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+INFO:     Started server process [14112]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Embedding model loaded successfully from local path
+INFO:     127.0.0.1:57620 - "GET /api/analytics/metrics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57621 - "GET /api/analytics/metrics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57623 - "GET /api/query/history?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51649 - "GET /api/analytics/metrics HTTP/1.1" 200 OK
+================================================================================
+DeepSeek Intent Classification API Call:
+================================================================================
+Model: deepseek-chat
+Query: How many sick leave do I have in a year?
+Temperature: 0.3
+Response Format: json_object
+--------------------------------------------------------------------------------
+Available Intents:
+  - HR: Human Resources related queries
+  - Legal: Legal department related queries
+  - Finance: Finance department related queries
+  - General: General queries not specific to any department
+  - Test Intent: Test intent for document processing
+--------------------------------------------------------------------------------
+Prompt:
+
+You are an intent classifier for a knowledge management system. Your task is to classify user queries into one of the following intent spaces:
+
+- HR: Human Resources related queries
+- Legal: Legal department related queries
+- Finance: Finance department related queries
+- General: General queries not specific to any department
+- Test Intent: Test intent for document processing
+
+Analyze the following query and determine which intent space it belongs to. Respond with a JSON object containing:
+1. "intent": the name of the most appropriate intent space
+2. "confidence": your confidence level in this classification (0.0 to 1.0)
+
+Query: "How many sick leave do I have in a year?"
+
+Your response (JSON only):
+
+================================================================================
+DeepSeek Intent Classification Response:
+================================================================================
+Response ID: 5b09ad0d-7e59-44ac-b0f9-375281a5fdd8
+Model: deepseek-chat
+Usage: CompletionUsage(completion_tokens=23, prompt_tokens=187, total_tokens=210, completion_tokens_details=None, prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=128), prompt_cache_hit_tokens=128, prompt_cache_miss_tokens=59)
+--------------------------------------------------------------------------------
+Raw Response:
+{
+    "intent": "HR",
+    "confidence": 0.95
+}
+================================================================================
+Final Classification Result:
+================================================================================
+Intent: HR
+Confidence: 0.95
+Valid Intent: True
+================================================================================
+================================================================================
+Local Embedding Model - Generate Query Embedding:
+================================================================================
+Input Query: How many sick leave do I have in a year?
+Query Length: 40 characters
+Model: SentenceTransformer
+Embedding Dimension: 384
+Embedding Type: ndarray
+First 5 Values: [ 0.11235697 -0.0108703  -0.00560544  0.00728665  0.06469255]
+Last 5 Values: [-0.04515375 -0.01163284 -0.085365   -0.07032696  0.01902651]
+================================================================================
+================================================================================
+Get Relevant Documents:
+================================================================================
+Intent ID: 1
+Limit: 5
+Query Embedding Dimension: 384
+================================================================================
+Vector Store Search:
+================================================================================
+Number of documents in store: 3
+Search limit (k): 5
+FAISS search returned 5 results
+FAISS indices: [ 0  1  2 -1 -1]
+FAISS distances: [1.0496151e+00 1.7068342e+00 1.9719801e+00 3.4028235e+38 3.4028235e+38]
+
+Processing result 1:
+  FAISS index: 0
+  Document ID: 1
+  Distance: 1.0496
+  Metadata: {'document_id': 1, 'chunk_index': 0, 'chunk_text': 'Human Resources Policy Document Employee Benefits Our company offers a comprehensive benefits package to all full-time employees including: Health insurance (medical, dental, vision) Life insurance Retirement savings plan with company match Paid time off (vacation, sick leave, holidays) Professional development opportunities Leave Policies Vacation Leave Full-time employees are entitled to 15 days of paid vacation leave per year, accrued monthly. Vacation leave requests must be submitted at least two weeks in advance for approval. Sick Leave Employees receive 10 days of paid sick leave per year. Sick leave can be used for personal illness or to care for immediate family members. Parental Leave New parents are eligible for up to 12 weeks of paid parental leave following the birth or adoption of a child. Performance Management Performance reviews are conducted annually. Employees will receive feedback from their managers and have the opportunity to discuss career goals and development plans. Workplace Conduct All employees are expected to maintain a professional and respectful work environment. Harassment or discrimination of any kind will not be tolerated. Contact Information For HR-related questions, please contact the HR department at hr@company.com or extension 1234.', 'filename': 'HR_Policy.docx', 'intent': 'HR'}
+
+Processing result 2:
+  FAISS index: 1
+  Document ID: 2
+  Distance: 1.7068
+  Metadata: {'document_id': 2, 'chunk_index': 0, 'chunk_text': "Financial Policy Document Expense Reimbursement Employees may be reimbursed for business-related expenses incurred while performing their job duties. All expense reports must be submitted within 30 days of the expense and must include: \x7f Original receipts \x7f Business purpose description \x7f Date and location of expense \x7f Amount and currency Travel Expenses \x7f Airfare: Economy class unless business class is approved in advance \x7f Accommodation: Up to $150 per night for domestic travel, $200 for international \x7f Meals: Up to $50 per day for domestic travel, $75 for international \x7f Ground transportation: Actual cost up to $30 per day Client Entertainment Client entertainment expenses must be pre-approved and are limited to $100 per person per event. Budget Approval Process All departmental budgets must be approved by the Finance Department. Budget requests should include: \x7f Detailed breakdown of expenses \x7f Justification for each expense \x7f Timeline for expenditure \x7f Expected return on investment Procurement Policy All purchases over $500 require at least three competitive quotes. Purchases over $5,000 require formal approval from the Finance Department. Invoice Processing Invoices should be submitted to the Finance Department with the following information: \x7f Vendor name and contact information \x7f Invoice number and date \x7f Detailed description of goods or services \x7f Total amount and payment terms \x7f Purchase order number (if applicable) Financial Reporting Monthly financial reports are due on the 15th of each month for the previous month. Department managers are responsible for reviewing and approving their department's financial reports. Contact Information For finance-related questions, please contact the Finance Department at finance@company.com or extension 5678.", 'filename': 'Financial_Policy.pdf', 'intent': 'Finance'}
+
+Processing result 3:
+  FAISS index: 2
+  Document ID: 3
+  Distance: 1.9720
+  Metadata: {'document_id': 3, 'chunk_index': 0, 'chunk_text': "Legal Policy Document Intellectual Property Policy All intellectual property created by employees during their employment belongs to the company. This includes: Software code and applications Written materials and documentation Designs and inventions Business processes and methods Employees must sign a confidentiality agreement upon hiring and are bound by it throughout their employment and after termination. Data Protection and Privacy The company is committed to protecting the privacy of personal data. Employees must: Handle all personal data in accordance with applicable laws and regulations Access personal data only when necessary for their job duties Report any data breaches immediately to the Legal Department Data Retention Personal data should be retained only as long as necessary for business purposes or as required by law. When data is no longer needed, it must be securely deleted or anonymized. Contract Management All contracts must be reviewed and approved by the Legal Department before execution. Contracts must include: Clear scope of work Payment terms and conditions Termination clauses Confidentiality provisions Liability limitations Compliance Requirements The company complies with all applicable laws and regulations in the jurisdictions where we operate. Employees must: Complete mandatory compliance training Report any compliance concerns through the established channels Cooperate with compliance investigations Dispute Resolution Any disputes arising from business relationships should first be addressed through good faith negotiations. If resolution cannot be reached, the matter may proceed to mediation or arbitration as specified in the relevant contract. Legal Review Process For any legal matters or questions, employees should: 1. Contact their manager to discuss the issue 2. Submit a legal review request through the company's legal portal 3. Provide all relevant documentation and context 4. Allow sufficient time for review and response Contact Information For legal-related questions, please contact the Legal Department at legal@company.com or extension 9012.", 'filename': 'Legal_Policy.docx', 'intent': 'Legal'}
+
+Processing result 4:
+  FAISS index: -1
+  Index -1 is out of range (valid range: 0 to 2)
+
+Processing result 5:
+  FAISS index: -1
+  Index -1 is out of range (valid range: 0 to 2)
+
+Total valid results: 3
+================================================================================
+Vector Store Results: 3 documents found
+  Result 1:
+    Document ID: 1
+    Distance: 1.0496
+    Similarity Score: -0.0496
+  Result 2:
+    Document ID: 2
+    Distance: 1.7068
+    Similarity Score: -0.7068
+  Result 3:
+    Document ID: 3
+    Distance: 1.9720
+    Similarity Score: -0.9720
+================================================================================
+
+Filtering by Intent ID: 1
+
+Processing result 1:
+  Vector Store Document ID: 1
+  Distance: 1.0496
+  Similarity Score: -0.0496
+  Found document in database:
+    ID: 1
+    Title: HR_Policy.docx
+    Intent ID: 1
+  [OK] Document matches intent filter (Intent ID: 1)
+
+Processing result 2:
+  Vector Store Document ID: 2
+  Distance: 1.7068
+  Similarity Score: -0.7068
+  Found document in database:
+    ID: 2
+    Title: Financial_Policy.pdf
+    Intent ID: 3
+  [X] Document does not match intent filter (Expected: 1, Got: 3)
+
+Processing result 3:
+  Vector Store Document ID: 3
+  Distance: 1.9720
+  Similarity Score: -0.9720
+  Found document in database:
+    ID: 3
+    Title: Legal_Policy.docx
+    Intent ID: 2
+  [X] Document does not match intent filter (Expected: 1, Got: 2)
+
+Filtered Results (Intent ID=1): 1 documents
+  Document 1:
+    ID: 1
+    Title: HR_Policy.docx
+    Score: -0.0496
+================================================================================
+================================================================================
+Preparing Context - Document 1:
+================================================================================
+Title: HR_Policy.docx
+Score: -0.0496
+Content Length: 1298 characters
+Max Characters to Include: 2000
+Content is shorter than max_chars, including all content
+================================================================================
+================================================================================
+DeepSeek API Call:
+================================================================================
+Model: deepseek-chat
+Temperature: 0.7
+Max Tokens: 500
+--------------------------------------------------------------------------------
+System Prompt:
+
+You are a helpful assistant for a knowledge management system. Your task is to answer user questions based on the provided context from the knowledge base.
+
+Guidelines:
+1. Provide concise, accurate answers based on the context
+2. Cite the sources using [1], [2], etc. notation
+3. If the context doesn't contain enough information, acknowledge this limitation
+4. Be professional and helpful in your responses
+
+--------------------------------------------------------------------------------
+User Prompt:
+
+Context from the knowledge base:
+[1] HR_Policy.docx:
+Human Resources Policy Document
+
+Employee Benefits
+Our company offers a comprehensive benefits package to all full-time employees including:
+Health insurance (medical, dental, vision)
+Life insurance
+Retirement savings plan with company match
+Paid time off (vacation, sick leave, holidays)
+Professional development opportunities
+
+Leave Policies
+Vacation Leave
+Full-time employees are entitled to 15 days of paid vacation leave per year, accrued monthly. Vacation leave requests must be submitted at least two weeks in advance for approval.
+
+Sick Leave
+Employees receive 10 days of paid sick leave per year. Sick leave can be used for personal illness or to care for immediate family members.
+
+Parental Leave
+New parents are eligible for up to 12 weeks of paid parental leave following the birth or adoption of a child.
+
+Performance Management
+Performance reviews are conducted annually. Employees will receive feedback from their managers and have the opportunity to discuss career goals and development plans.
+
+Workplace Conduct
+All employees are expected to maintain a professional and respectful work environment. Harassment or discrimination of any kind will not be tolerated.
+
+Contact Information
+For HR-related questions, please contact the HR department at hr@company.com or extension 1234.
+
+
+
+User Query: How many sick leave do I have in a year?
+
+
+Intent: HR
+================================================================================
+DeepSeek API Response:
+================================================================================
+Response ID: 03f2998d-548b-4ec5-a622-505ec80d0c28
+Model: deepseek-chat
+Usage: CompletionUsage(completion_tokens=23, prompt_tokens=363, total_tokens=386, completion_tokens_details=None, prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=320), prompt_cache_hit_tokens=320, prompt_cache_miss_tokens=43)
+--------------------------------------------------------------------------------
+Response Content:
+Based on the provided context, full-time employees receive **10 days of paid sick leave per year** [1].
+================================================================================
+================================================================================
+Calculate Confidence:
+================================================================================
+Number of documents: 1
+Individual scores:
+  Document 1 (HR_Policy.docx): -0.0496
+Average score: -0.0496
+Normalized confidence: 0.6501
+================================================================================
+INFO:     127.0.0.1:51650 - "POST /api/query HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51656 - "GET /api/analytics/metrics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51659 - "GET /api/query/history?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51666 - "GET /api/analytics/metrics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51668 - "GET /api/query/history?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51673 - "GET /api/analytics/metrics HTTP/1.1" 200 OK
+================================================================================
+DeepSeek Intent Classification API Call:
+================================================================================
+Model: deepseek-chat
+Query: How many annual leave do I have in a year?
+Temperature: 0.3
+Response Format: json_object
+--------------------------------------------------------------------------------
+Available Intents:
+  - HR: Human Resources related queries
+  - Legal: Legal department related queries
+  - Finance: Finance department related queries
+  - General: General queries not specific to any department
+  - Test Intent: Test intent for document processing
+--------------------------------------------------------------------------------
+Prompt:
+
+You are an intent classifier for a knowledge management system. Your task is to classify user queries into one of the following intent spaces:
+
+- HR: Human Resources related queries
+- Legal: Legal department related queries
+- Finance: Finance department related queries
+- General: General queries not specific to any department
+- Test Intent: Test intent for document processing
+
+Analyze the following query and determine which intent space it belongs to. Respond with a JSON object containing:
+1. "intent": the name of the most appropriate intent space
+2. "confidence": your confidence level in this classification (0.0 to 1.0)
+
+Query: "How many annual leave do I have in a year?"
+
+Your response (JSON only):
+
+================================================================================
+DeepSeek Intent Classification Response:
+================================================================================
+Response ID: 5edb8eab-5692-414e-9ce8-5112823bee0d
+Model: deepseek-chat
+Usage: CompletionUsage(completion_tokens=23, prompt_tokens=187, total_tokens=210, completion_tokens_details=None, prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=128), prompt_cache_hit_tokens=128, prompt_cache_miss_tokens=59)
+--------------------------------------------------------------------------------
+Raw Response:
+{
+    "intent": "HR",
+    "confidence": 0.95
+}
+================================================================================
+Final Classification Result:
+================================================================================
+Intent: HR
+Confidence: 0.95
+Valid Intent: True
+================================================================================
+================================================================================
+Local Embedding Model - Generate Query Embedding:
+================================================================================
+Input Query: How many annual leave do I have in a year?
+Query Length: 42 characters
+Model: SentenceTransformer
+Embedding Dimension: 384
+Embedding Type: ndarray
+First 5 Values: [0.10591829 0.0109666  0.00525896 0.030169   0.02902088]
+Last 5 Values: [-0.03857019 -0.00931628 -0.04052839 -0.03277482 -0.01766407]
+================================================================================
+================================================================================
+Get Relevant Documents:
+================================================================================
+Intent ID: 1
+Limit: 5
+Query Embedding Dimension: 384
+================================================================================
+Vector Store Search:
+================================================================================
+Number of documents in store: 3
+Search limit (k): 5
+FAISS search returned 5 results
+FAISS indices: [ 0  1  2 -1 -1]
+FAISS distances: [1.1735851e+00 1.5349414e+00 1.7542663e+00 3.4028235e+38 3.4028235e+38]
+
+Processing result 1:
+  FAISS index: 0
+  Document ID: 1
+  Distance: 1.1736
+  Metadata: {'document_id': 1, 'chunk_index': 0, 'chunk_text': 'Human Resources Policy Document Employee Benefits Our company offers a comprehensive benefits package to all full-time employees including: Health insurance (medical, dental, vision) Life insurance Retirement savings plan with company match Paid time off (vacation, sick leave, holidays) Professional development opportunities Leave Policies Vacation Leave Full-time employees are entitled to 15 days of paid vacation leave per year, accrued monthly. Vacation leave requests must be submitted at least two weeks in advance for approval. Sick Leave Employees receive 10 days of paid sick leave per year. Sick leave can be used for personal illness or to care for immediate family members. Parental Leave New parents are eligible for up to 12 weeks of paid parental leave following the birth or adoption of a child. Performance Management Performance reviews are conducted annually. Employees will receive feedback from their managers and have the opportunity to discuss career goals and development plans. Workplace Conduct All employees are expected to maintain a professional and respectful work environment. Harassment or discrimination of any kind will not be tolerated. Contact Information For HR-related questions, please contact the HR department at hr@company.com or extension 1234.', 'filename': 'HR_Policy.docx', 'intent': 'HR'}
+
+Processing result 2:
+  FAISS index: 1
+  Document ID: 2
+  Distance: 1.5349
+  Metadata: {'document_id': 2, 'chunk_index': 0, 'chunk_text': "Financial Policy Document Expense Reimbursement Employees may be reimbursed for business-related expenses incurred while performing their job duties. All expense reports must be submitted within 30 days of the expense and must include: \x7f Original receipts \x7f Business purpose description \x7f Date and location of expense \x7f Amount and currency Travel Expenses \x7f Airfare: Economy class unless business class is approved in advance \x7f Accommodation: Up to $150 per night for domestic travel, $200 for international \x7f Meals: Up to $50 per day for domestic travel, $75 for international \x7f Ground transportation: Actual cost up to $30 per day Client Entertainment Client entertainment expenses must be pre-approved and are limited to $100 per person per event. Budget Approval Process All departmental budgets must be approved by the Finance Department. Budget requests should include: \x7f Detailed breakdown of expenses \x7f Justification for each expense \x7f Timeline for expenditure \x7f Expected return on investment Procurement Policy All purchases over $500 require at least three competitive quotes. Purchases over $5,000 require formal approval from the Finance Department. Invoice Processing Invoices should be submitted to the Finance Department with the following information: \x7f Vendor name and contact information \x7f Invoice number and date \x7f Detailed description of goods or services \x7f Total amount and payment terms \x7f Purchase order number (if applicable) Financial Reporting Monthly financial reports are due on the 15th of each month for the previous month. Department managers are responsible for reviewing and approving their department's financial reports. Contact Information For finance-related questions, please contact the Finance Department at finance@company.com or extension 5678.", 'filename': 'Financial_Policy.pdf', 'intent': 'Finance'}
+
+Processing result 3:
+  FAISS index: 2
+  Document ID: 3
+  Distance: 1.7543
+  Metadata: {'document_id': 3, 'chunk_index': 0, 'chunk_text': "Legal Policy Document Intellectual Property Policy All intellectual property created by employees during their employment belongs to the company. This includes: Software code and applications Written materials and documentation Designs and inventions Business processes and methods Employees must sign a confidentiality agreement upon hiring and are bound by it throughout their employment and after termination. Data Protection and Privacy The company is committed to protecting the privacy of personal data. Employees must: Handle all personal data in accordance with applicable laws and regulations Access personal data only when necessary for their job duties Report any data breaches immediately to the Legal Department Data Retention Personal data should be retained only as long as necessary for business purposes or as required by law. When data is no longer needed, it must be securely deleted or anonymized. Contract Management All contracts must be reviewed and approved by the Legal Department before execution. Contracts must include: Clear scope of work Payment terms and conditions Termination clauses Confidentiality provisions Liability limitations Compliance Requirements The company complies with all applicable laws and regulations in the jurisdictions where we operate. Employees must: Complete mandatory compliance training Report any compliance concerns through the established channels Cooperate with compliance investigations Dispute Resolution Any disputes arising from business relationships should first be addressed through good faith negotiations. If resolution cannot be reached, the matter may proceed to mediation or arbitration as specified in the relevant contract. Legal Review Process For any legal matters or questions, employees should: 1. Contact their manager to discuss the issue 2. Submit a legal review request through the company's legal portal 3. Provide all relevant documentation and context 4. Allow sufficient time for review and response Contact Information For legal-related questions, please contact the Legal Department at legal@company.com or extension 9012.", 'filename': 'Legal_Policy.docx', 'intent': 'Legal'}
+
+Processing result 4:
+  FAISS index: -1
+  Index -1 is out of range (valid range: 0 to 2)
+
+Processing result 5:
+  FAISS index: -1
+  Index -1 is out of range (valid range: 0 to 2)
+
+Total valid results: 3
+================================================================================
+Vector Store Results: 3 documents found
+  Result 1:
+    Document ID: 1
+    Distance: 1.1736
+    Similarity Score: -0.1736
+  Result 2:
+    Document ID: 2
+    Distance: 1.5349
+    Similarity Score: -0.5349
+  Result 3:
+    Document ID: 3
+    Distance: 1.7543
+    Similarity Score: -0.7543
+================================================================================
+
+Filtering by Intent ID: 1
+
+Processing result 1:
+  Vector Store Document ID: 1
+  Distance: 1.1736
+  Similarity Score: -0.1736
+  Found document in database:
+    ID: 1
+    Title: HR_Policy.docx
+    Intent ID: 1
+  [OK] Document matches intent filter (Intent ID: 1)
+
+Processing result 2:
+  Vector Store Document ID: 2
+  Distance: 1.5349
+  Similarity Score: -0.5349
+  Found document in database:
+    ID: 2
+    Title: Financial_Policy.pdf
+    Intent ID: 3
+  [X] Document does not match intent filter (Expected: 1, Got: 3)
+
+Processing result 3:
+  Vector Store Document ID: 3
+  Distance: 1.7543
+  Similarity Score: -0.7543
+  Found document in database:
+    ID: 3
+    Title: Legal_Policy.docx
+    Intent ID: 2
+  [X] Document does not match intent filter (Expected: 1, Got: 2)
+
+Filtered Results (Intent ID=1): 1 documents
+  Document 1:
+    ID: 1
+    Title: HR_Policy.docx
+    Score: -0.1736
+================================================================================
+================================================================================
+Preparing Context - Document 1:
+================================================================================
+Title: HR_Policy.docx
+Score: -0.1736
+Content Length: 1298 characters
+Max Characters to Include: 2000
+Content is shorter than max_chars, including all content
+================================================================================
+================================================================================
+DeepSeek API Call:
+================================================================================
+Model: deepseek-chat
+Temperature: 0.7
+Max Tokens: 500
+--------------------------------------------------------------------------------
+System Prompt:
+
+You are a helpful assistant for a knowledge management system. Your task is to answer user questions based on the provided context from the knowledge base.
+
+Guidelines:
+1. Provide concise, accurate answers based on the context
+2. Cite the sources using [1], [2], etc. notation
+3. If the context doesn't contain enough information, acknowledge this limitation
+4. Be professional and helpful in your responses
+
+--------------------------------------------------------------------------------
+User Prompt:
+
+Context from the knowledge base:
+[1] HR_Policy.docx:
+Human Resources Policy Document
+
+Employee Benefits
+Our company offers a comprehensive benefits package to all full-time employees including:
+Health insurance (medical, dental, vision)
+Life insurance
+Retirement savings plan with company match
+Paid time off (vacation, sick leave, holidays)
+Professional development opportunities
+
+Leave Policies
+Vacation Leave
+Full-time employees are entitled to 15 days of paid vacation leave per year, accrued monthly. Vacation leave requests must be submitted at least two weeks in advance for approval.
+
+Sick Leave
+Employees receive 10 days of paid sick leave per year. Sick leave can be used for personal illness or to care for immediate family members.
+
+Parental Leave
+New parents are eligible for up to 12 weeks of paid parental leave following the birth or adoption of a child.
+
+Performance Management
+Performance reviews are conducted annually. Employees will receive feedback from their managers and have the opportunity to discuss career goals and development plans.
+
+Workplace Conduct
+All employees are expected to maintain a professional and respectful work environment. Harassment or discrimination of any kind will not be tolerated.
+
+Contact Information
+For HR-related questions, please contact the HR department at hr@company.com or extension 1234.
+
+
+
+User Query: How many annual leave do I have in a year?
+
+
+Intent: HR
+================================================================================
+DeepSeek API Response:
+================================================================================
+Response ID: c33dab7d-5b2d-4766-835c-796261255b19
+Model: deepseek-chat
+Usage: CompletionUsage(completion_tokens=29, prompt_tokens=363, total_tokens=392, completion_tokens_details=None, prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=320), prompt_cache_hit_tokens=320, prompt_cache_miss_tokens=43)
+--------------------------------------------------------------------------------
+Response Content:
+Based on the HR policy, full-time employees are entitled to **15 days of paid vacation leave per year**, which is accrued monthly [1].
+================================================================================
+================================================================================
+Calculate Confidence:
+================================================================================
+Number of documents: 1
+Individual scores:
+  Document 1 (HR_Policy.docx): -0.1736
+Average score: -0.1736
+Normalized confidence: 0.6088
+================================================================================
+INFO:     127.0.0.1:51674 - "POST /api/query HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51680 - "GET /api/analytics/metrics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51682 - "GET /api/query/history?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51686 - "GET /api/analytics/metrics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51689 - "GET /api/query/history?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50540 - "GET /api/analytics/metrics HTTP/1.1" 200 OK
+================================================================================
+DeepSeek Intent Classification API Call:
+================================================================================
+Model: deepseek-chat
+Query: Do we have data protection policy??
+Temperature: 0.3
+Response Format: json_object
+--------------------------------------------------------------------------------
+Available Intents:
+  - HR: Human Resources related queries
+  - Legal: Legal department related queries
+  - Finance: Finance department related queries
+  - General: General queries not specific to any department
+  - Test Intent: Test intent for document processing
+--------------------------------------------------------------------------------
+Prompt:
+
+You are an intent classifier for a knowledge management system. Your task is to classify user queries into one of the following intent spaces:
+
+- HR: Human Resources related queries
+- Legal: Legal department related queries
+- Finance: Finance department related queries
+- General: General queries not specific to any department
+- Test Intent: Test intent for document processing
+
+Analyze the following query and determine which intent space it belongs to. Respond with a JSON object containing:
+1. "intent": the name of the most appropriate intent space
+2. "confidence": your confidence level in this classification (0.0 to 1.0)
+
+Query: "Do we have data protection policy??"
+
+Your response (JSON only):
+
+================================================================================
+DeepSeek Intent Classification Response:
+================================================================================
+Response ID: 3c8bfb02-49b2-43da-9513-ec8e21544118
+Model: deepseek-chat
+Usage: CompletionUsage(completion_tokens=23, prompt_tokens=184, total_tokens=207, completion_tokens_details=None, prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=128), prompt_cache_hit_tokens=128, prompt_cache_miss_tokens=56)
+--------------------------------------------------------------------------------
+Raw Response:
+{
+    "intent": "Legal",
+    "confidence": 0.9
+}
+================================================================================
+Final Classification Result:
+================================================================================
+Intent: Legal
+Confidence: 0.9
+Valid Intent: True
+================================================================================
+================================================================================
+Local Embedding Model - Generate Query Embedding:
+================================================================================
+Input Query: Do we have data protection policy??
+Query Length: 35 characters
+Model: SentenceTransformer
+Embedding Dimension: 384
+Embedding Type: ndarray
+First 5 Values: [-0.07297333  0.06100173  0.03447937  0.00992265  0.04291456]
+Last 5 Values: [ 0.03695143  0.02451804 -0.05131194  0.0082401  -0.01258448]
+================================================================================
+================================================================================
+Get Relevant Documents:
+================================================================================
+Intent ID: 2
+Limit: 5
+Query Embedding Dimension: 384
+================================================================================
+Vector Store Search:
+================================================================================
+Number of documents in store: 3
+Search limit (k): 5
+FAISS search returned 5 results
+FAISS indices: [ 2  0  1 -1 -1]
+FAISS distances: [8.8369465e-01 1.8080447e+00 1.9801905e+00 3.4028235e+38 3.4028235e+38]
+
+Processing result 1:
+  FAISS index: 2
+  Document ID: 3
+  Distance: 0.8837
+  Metadata: {'document_id': 3, 'chunk_index': 0, 'chunk_text': "Legal Policy Document Intellectual Property Policy All intellectual property created by employees during their employment belongs to the company. This includes: Software code and applications Written materials and documentation Designs and inventions Business processes and methods Employees must sign a confidentiality agreement upon hiring and are bound by it throughout their employment and after termination. Data Protection and Privacy The company is committed to protecting the privacy of personal data. Employees must: Handle all personal data in accordance with applicable laws and regulations Access personal data only when necessary for their job duties Report any data breaches immediately to the Legal Department Data Retention Personal data should be retained only as long as necessary for business purposes or as required by law. When data is no longer needed, it must be securely deleted or anonymized. Contract Management All contracts must be reviewed and approved by the Legal Department before execution. Contracts must include: Clear scope of work Payment terms and conditions Termination clauses Confidentiality provisions Liability limitations Compliance Requirements The company complies with all applicable laws and regulations in the jurisdictions where we operate. Employees must: Complete mandatory compliance training Report any compliance concerns through the established channels Cooperate with compliance investigations Dispute Resolution Any disputes arising from business relationships should first be addressed through good faith negotiations. If resolution cannot be reached, the matter may proceed to mediation or arbitration as specified in the relevant contract. Legal Review Process For any legal matters or questions, employees should: 1. Contact their manager to discuss the issue 2. Submit a legal review request through the company's legal portal 3. Provide all relevant documentation and context 4. Allow sufficient time for review and response Contact Information For legal-related questions, please contact the Legal Department at legal@company.com or extension 9012.", 'filename': 'Legal_Policy.docx', 'intent': 'Legal'}
+
+Processing result 2:
+  FAISS index: 0
+  Document ID: 1
+  Distance: 1.8080
+  Metadata: {'document_id': 1, 'chunk_index': 0, 'chunk_text': 'Human Resources Policy Document Employee Benefits Our company offers a comprehensive benefits package to all full-time employees including: Health insurance (medical, dental, vision) Life insurance Retirement savings plan with company match Paid time off (vacation, sick leave, holidays) Professional development opportunities Leave Policies Vacation Leave Full-time employees are entitled to 15 days of paid vacation leave per year, accrued monthly. Vacation leave requests must be submitted at least two weeks in advance for approval. Sick Leave Employees receive 10 days of paid sick leave per year. Sick leave can be used for personal illness or to care for immediate family members. Parental Leave New parents are eligible for up to 12 weeks of paid parental leave following the birth or adoption of a child. Performance Management Performance reviews are conducted annually. Employees will receive feedback from their managers and have the opportunity to discuss career goals and development plans. Workplace Conduct All employees are expected to maintain a professional and respectful work environment. Harassment or discrimination of any kind will not be tolerated. Contact Information For HR-related questions, please contact the HR department at hr@company.com or extension 1234.', 'filename': 'HR_Policy.docx', 'intent': 'HR'}
+
+Processing result 3:
+  FAISS index: 1
+  Document ID: 2
+  Distance: 1.9802
+  Metadata: {'document_id': 2, 'chunk_index': 0, 'chunk_text': "Financial Policy Document Expense Reimbursement Employees may be reimbursed for business-related expenses incurred while performing their job duties. All expense reports must be submitted within 30 days of the expense and must include: \x7f Original receipts \x7f Business purpose description \x7f Date and location of expense \x7f Amount and currency Travel Expenses \x7f Airfare: Economy class unless business class is approved in advance \x7f Accommodation: Up to $150 per night for domestic travel, $200 for international \x7f Meals: Up to $50 per day for domestic travel, $75 for international \x7f Ground transportation: Actual cost up to $30 per day Client Entertainment Client entertainment expenses must be pre-approved and are limited to $100 per person per event. Budget Approval Process All departmental budgets must be approved by the Finance Department. Budget requests should include: \x7f Detailed breakdown of expenses \x7f Justification for each expense \x7f Timeline for expenditure \x7f Expected return on investment Procurement Policy All purchases over $500 require at least three competitive quotes. Purchases over $5,000 require formal approval from the Finance Department. Invoice Processing Invoices should be submitted to the Finance Department with the following information: \x7f Vendor name and contact information \x7f Invoice number and date \x7f Detailed description of goods or services \x7f Total amount and payment terms \x7f Purchase order number (if applicable) Financial Reporting Monthly financial reports are due on the 15th of each month for the previous month. Department managers are responsible for reviewing and approving their department's financial reports. Contact Information For finance-related questions, please contact the Finance Department at finance@company.com or extension 5678.", 'filename': 'Financial_Policy.pdf', 'intent': 'Finance'}
+
+Processing result 4:
+  FAISS index: -1
+  Index -1 is out of range (valid range: 0 to 2)
+
+Processing result 5:
+  FAISS index: -1
+  Index -1 is out of range (valid range: 0 to 2)
+
+Total valid results: 3
+================================================================================
+Vector Store Results: 3 documents found
+  Result 1:
+    Document ID: 3
+    Distance: 0.8837
+    Similarity Score: 0.1163
+  Result 2:
+    Document ID: 1
+    Distance: 1.8080
+    Similarity Score: -0.8080
+  Result 3:
+    Document ID: 2
+    Distance: 1.9802
+    Similarity Score: -0.9802
+================================================================================
+
+Filtering by Intent ID: 2
+
+Processing result 1:
+  Vector Store Document ID: 3
+  Distance: 0.8837
+  Similarity Score: 0.1163
+  Found document in database:
+    ID: 3
+    Title: Legal_Policy.docx
+    Intent ID: 2
+  [OK] Document matches intent filter (Intent ID: 2)
+
+Processing result 2:
+  Vector Store Document ID: 1
+  Distance: 1.8080
+  Similarity Score: -0.8080
+  Found document in database:
+    ID: 1
+    Title: HR_Policy.docx
+    Intent ID: 1
+  [X] Document does not match intent filter (Expected: 2, Got: 1)
+
+Processing result 3:
+  Vector Store Document ID: 2
+  Distance: 1.9802
+  Similarity Score: -0.9802
+  Found document in database:
+    ID: 2
+    Title: Financial_Policy.pdf
+    Intent ID: 3
+  [X] Document does not match intent filter (Expected: 2, Got: 3)
+
+Filtered Results (Intent ID=2): 1 documents
+  Document 1:
+    ID: 3
+    Title: Legal_Policy.docx
+    Score: 0.1163
+================================================================================
+================================================================================
+Preparing Context - Document 1:
+================================================================================
+Title: Legal_Policy.docx
+Score: 0.1163
+Content Length: 2124 characters
+Max Characters to Include: 2500
+Content is shorter than max_chars, including all content
+================================================================================
+================================================================================
+DeepSeek API Call:
+================================================================================
+Model: deepseek-chat
+Temperature: 0.7
+Max Tokens: 500
+--------------------------------------------------------------------------------
+System Prompt:
+
+You are a helpful assistant for a knowledge management system. Your task is to answer user questions based on the provided context from the knowledge base.
+
+Guidelines:
+1. Provide concise, accurate answers based on the context
+2. Cite the sources using [1], [2], etc. notation
+3. If the context doesn't contain enough information, acknowledge this limitation
+4. Be professional and helpful in your responses
+
+--------------------------------------------------------------------------------
+User Prompt:
+
+Context from the knowledge base:
+[1] Legal_Policy.docx:
+Legal Policy Document
+
+Intellectual Property Policy
+All intellectual property created by employees during their employment belongs to the company. This includes:
+Software code and applications
+Written materials and documentation
+Designs and inventions
+Business processes and methods
+
+Employees must sign a confidentiality agreement upon hiring and are bound by it throughout their employment and after termination.
+
+Data Protection and Privacy
+The company is committed to protecting the privacy of personal data. Employees must:
+Handle all personal data in accordance with applicable laws and regulations
+Access personal data only when necessary for their job duties
+Report any data breaches immediately to the Legal Department
+
+Data Retention
+Personal data should be retained only as long as necessary for business purposes or as required by law. When data is no longer needed, it must be securely deleted or anonymized.
+
+Contract Management
+All contracts must be reviewed and approved by the Legal Department before execution. Contracts must include:
+Clear scope of work
+Payment terms and conditions
+Termination clauses
+Confidentiality provisions
+Liability limitations
+
+Compliance Requirements
+The company complies with all applicable laws and regulations in the jurisdictions where we operate. Employees must:
+Complete mandatory compliance training
+Report any compliance concerns through the established channels
+Cooperate with compliance investigations
+
+Dispute Resolution
+Any disputes arising from business relationships should first be addressed through good faith negotiations. If resolution cannot be reached, the matter may proceed to mediation or arbitration as specified in the relevant contract.
+
+Legal Review Process
+For any legal matters or questions, employees should:
+1. Contact their manager to discuss the issue
+2. Submit a legal review request through the company's legal portal
+3. Provide all relevant documentation and context
+4. Allow sufficient time for review and response
+
+Contact Information
+For legal-related questions, please contact the Legal Department at legal@company.com or extension 9012.
+
+
+
+User Query: Do we have data protection policy??
+
+
+Intent: Legal
+================================================================================
+DeepSeek API Response:
+================================================================================
+Response ID: 358b314e-c0ad-4b8f-9381-a2537ae91d61
+Model: deepseek-chat
+Usage: CompletionUsage(completion_tokens=66, prompt_tokens=483, total_tokens=549, completion_tokens_details=None, prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=256), prompt_cache_hit_tokens=256, prompt_cache_miss_tokens=227)
+--------------------------------------------------------------------------------
+Response Content:
+Yes, we have a data protection policy. According to the company's legal policy, the company is committed to protecting the privacy of personal data. Employees are required to handle all personal data in accordance with applicable laws, access it only when necessary for their job duties, and report any data breaches immediately to the Legal Department [1].
+================================================================================
+================================================================================
+Calculate Confidence:
+================================================================================
+Number of documents: 1
+Individual scores:
+  Document 1 (Legal_Policy.docx): 0.1163
+Average score: 0.1163
+Normalized confidence: 0.7054
+================================================================================
+INFO:     127.0.0.1:50541 - "POST /api/query HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50546 - "GET /api/analytics/metrics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50549 - "GET /api/query/history?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54888 - "GET /api/analytics/metrics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54890 - "GET /api/query/history?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50219 - "GET /api/analytics/metrics HTTP/1.1" 200 OK
+================================================================================
+DeepSeek Intent Classification API Call:
+================================================================================
+Model: deepseek-chat
+Query: Within how many days shall I submit expense reports?
+Temperature: 0.3
+Response Format: json_object
+--------------------------------------------------------------------------------
+Available Intents:
+  - HR: Human Resources related queries
+  - Legal: Legal department related queries
+  - Finance: Finance department related queries
+  - General: General queries not specific to any department
+  - Test Intent: Test intent for document processing
+--------------------------------------------------------------------------------
+Prompt:
+
+You are an intent classifier for a knowledge management system. Your task is to classify user queries into one of the following intent spaces:
+
+- HR: Human Resources related queries
+- Legal: Legal department related queries
+- Finance: Finance department related queries
+- General: General queries not specific to any department
+- Test Intent: Test intent for document processing
+
+Analyze the following query and determine which intent space it belongs to. Respond with a JSON object containing:
+1. "intent": the name of the most appropriate intent space
+2. "confidence": your confidence level in this classification (0.0 to 1.0)
+
+Query: "Within how many days shall I submit expense reports?"
+
+Your response (JSON only):
+
+================================================================================
+DeepSeek Intent Classification Response:
+================================================================================
+Response ID: 0bd45285-3c0b-4b2f-bbb6-7381cedd0c26
+Model: deepseek-chat
+Usage: CompletionUsage(completion_tokens=23, prompt_tokens=186, total_tokens=209, completion_tokens_details=None, prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=128), prompt_cache_hit_tokens=128, prompt_cache_miss_tokens=58)
+--------------------------------------------------------------------------------
+Raw Response:
+{
+    "intent": "Finance",
+    "confidence": 0.95
+}
+================================================================================
+Final Classification Result:
+================================================================================
+Intent: Finance
+Confidence: 0.95
+Valid Intent: True
+================================================================================
+================================================================================
+Local Embedding Model - Generate Query Embedding:
+================================================================================
+Input Query: Within how many days shall I submit expense reports?
+Query Length: 52 characters
+Model: SentenceTransformer
+Embedding Dimension: 384
+Embedding Type: ndarray
+First 5 Values: [ 0.03590105  0.0471863  -0.05453627  0.08874586  0.02435417]
+Last 5 Values: [ 0.00440557  0.02468746 -0.04718602 -0.0095065  -0.00997789]
+================================================================================
+================================================================================
+Get Relevant Documents:
+================================================================================
+Intent ID: 3
+Limit: 5
+Query Embedding Dimension: 384
+================================================================================
+Vector Store Search:
+================================================================================
+Number of documents in store: 3
+Search limit (k): 5
+FAISS search returned 5 results
+FAISS indices: [ 1  0  2 -1 -1]
+FAISS distances: [1.0251570e+00 1.4077034e+00 1.6927733e+00 3.4028235e+38 3.4028235e+38]
+
+Processing result 1:
+  FAISS index: 1
+  Document ID: 2
+  Distance: 1.0252
+  Metadata: {'document_id': 2, 'chunk_index': 0, 'chunk_text': "Financial Policy Document Expense Reimbursement Employees may be reimbursed for business-related expenses incurred while performing their job duties. All expense reports must be submitted within 30 days of the expense and must include: \x7f Original receipts \x7f Business purpose description \x7f Date and location of expense \x7f Amount and currency Travel Expenses \x7f Airfare: Economy class unless business class is approved in advance \x7f Accommodation: Up to $150 per night for domestic travel, $200 for international \x7f Meals: Up to $50 per day for domestic travel, $75 for international \x7f Ground transportation: Actual cost up to $30 per day Client Entertainment Client entertainment expenses must be pre-approved and are limited to $100 per person per event. Budget Approval Process All departmental budgets must be approved by the Finance Department. Budget requests should include: \x7f Detailed breakdown of expenses \x7f Justification for each expense \x7f Timeline for expenditure \x7f Expected return on investment Procurement Policy All purchases over $500 require at least three competitive quotes. Purchases over $5,000 require formal approval from the Finance Department. Invoice Processing Invoices should be submitted to the Finance Department with the following information: \x7f Vendor name and contact information \x7f Invoice number and date \x7f Detailed description of goods or services \x7f Total amount and payment terms \x7f Purchase order number (if applicable) Financial Reporting Monthly financial reports are due on the 15th of each month for the previous month. Department managers are responsible for reviewing and approving their department's financial reports. Contact Information For finance-related questions, please contact the Finance Department at finance@company.com or extension 5678.", 'filename': 'Financial_Policy.pdf', 'intent': 'Finance'}
+
+Processing result 2:
+  FAISS index: 0
+  Document ID: 1
+  Distance: 1.4077
+  Metadata: {'document_id': 1, 'chunk_index': 0, 'chunk_text': 'Human Resources Policy Document Employee Benefits Our company offers a comprehensive benefits package to all full-time employees including: Health insurance (medical, dental, vision) Life insurance Retirement savings plan with company match Paid time off (vacation, sick leave, holidays) Professional development opportunities Leave Policies Vacation Leave Full-time employees are entitled to 15 days of paid vacation leave per year, accrued monthly. Vacation leave requests must be submitted at least two weeks in advance for approval. Sick Leave Employees receive 10 days of paid sick leave per year. Sick leave can be used for personal illness or to care for immediate family members. Parental Leave New parents are eligible for up to 12 weeks of paid parental leave following the birth or adoption of a child. Performance Management Performance reviews are conducted annually. Employees will receive feedback from their managers and have the opportunity to discuss career goals and development plans. Workplace Conduct All employees are expected to maintain a professional and respectful work environment. Harassment or discrimination of any kind will not be tolerated. Contact Information For HR-related questions, please contact the HR department at hr@company.com or extension 1234.', 'filename': 'HR_Policy.docx', 'intent': 'HR'}
+
+Processing result 3:
+  FAISS index: 2
+  Document ID: 3
+  Distance: 1.6928
+  Metadata: {'document_id': 3, 'chunk_index': 0, 'chunk_text': "Legal Policy Document Intellectual Property Policy All intellectual property created by employees during their employment belongs to the company. This includes: Software code and applications Written materials and documentation Designs and inventions Business processes and methods Employees must sign a confidentiality agreement upon hiring and are bound by it throughout their employment and after termination. Data Protection and Privacy The company is committed to protecting the privacy of personal data. Employees must: Handle all personal data in accordance with applicable laws and regulations Access personal data only when necessary for their job duties Report any data breaches immediately to the Legal Department Data Retention Personal data should be retained only as long as necessary for business purposes or as required by law. When data is no longer needed, it must be securely deleted or anonymized. Contract Management All contracts must be reviewed and approved by the Legal Department before execution. Contracts must include: Clear scope of work Payment terms and conditions Termination clauses Confidentiality provisions Liability limitations Compliance Requirements The company complies with all applicable laws and regulations in the jurisdictions where we operate. Employees must: Complete mandatory compliance training Report any compliance concerns through the established channels Cooperate with compliance investigations Dispute Resolution Any disputes arising from business relationships should first be addressed through good faith negotiations. If resolution cannot be reached, the matter may proceed to mediation or arbitration as specified in the relevant contract. Legal Review Process For any legal matters or questions, employees should: 1. Contact their manager to discuss the issue 2. Submit a legal review request through the company's legal portal 3. Provide all relevant documentation and context 4. Allow sufficient time for review and response Contact Information For legal-related questions, please contact the Legal Department at legal@company.com or extension 9012.", 'filename': 'Legal_Policy.docx', 'intent': 'Legal'}
+
+Processing result 4:
+  FAISS index: -1
+  Index -1 is out of range (valid range: 0 to 2)
+
+Processing result 5:
+  FAISS index: -1
+  Index -1 is out of range (valid range: 0 to 2)
+
+Total valid results: 3
+================================================================================
+Vector Store Results: 3 documents found
+  Result 1:
+    Document ID: 2
+    Distance: 1.0252
+    Similarity Score: -0.0252
+  Result 2:
+    Document ID: 1
+    Distance: 1.4077
+    Similarity Score: -0.4077
+  Result 3:
+    Document ID: 3
+    Distance: 1.6928
+    Similarity Score: -0.6928
+================================================================================
+
+Filtering by Intent ID: 3
+
+Processing result 1:
+  Vector Store Document ID: 2
+  Distance: 1.0252
+  Similarity Score: -0.0252
+  Found document in database:
+    ID: 2
+    Title: Financial_Policy.pdf
+    Intent ID: 3
+  [OK] Document matches intent filter (Intent ID: 3)
+
+Processing result 2:
+  Vector Store Document ID: 1
+  Distance: 1.4077
+  Similarity Score: -0.4077
+  Found document in database:
+    ID: 1
+    Title: HR_Policy.docx
+    Intent ID: 1
+  [X] Document does not match intent filter (Expected: 3, Got: 1)
+
+Processing result 3:
+  Vector Store Document ID: 3
+  Distance: 1.6928
+  Similarity Score: -0.6928
+  Found document in database:
+    ID: 3
+    Title: Legal_Policy.docx
+    Intent ID: 2
+  [X] Document does not match intent filter (Expected: 3, Got: 2)
+
+Filtered Results (Intent ID=3): 1 documents
+  Document 1:
+    ID: 2
+    Title: Financial_Policy.pdf
+    Score: -0.0252
+================================================================================
+================================================================================
+Preparing Context - Document 1:
+================================================================================
+Title: Financial_Policy.pdf
+Score: -0.0252
+Content Length: 1790 characters
+Max Characters to Include: 2000
+Content is shorter than max_chars, including all content
+================================================================================
+================================================================================
+DeepSeek API Call:
+================================================================================
+Model: deepseek-chat
+Temperature: 0.7
+Max Tokens: 500
+--------------------------------------------------------------------------------
+System Prompt:
+
+You are a helpful assistant for a knowledge management system. Your task is to answer user questions based on the provided context from the knowledge base.
+
+Guidelines:
+1. Provide concise, accurate answers based on the context
+2. Cite the sources using [1], [2], etc. notation
+3. If the context doesn't contain enough information, acknowledge this limitation
+4. Be professional and helpful in your responses
+
+--------------------------------------------------------------------------------
+User Prompt:
+
+Context from the knowledge base:
+[1] Financial_Policy.pdf:
+Financial Policy Document
+ 
+Expense Reimbursement
+Employees may be reimbursed for business-related expenses incurred while performing their job
+duties. All expense reports must be submitted within 30 days of the expense and must include:
+ Original receipts
+ Business purpose description
+ Date and location of expense
+ Amount and currency
+Travel Expenses
+ Airfare: Economy class unless business class is approved in advance
+ Accommodation: Up to $150 per night for domestic travel, $200 for international
+ Meals: Up to $50 per day for domestic travel, $75 for international
+ Ground transportation: Actual cost up to $30 per day
+Client Entertainment
+Client entertainment expenses must be pre-approved and are limited to $100 per person per event.
+Budget Approval Process
+All departmental budgets must be approved by the Finance Department. Budget requests should
+include:
+ Detailed breakdown of expenses
+ Justification for each expense
+ Timeline for expenditure
+ Expected return on investment
+Procurement Policy
+All purchases over $500 require at least three competitive quotes. Purchases over $5,000 require
+formal approval from the Finance Department.
+Invoice Processing
+Invoices should be submitted to the Finance Department with the following information:
+
+ Vendor name and contact information
+ Invoice number and date
+ Detailed description of goods or services
+ Total amount and payment terms
+ Purchase order number (if applicable)
+Financial Reporting
+Monthly financial reports are due on the 15th of each month for the previous month. Department
+managers are responsible for reviewing and approving their department's financial reports.
+Contact Information
+For finance-related questions, please contact the Finance Department at finance@company.com or
+extension 5678.
+
+
+
+User Query: Within how many days shall I submit expense reports?
+
+
+Intent: Finance
+================================================================================
+DeepSeek API Response:
+================================================================================
+Response ID: b0c77abf-4840-4875-b814-52307f3a0c5a
+Model: deepseek-chat
+Usage: CompletionUsage(completion_tokens=26, prompt_tokens=468, total_tokens=494, completion_tokens_details=None, prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=448), prompt_cache_hit_tokens=448, prompt_cache_miss_tokens=20)
+--------------------------------------------------------------------------------
+Response Content:
+Based on the financial policy, expense reports must be submitted within **30 days** of the date the expense was incurred [1].
+================================================================================
+================================================================================
+Calculate Confidence:
+================================================================================
+Number of documents: 1
+Individual scores:
+  Document 1 (Financial_Policy.pdf): -0.0252
+Average score: -0.0252
+Normalized confidence: 0.6583
+================================================================================
+INFO:     127.0.0.1:50220 - "POST /api/query HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50227 - "GET /api/analytics/metrics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50231 - "GET /api/query/history?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64757 - "GET /api/analytics/metrics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64760 - "GET /api/query/history?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64766 - "GET /api/analytics/metrics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64769 - "GET /api/query/history?limit=5 HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'frontend\user_interface.py'. Reloading...
+ INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [14112]
